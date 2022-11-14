@@ -34,9 +34,9 @@
   "immunities": ["burning", "freezing", "melting"],
   
   //this is what 4085(me) did JUST ONE.
-  "ItemCapacity": 4200
+  "itemCapacity": 4200
 
-  "BuildSpeed": 2
+  "buildSpeed": 2
 
   //all of the weapons this unit shoots with.
   "weapons": [
@@ -108,9 +108,9 @@
         "damage": 230,
         "speed": 20,
         "type": "BasicBulletType",
-        "hitSize": 5,
-        "width": 16,
-        "height": 23,
+        "hitSize": 10,
+        "width": 32,
+        "height": 46,
         "shootEffect": "shootBig",
         "pierceCap": 2,
         "pierceBuilding": true,
@@ -154,7 +154,7 @@
       },
       "bullet": {
         "type": "ShrapnelBulletType",
-        "length": 2000,
+        "length": 999,
         "damage": 1000,
         "shootEffect": "thoriumShoot",
         "smokeEffect": "thoriumShoot",
