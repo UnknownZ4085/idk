@@ -2,17 +2,17 @@
   "type": "legs",
   "localizedName": "U1 [SPOODER]",
   "description": "THE FIRST AND STRONGEST SPOODER",
-  "legs": 4,
+  "legs": 12,
   
   //how many legs of this unit will move at the same time.
-  "legGroupSize": 2,
+  "legGroupSize": 4,
   
   //leg parameters
   "legMoveSpace": 0.4,
-  "legLength": 250,
+  "legLength": 300,
   "legExtenstion": -20,
   "legBaseOffset": 8,
-  "stepShake": 5,
+  "stepShake": 20,
   "legLengthScl": 0.93,
   "rippleScale": 3,
   "legSpeed": 0.315,
@@ -87,8 +87,8 @@
         
         //lightning spawned by this bullet upon hit or despawn.
         "lightningDamage": 100,
-        "lightning": 6,
-        "lightningLength": 10
+        "lightning": 10,    
+        "lightningLength": 20
       }
     },
     {
