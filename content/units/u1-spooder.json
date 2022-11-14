@@ -135,7 +135,7 @@
   "abilities": [
     {
       "type": "ForceFieldAbility",
-      "range": 480,
+      "range": 960,
       "max": 8000,
       "regen": 1,
       "cooldown": 180
