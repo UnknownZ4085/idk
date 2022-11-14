@@ -31,7 +31,7 @@
       
       //position of this weapon on the unit.
       "x": 16,
-      "y": 34,
+      "y": 32,
       
       //if this weapon is mirrored to the other side of the unit and whether or not it rotates.
       "mirror": true,
@@ -105,7 +105,7 @@
     {
       "name": "spooder-fuse",
       "x": -16,
-      "y": 45,
+      "y": 48,
       "mirror": true,
       "rotate": true,
       "reload": 35,
