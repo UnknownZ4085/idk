@@ -1,0 +1,32 @@
+{
+  "type": "UnitFactory",
+  "localizedName": "UNIT [SPOODER] FACTORY",
+  "description": "Summons da spooder.",
+  
+  //what this block consumes in order to function.
+  "consumes": {
+    //power consumer; 1 power here = 60 power ingame
+    "power": 3,
+  },
+ 
+  //plans this factory has for different units.
+  "plans": [
+    {
+      //the unit for this plan. use the file name not the unit's actual name.
+      "unit": "u1-spooder",
+      
+      //items required to construct this unit.
+      "requirements": [
+        "silicon/4600",
+        "titanium/4200",
+        "thorium/3800",
+        "phase-fabric/3500",
+        "plastanium/3100"
+      ],
+      //how much time the unit takes to be constructed, in ticks. (60 ticks = 1 second)
+      "time": 6000
+    } 
+  ],
+  "size": 5,
+  "research": "core-shard"
+}
