@@ -1,0 +1,14 @@
+{
+  name: amtad,
+  displayName: A mod that adds units,
+  description: A mod that adds units,
+  minGameVersion: 136,
+  author: 
+    ''' 
+    
+    Owner: UnknownZ4085
+    Helper: Fresh791
+    
+    '''
+  version: 0.1
+}
