@@ -7,6 +7,21 @@
   //how many legs of this unit will move at the same time.
   "legGroupSize": 2,
   
+  //leg parameters
+  "legMoveSpace": 0.4,
+  "legLength": 250,
+  "legExtenstion": -20,
+  "legBaseOffset": 8,
+  "stepShake": 1,
+  "legLengthScl": 0.93,
+  "rippleScale": 3,
+  "legSpeed": 0.315,
+  "legSplashRange": 80,
+  "legSplashDamage": 35
+  
+  "canDrown": false,
+  "drownTimeMultiplier": 999999999
+  
   "armor": 45,
   "health": 50000,
   "speed": 0.8,
@@ -14,8 +29,6 @@
   //this unit's body can go over most terrain with this set to true.
   "hovering": true
   
-  //how fast the legs will move.
-  "legSpeed": 0.4,
   
   //status effects that this unit is immune to.
   "immunities": [ ],
