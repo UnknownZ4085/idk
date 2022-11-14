@@ -78,7 +78,7 @@
     },
     {
       "name": "spooder-spectre",
-      "x": 40,
+      "x": 25,
       "y": -30,
       "mirror": true,
       "rotate": true,
@@ -135,19 +135,8 @@
   "abilities": [
     {
       "type": "ForceFieldAbility",
-      "x": -30,
-      "y": 10,
-      "range": 240,
-      "max": 4000,
-      "regen": 1,
-      "cooldown": 180
-    },
-    {
-      "type": "ForceFieldAbility",
-      "x": 30,
-      "y": 10,
-      "range": 240,
-      "max": 4000,
+      "range": 480,
+      "max": 8000,
       "regen": 1,
       "cooldown": 180
     }
