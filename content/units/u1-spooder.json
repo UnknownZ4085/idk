@@ -78,8 +78,8 @@
     },
     {
       "name": "spooder-spectre",
-      "x": 25,
-      "y": -30,
+      "x": 20,
+      "y": -31,
       "mirror": true,
       "rotate": true,
       "shoot": {
