@@ -62,7 +62,7 @@
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 10,
+      "reload": 5,
       
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 10,
@@ -73,20 +73,20 @@
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {
         "type": "MissileBulletType",
-        "damage": 120,
-        "speed": 4.5,
+        "damage": 300,
+        "speed": 5,
         "height": 8,
         "width": 8,
         "shrinkY": 0,
-        "splashDamageRadius": 25,
-        "splashDamage": 90,
+        "splashDamageRadius": 50,
+        "splashDamage": 900,
         
         //effects when this bullet hits something or despawns.
         "hitEffect": "blastExplosion",
         "despawnEffect": "blastExplosion",
         
         //lightning spawned by this bullet upon hit or despawn.
-        "lightningDamage": 100,
+        "lightningDamage": 500,
         "lightning": 10,    
         "lightningLength": 20
       }
@@ -103,18 +103,18 @@
       },
       "shootSound": "shootBig",
       "inaccuracy": 3,
-      "reload": 4,
+      "reload": 2,
       "bullet": {
-        "damage": 230,
+        "damage": 260,
         "speed": 20,
         "type": "BasicBulletType",
         "hitSize": 10,
-        "width": 32,
-        "height": 46,
+        "width": 16,
+        "height": 70,
         "shootEffect": "shootBig",
-        "pierceCap": 2,
+        "pierceCap": 8,
         "pierceBuilding": true,
-        "knockback": 0.7
+        "knockback": 0.3
       }
     },
     {
@@ -123,16 +123,16 @@
       "y": 48,
       "mirror": true,
       "rotate": true,
-      "reload": 35,
+      "reload": 10,
       "shootSound": "shotgun",
       "shoot": {
         "type": "ShootSpread",
-        "shots": 5,
-        "spread": 20
+        "shots": 10,
+        "spread": 5
       },
       "bullet": {
         "type": "ShrapnelBulletType",
-        "length": 150,
+        "length": 700,
         "damage": 195,
         "shootEffect": "thoriumShoot",
         "smokeEffect": "thoriumShoot",
@@ -154,8 +154,8 @@
       },
       "bullet": {
         "type": "ShrapnelBulletType",
-        "length": 999,
-        "damage": 1000,
+        "length": 1500,
+        "damage": 10000,
         "shootEffect": "thoriumShoot",
         "smokeEffect": "thoriumShoot",
         "toColor": "f9a3c7"
@@ -176,14 +176,6 @@
       "max": 16000,
       "regen": 100,
       "cooldown": 30
-    }
-  ]
-}
-    {
-      "type": "SpawnDeathAbility",
-      "unit": "toxopid",
-      "amount": 100,
-      "spread": false,
     }
   ]
 }
