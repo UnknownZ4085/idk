@@ -30,8 +30,8 @@
       "name": "spooder-swarmer",
       
       //position of this weapon on the unit.
-      "x": 0,
-      "y": -10,
+      "x": 6,
+      "y": 10,
       
       //if this weapon is mirrored to the other side of the unit and whether or not it rotates.
       "mirror": false,
