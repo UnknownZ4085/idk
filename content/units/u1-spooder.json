@@ -12,18 +12,18 @@
   "legLength": 300,
   "legExtenstion": -20,
   "legBaseOffset": 8,
-  "stepShake": 20,
+  "stepShake": 200,
   "legLengthScl": 0.93,
-  "rippleScale": 3,
+  "rippleScale": 30,
   "legSpeed": 0.360,
-  "legSplashRange": 80,
+  "legSplashRange": 300,
   "legSplashDamage": 2000
   
   "canDrown": false,
   "drownTimeMultiplier": 999999999
   
   "armor": 45,
-  "health": 50000,
+  "health": 500000,
   "speed": 0.8,
   
   //this unit's body can go over most terrain with this set to true.
@@ -31,12 +31,12 @@
   
   
   //status effects that this unit is immune to.
-  "immunities": ["burning", "freezing", "melting"],
+  "immunities": ["burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred" ],
   
   //this is what 4085(me) did JUST ONE.
-  "itemCapacity": 4200
+  "itemCapacity": 100000
 
-  "buildSpeed": 2
+  "buildSpeed": 10
 
   //all of the weapons this unit shoots with.
   "weapons": [
@@ -56,13 +56,13 @@
       "shoot": {
         "type": "ShootAlternate",
         "shots": 8,
-        "barrels": 3,
+        "barrels": 9,
         "spread": 3.5,
         "shotDelay": 5
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 5,
+      "reload": 2,
       
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 10,
@@ -106,11 +106,11 @@
       "reload": 2,
       "bullet": {
         "damage": 260,
-        "speed": 20,
+        "speed": 120,
         "type": "BasicBulletType",
         "hitSize": 10,
         "width": 16,
-        "height": 70,
+        "height": 7000,
         "shootEffect": "shootBig",
         "pierceCap": 8,
         "pierceBuilding": true,
@@ -132,8 +132,8 @@
       },
       "bullet": {
         "type": "ShrapnelBulletType",
-        "length": 700,
-        "damage": 195,
+        "length": 100,
+        "damage": 1235,
         "shootEffect": "thoriumShoot",
         "smokeEffect": "thoriumShoot",
         "toColor": "f9a3c7"
@@ -143,9 +143,9 @@
       "name": "spooder-fuse",
       "x": 0,
       "y": 32,
-      "mirror": false,
+      "mirror": true,
       "rotate": true,
-      "reload": 100,
+      "reload": 300,
       "shootSound": "shotgun",
       "shoot": {
         "type": "ShootSpread",
@@ -154,7 +154,7 @@
       },
       "bullet": {
         "type": "ShrapnelBulletType",
-        "length": 1500,
+        "length": 150000,
         "damage": 10000,
         "shootEffect": "thoriumShoot",
         "smokeEffect": "thoriumShoot",
