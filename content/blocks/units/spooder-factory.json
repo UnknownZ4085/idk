@@ -27,7 +27,7 @@
       "time": 6000
     } 
   ],
-  "size": 5,
+  "requirements": [ ],
   "category": "units"
-  "research": "core-shard"  "category": "units"
-}
+  "research": "duo"
+} 
