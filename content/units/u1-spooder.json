@@ -1,0 +1,130 @@
+{
+  "type": "legs",
+  "localizedName": "U1 [SPOODER]",
+  "description": "SPOODER",
+  "legs": 4,
+  
+  //how many legs of this unit will move at the same time.
+  "legGroupSize": 2,
+  
+  "armor": 25,
+  "health": 23000,
+  "speed": 1.1,
+  
+  //this unit's body can go over most terrain with this set to true.
+  "hovering": true
+  
+  //how fast the legs will move.
+  "legSpeed": 0.4,
+  
+  //status effects that this unit is immune to.
+  "immunities": [ ],
+  
+  //all of the weapons this unit shoots with.
+  "weapons": [
+    {
+      //name of this weapon. give the weapon's sprite file the same name and the game will automatically render it.
+      "name": "spooder-swarmer",
+      
+      //position of this weapon on the unit.
+      "x": 0,
+      "y": -10,
+      
+      //if this weapon is mirrored to the other side of the unit and whether or not it rotates.
+      "mirror": false,
+      "rotate": true,
+      
+      //the shoot type of this weapon.
+      "shoot": {
+        "type": "ShootAlternate",
+        "shots": 4,
+        "barrels": 3,
+        "spread": 3.5,
+        "shotDelay": 5
+      },
+      
+      //how long it will take until this weapon can shoot again
+      "reload": 30,
+      
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 10,
+      
+      //what sound plays when this weapon shoots
+      "shootSound": "missile",
+      
+      //parameters for the bullet, including it's type, speed, damage, etc.
+      "bullet": {
+        "type": "MissileBulletType",
+        "damage": 18,
+        "speed": 3.7,
+        "height": 8,
+        "width": 8,
+        "shrinkY": 0,
+        "splashDamageRadius": 25,
+        "splashDamage": 35,
+        
+        //effects when this bullet hits something or despawns.
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        
+        //lightning spawned by this bullet upon hit or despawn.
+        "lightningDamage": 10,
+        "lightning": 2,
+        "lightningLength": 10
+      }
+    },
+    {
+      "name": "spooder-spectre",
+      "x": 0,
+      "y": 10,
+      "mirror": false,
+      "rotate": true,
+      "shoot": {
+        "type": "ShootAlternate",
+        "spread": 8
+      },
+      "shootSound": "shootBig",
+      "inaccuracy": 3,
+      "reload": 7,
+      "bullet": {
+        "damage": 80,
+        "speed": 8,
+        "type": "BasicBulletType",
+        "hitSize": 5,
+        "width": 16,
+        "height": 23,
+        "shootEffect": "shootBig",
+        "pierceCap": 2,
+        "pierceBuilding": true,
+        "knockback": 0.7
+      }
+    },
+    {
+      "name": "spooder-fuse",
+      "x": -10,
+      "y": 15,
+      "mirror": true,
+      "rotate": true,
+      "reload": 35,
+      "shootSound": "shotgun",
+      "shoot": {
+        "type": "ShootSpread",
+        "shots": 3,
+        "spread": 20
+      },
+      "bullet": {
+        "type": "ShrapnelBulletType",
+        "length": 100,
+        "damage": 105,
+        "shootEffect": "thoriumShoot",
+        "smokeEffect": "thoriumShoot",
+        "toColor": "f9a3c7"
+      }
+    }
+  ],
+  //thing that has to be researched in order for this unit to be researched in the research tree.
+  "research": "spooder-factory",
+  
+  //how big the hitbox for your unit is. to get this value, divide your sprite size by 8.
+  "hitSize": 20
+}
