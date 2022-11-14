@@ -123,6 +123,28 @@
         "smokeEffect": "thoriumShoot",
         "toColor": "f9a3c7"
       }
+    },
+    {
+      "name": "spooder-fuse",
+      "x": 0,
+      "y": 48,
+      "mirror": false,
+      "rotate": true,
+      "reload": 35,
+      "shootSound": "shotgun",
+      "shoot": {
+        "type": "ShootSpread",
+        "shots": 3,
+        "spread": 20
+      },
+      "bullet": {
+        "type": "ShrapnelBulletType",
+        "length": 100,
+        "damage": 105,
+        "shootEffect": "thoriumShoot",
+        "smokeEffect": "thoriumShoot",
+        "toColor": "f9a3c7"
+      }
     }
   ],
   //thing that has to be researched in order for this unit to be researched in the research tree.
