@@ -75,8 +75,8 @@
         "type": "MissileBulletType",
         "damage": 300,
         "speed": 5,
-        "height": 8,
-        "width": 8,
+        "height": 20,
+        "width": 20,
         "shrinkY": 0,
         "splashDamageRadius": 50,
         "splashDamage": 900,
@@ -87,7 +87,7 @@
         
         //lightning spawned by this bullet upon hit or despawn.
         "lightningDamage": 500,
-        "lightning": 10,    
+        "lightning": 2,    
         "lightningLength": 20
       }
     },
@@ -105,14 +105,14 @@
       "inaccuracy": 3,
       "reload": 2,
       "bullet": {
-        "damage": 260,
+        "damage": 400,
         "speed": 120,
         "type": "BasicBulletType",
         "hitSize": 10,
-        "width": 16,
-        "height": 7000,
+        "width": 10,
+        "height": 300,
         "shootEffect": "shootBig",
-        "pierceCap": 8,
+        "pierceCap": 99999,
         "pierceBuilding": true,
         "knockback": 0.3
       }
