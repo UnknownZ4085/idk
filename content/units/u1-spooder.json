@@ -7,9 +7,9 @@
   //how many legs of this unit will move at the same time.
   "legGroupSize": 2,
   
-  "armor": 25,
-  "health": 23000,
-  "speed": 1.1,
+  "armor": 45,
+  "health": 50000,
+  "speed": 2.1,
   
   //this unit's body can go over most terrain with this set to true.
   "hovering": true
