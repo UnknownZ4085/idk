@@ -1,7 +1,7 @@
 {
   "type": "legs",
   "localizedName": "U1 [SPOODER]",
-  "description": "SPOODER",
+  "description": "THE FIRST AND STRONGEST SPOODER",
   "legs": 4,
   
   //how many legs of this unit will move at the same time.
@@ -9,7 +9,7 @@
   
   "armor": 45,
   "health": 50000,
-  "speed": 2.1,
+  "speed": 0.8,
   
   //this unit's body can go over most terrain with this set to true.
   "hovering": true
@@ -157,10 +157,10 @@
   "abilities": [
     {
       "type": "ForceFieldAbility",
-      "radius": 120,
-      "max": 8000,
-      "regen": 1,
-      "cooldown": 180
+      "radius": 240,
+      "max": 16000,
+      "regen": 100,
+      "cooldown": 30
     }
   ]
 }
