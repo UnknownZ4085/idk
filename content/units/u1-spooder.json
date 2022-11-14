@@ -127,7 +127,7 @@
     {
       "name": "spooder-fuse",
       "x": 0,
-      "y": 48,
+      "y": 32,
       "mirror": false,
       "rotate": true,
       "reload": 35,
@@ -157,7 +157,7 @@
   "abilities": [
     {
       "type": "ForceFieldAbility",
-      "radius": 480,
+      "radius": 120,
       "max": 8000,
       "regen": 1,
       "cooldown": 180
