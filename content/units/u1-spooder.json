@@ -2,10 +2,10 @@
   "type": "legs",
   "localizedName": "U1 [SPOODER]",
   "description": "THE FIRST AND STRONGEST SPOODER",
-  "legs": 12,
+  "legs": 4,
   
   //how many legs of this unit will move at the same time.
-  "legGroupSize": 4,
+  "legGroupSize": 2,
   
   //leg parameters
   "legMoveSpace": 0.4,
@@ -15,7 +15,7 @@
   "stepShake": 20,
   "legLengthScl": 0.93,
   "rippleScale": 3,
-  "legSpeed": 0.315,
+  "legSpeed": 0.360,
   "legSplashRange": 80,
   "legSplashDamage": 2000
   
@@ -179,3 +179,9 @@
     }
   ]
 }
+    {
+      "type": "SpawnDeathAbility",
+      "unit": "toxopid",
+      "amount": 100,
+      "spread": false,
+    
