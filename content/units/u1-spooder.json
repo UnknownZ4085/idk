@@ -31,10 +31,10 @@
   
   
   //status effects that this unit is immune to.
-  "immunities": [ Burning,Freezing],
+  "immunities": ["burning", "freezing", "melting"],
   
   //this is what 4085(me) did JUST ONE.
-  "ItemCapacity":2100
+  "ItemCapacity":4200
 
   //all of the weapons this unit shoots with.
   "weapons": [
