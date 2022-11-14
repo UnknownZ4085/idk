@@ -78,9 +78,9 @@
     },
     {
       "name": "spooder-spectre",
-      "x": 0,
-      "y": 10,
-      "mirror": false,
+      "x": 40,
+      "y": -30,
+      "mirror": true,
       "rotate": true,
       "shoot": {
         "type": "ShootAlternate",
@@ -129,5 +129,27 @@
   "research": "spooder-factory",
   
   //how big the hitbox for your unit is. to get this value, divide your sprite size by 8.
-  "hitSize": 20
+  "hitSize": 20,
+
+  //abilities that this unit has
+  "abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "x": -30,
+      "y": 10,
+      "range": 240,
+      "max": 4000,
+      "regen": 1,
+      "cooldown": 180
+    },
+    {
+      "type": "ForceFieldAbility",
+      "x": 30,
+      "y": 10,
+      "range": 240,
+      "max": 4000,
+      "regen": 1,
+      "cooldown": 180
+    }
+  ]
 }
