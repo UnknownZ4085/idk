@@ -6,7 +6,7 @@
   //what this block consumes in order to function.
   "consumes": {
     //power consumer; 1 power here = 60 power ingame
-    "power": 3,
+    "power": 1000,
   },
  
   //plans this factory has for different units.
