@@ -17,9 +17,7 @@
       
       //items required to construct this unit.
       "requirements": [
-        "silicon/46000",
-        "thorium/38000",
-        "tungsten/0",
+        "silicon/1",
       ],
       //how much time the unit takes to be constructed, in ticks. (60 ticks = 1 second)
       "time": 6000
