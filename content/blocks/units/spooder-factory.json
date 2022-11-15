@@ -16,10 +16,7 @@
       "unit": "u1-spooder",
       
       //items required to construct this unit.
-      "requirements": [
-        "silicon/1",
-        "carbide/1",
-      ],
+      "requirements": [ ],
       //how much time the unit takes to be constructed, in ticks. (60 ticks = 1 second)
       "time": 6000
     } 
