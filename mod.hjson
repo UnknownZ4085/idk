@@ -1,7 +1,7 @@
 {
   name: amtad,
   displayName: A mod that adds units,
-  description: A mod that adds units,
+  description: Adds a spooder thpe unit
   minGameVersion: 136,
   author: 
     ''' 
