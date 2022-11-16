@@ -11,7 +11,9 @@
   "description": "THE FIRST AND STRONGEST SPOODER",
   "legs": 4,
   
-  "envEnabled": 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+  "envEnabled": 17,
+  
+  "envDisabled": 0,
   
   //how many legs of this unit will move at the same time.
   "legGroupSize": 2,
