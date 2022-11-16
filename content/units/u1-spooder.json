@@ -29,6 +29,7 @@
   //this unit's body can go over most terrain with this set to true.
   "hovering": true
   
+  "payloadCapacity": 4294967296
   
   //status effects that this unit is immune to.
   "immunities": ["burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred" ],
@@ -102,14 +103,14 @@
       },
       "shootSound": "shootBig",
       "inaccuracy": 3,
-      "reload": 1,
+      "reload": 0.1"
       "bullet": {
         "damage": 400,
         "speed": 2000,
         "type": "BasicBulletType",
         "hitSize": 10,
         "width": 10,
-        "height": 300,
+        "height": 30,
         "shootEffect": "shootBig",
         "pierceCap": 99999,
         "pierceBuilding": true,
@@ -131,7 +132,7 @@
       },
       "bullet": {
         "type": "ShrapnelBulletType",
-        "length": 100,
+        "length": 1000,
         "damage": 5,
         "shootEffect": "thoriumShoot",
         "smokeEffect": "thoriumShoot",
@@ -154,7 +155,7 @@
       "bullet": {
         "type": "ShrapnelBulletType",
         "length": 150000,
-        "damage": 10000,
+        "damage": 1000000,
         "shootEffect": "thoriumShoot",
         "smokeEffect": "thoriumShoot",
         "toColor": "f9a3c7"
@@ -172,7 +173,7 @@
     {
       "type": "ForceFieldAbility",
       "radius": 300,
-      "max": 160p00,
+      "max": 16000,
       "regen": 1000,
       "cooldown": 60
     }
