@@ -1,9 +1,8 @@
 {
   "type": "legs",
   "localizedName": "[SPOODER]",
-  "flying": true,  
   "drag": 0.0,
-  "canBoost": true,
+  "canBoost": true
   "boostMultiplier": 2.0,
   "engineOffset": 0,
   "engineSize": 0,
@@ -36,7 +35,7 @@
   //this unit's body can go over most terrain with this set to true.
   "hovering": true
   
-  "payloadCapacity": 1073741824,
+  "payloadCapacity": 262144,
   
   //status effects that this unit is immune to.
   "immunities": ["burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred" ],
@@ -134,12 +133,12 @@
       "shootSound": "shotgun",
       "shoot": {
         "type": "ShootSpread",
-        "shots": 100,
+        "shots": 1000,
         "spread": 0,
       },
       "bullet": {
         "type": "ShrapnelBulletType",
-        "length": 1000,
+        "length": 100,
         "damage": 5,
         "shootEffect": "thoriumShoot",
         "smokeEffect": "thoriumShoot",
@@ -156,8 +155,8 @@
       "shootSound": "shotgun",
       "shoot": {
         "type": "ShootSpread",
-        "shots": 1,
-        "spread": 20,
+        "shots": 999999999,
+        "spread": 0,
       },
       "bullet": {
         "type": "ShrapnelBulletType",
