@@ -1,0 +1,16 @@
+{
+"type": "LiquidSource",
+"name": "LIQIUD SAUCE",
+"description": "LIQUID",
+"health": 6000,
+"size": 1,
+"hasLiquids": true,
+"liquidCapacity": 100,
+"outputsLiquid": true,
+"configurable": true,
+"category": "liquids"
+"requirements": [
+{ "item": "copper", "amount": 35}
+]
+"alwaysUnlocked": true
+}
