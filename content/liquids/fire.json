@@ -1,7 +1,10 @@
 {
-	"temperature": 100000000000000,
-	"amount": 99.99,
-    "viscosity": -5.0,
-    "effect": "burning",
-    "color": "ff0000"
+"temperature": 10000000000,
+"flammability": 1000000000000,
+"viscosity": -100,
+"lightColor": "E2F5FBFF",
+"heatCapacity": 50,
+"explosiveness": 10000000000,
+"effect": "burning",
+"color": "E2F5FBFF",
 }
