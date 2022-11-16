@@ -2,8 +2,8 @@
 "type": "MendProjector"
 "health": 99999999
 "size": 1
-"healPercent": 200
-"phaseBoost": 200
+"healPercent": 2000
+"phaseBoost": 20000000
 "range": 250
 "reload": 210
 "phaseRangeBoost": 50
