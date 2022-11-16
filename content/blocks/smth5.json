@@ -1,9 +1,0 @@
-{
-  "name": E3,
-  "description": HMM,
-  "health": 6000,
-  "size": 1,
-  "requirements": [
-    ]
-  "category": "effect",
-}
