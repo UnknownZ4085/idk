@@ -1,0 +1,9 @@
+name: me with uranium at home
+type: PowerSource
+health: 200000
+category: power
+laserRange: 300
+maxNodes: 1500000000000
+requirements: [
+]
+buildTime: 0
