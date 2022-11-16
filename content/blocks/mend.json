@@ -1,0 +1,21 @@
+"name": INVINCIBLE
+"type": "MendProjector"
+"health": 99999999
+"size": 1
+"healPercent": 200
+"phaseBoost": 200
+"range": 250
+"reload": 210
+"phaseRangeBoost": 50
+"itemCapacity": 15
+"consumes": {
+  "items": {
+    "items": [
+    ]
+    "booster": true
+	"optional: true
+  }
+}
+"requirements": [
+]
+"category": "effect"
