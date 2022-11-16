@@ -1,0 +1,11 @@
+
+{
+	"type": "SolarGenerator",
+	"size": 1,
+  "name": "Grandpa's generator",
+	"hasPower": true,
+	"powerProduction": 9999999999999999999999,
+	"requirements": [
+	],
+	"category": "power",
+}
