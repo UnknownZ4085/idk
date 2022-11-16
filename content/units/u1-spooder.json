@@ -157,7 +157,7 @@
       "shootSound": "shotgun",
       "shoot": {
         "type": "ShootSpread",
-        "shots": 1000,
+        "shots": 200,
         "spread": 0,
       },
       "bullet": {
@@ -179,6 +179,13 @@
   //abilities that this unit has
   "abilities": [
     {
+      "type": "ForceFieldAbility",
+      "radius": 300,
+      "max": 16000,
+      "regen": 1000,
+      "cooldown": 60
+    {
+     },
       "type": "ForceFieldAbility",
       "radius": 300,
       "max": 16000,
