@@ -13,7 +13,7 @@
   
   "envEnabled": 17,
   
-  "envEnabled": 0,
+  "envDisabled": 0,
   
   //how many legs of this unit will move at the same time.
   "legGroupSize": 2,
