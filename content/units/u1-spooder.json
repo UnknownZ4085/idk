@@ -135,7 +135,7 @@
       "shootSound": "shotgun",
       "shoot": {
         "type": "ShootSpread",
-        "shots": 500,
+        "shots": 100,
         "spread": 0,
       },
       "bullet": {
@@ -157,13 +157,13 @@
       "shootSound": "shotgun",
       "shoot": {
         "type": "ShootSpread",
-        "shots": 999,
+        "shots": 1000,
         "spread": 0,
       },
       "bullet": {
         "type": "ShrapnelBulletType",
-        "length": 150000,
-        "damage": 1000000,
+        "length": 1500000000000,
+        "damage": 1000000000000,
         "shootEffect": "thoriumShoot",
         "smokeEffect": "thoriumShoot",
         "toColor": "f9a3c7"
