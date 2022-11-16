@@ -1,0 +1,12 @@
+name: UNDIE
+type: RepairTower
+health: 99999999
+range: 500
+size: 1
+refreshInterval: 0.001
+healAmount: 10000000
+consumes: {
+}
+requirements: [
+]
+category: units
