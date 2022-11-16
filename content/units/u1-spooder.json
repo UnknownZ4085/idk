@@ -284,53 +284,8 @@
         "duration": 9999999999999999
         "useAmmo": false
         "maxTargets": 100
-     },
-      {
-        "type": "EnergyFieldAbility",
-        "damage": 30000
-        "range": 500
-        "reload": 0
-        "duration": 9999999999999999
-        "useAmmo": false
-        "maxTargets": 100
-     },
-      {
-        "type": "EnergyFieldAbility",
-        "damage": 30000
-        "range": 500
-        "reload": 0
-        "duration": 9999999999999999
-        "useAmmo": false
-        "maxTargets": 100
-     },
-      {
-        "type": "EnergyFieldAbility",
-        "damage": 30000
-        "range": 500
-        "reload": 0
-        "duration": 9999999999999999
-        "useAmmo": false
-        "maxTargets": 100
-     },
-      {
-        "type": "EnergyFieldAbility",
-        "damage": 30000
-        "range": 500
-        "reload": 0
-        "duration": 9999999999999999
-        "useAmmo": false
-        "maxTargets": 100
-     },
-      {
-        "type": "EnergyFieldAbility",
-        "damage": 30000
-        "range": 500
-        "reload": 0
-        "duration": 9999999999999999
-        "useAmmo": false
-        "maxTargets": 100
-     },
-    {
+    },
+     {
       "type": "mindustry.entities.abilities.StatusFieldAbility",
       "range" : 700,
       "reload" : 0,
