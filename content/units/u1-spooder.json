@@ -2,7 +2,7 @@
   "type": "legs",
   "localizedName": "[SPOODER]",
   "flying": true
-  "drag": -10.0,
+  "drag": 0.0,
   "canBoost": true
   "boostMultiplier": 5.0,
   "engineOffset": 0,
@@ -26,8 +26,16 @@
   "legSplashRange": 30,
   "legSplashDamage": 20000,
   
+  "envEnabled": 17,
+  
+  "envDisable": 0,
+  
   "canDrown": false,
   "drownTimeMultiplier": 999999999
+  
+  "payloadCapacity":4096
+  
+  "pickupUnits": true
   
   "armor": 450,
   "health": 20000000,
