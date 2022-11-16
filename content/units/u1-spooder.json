@@ -16,7 +16,7 @@
   "legLengthScl": 0.93,
   "rippleScale": 30,
   "legSpeed": 0.360,
-  "legSplashRange": 300,
+  "legSplashRange": 30,
   "legSplashDamage": 20000,
   
   "canDrown": false,
@@ -122,17 +122,17 @@
       "y": 48,
       "mirror": true,
       "rotate": true,
-      "reload": 0.1,
+      "reload": 0.0001,
       "shootSound": "shotgun",
       "shoot": {
         "type": "ShootSpread",
-        "shots": 2,
+        "shots": 100,
         "spread": 0,
       },
       "bullet": {
         "type": "ShrapnelBulletType",
-        "length": 50,
-        "damage": 1235,
+        "length": 100,
+        "damage": 5,
         "shootEffect": "thoriumShoot",
         "smokeEffect": "thoriumShoot",
         "toColor": "f9a3c7"
@@ -171,10 +171,10 @@
   "abilities": [
     {
       "type": "ForceFieldAbility",
-      "radius": 240,
-      "max": 16000,
-      "regen": 100,
-      "cooldown": 30
+      "radius": 300,
+      "max": 160p00,
+      "regen": 1000,
+      "cooldown": 60
     }
   ]
 }
