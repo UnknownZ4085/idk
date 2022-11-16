@@ -1,6 +1,6 @@
 type: ItemSource
 name: DUPE
-health: 20000000000000
+health: 20000000000
 category: distribution
 itemsPerSecond: 5000000000
 requirements: [
