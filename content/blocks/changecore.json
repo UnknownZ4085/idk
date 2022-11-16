@@ -1,4 +1,4 @@
-{
+    "type": "coreblock"
     "size": 3,
     "hasItems": true,
     "unloadable": true,
@@ -9,4 +9,3 @@
     "itemCapacity": 1000000000000,
     "requirements": [],
     "category": "effect",
-}
