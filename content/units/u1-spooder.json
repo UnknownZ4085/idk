@@ -12,18 +12,18 @@
   "legLength": 300,
   "legExtenstion": -20,
   "legBaseOffset": 8,
-  "stepShake": 200,
+  "stepShake": 20,
   "legLengthScl": 0.93,
   "rippleScale": 30,
   "legSpeed": 0.360,
   "legSplashRange": 300,
-  "legSplashDamage": 2000
+  "legSplashDamage": 20000,
   
   "canDrown": false,
   "drownTimeMultiplier": 999999999
   
   "armor": 45,
-  "health": 500000,
+  "health": 2000000,
   "speed": 0.8,
   
   //this unit's body can go over most terrain with this set to true.
@@ -33,10 +33,9 @@
   //status effects that this unit is immune to.
   "immunities": ["burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred" ],
   
-  //this is what 4085(me) did JUST ONE.
   "itemCapacity": 100000
 
-  "buildSpeed": 10
+  "buildSpeed": 100
 
   //all of the weapons this unit shoots with.
   "weapons": [
@@ -58,7 +57,7 @@
         "shots": 8,
         "barrels": 9,
         "spread": 3.5,
-        "shotDelay": 5
+        "shotDelay": 5,
       },
       
       //how long it will take until this weapon can shoot again
@@ -87,8 +86,8 @@
         
         //lightning spawned by this bullet upon hit or despawn.
         "lightningDamage": 500,
-        "lightning": 2,    
-        "lightningLength": 20
+        "lightning": 1,    
+        "lightningLength": 2
       }
     },
     {
@@ -99,14 +98,14 @@
       "rotate": true,
       "shoot": {
         "type": "ShootAlternate",
-        "spread": 8
+        "spread": 8,
       },
       "shootSound": "shootBig",
       "inaccuracy": 3,
-      "reload": 2,
+      "reload": 1,
       "bullet": {
         "damage": 400,
-        "speed": 120,
+        "speed": 2000,
         "type": "BasicBulletType",
         "hitSize": 10,
         "width": 10,
@@ -114,7 +113,7 @@
         "shootEffect": "shootBig",
         "pierceCap": 99999,
         "pierceBuilding": true,
-        "knockback": 0.3
+        "knockback": 0.0,
       }
     },
     {
@@ -123,16 +122,16 @@
       "y": 48,
       "mirror": true,
       "rotate": true,
-      "reload": 10,
+      "reload": 0.1,
       "shootSound": "shotgun",
       "shoot": {
         "type": "ShootSpread",
-        "shots": 10,
-        "spread": 5
+        "shots": 2,
+        "spread": 0,
       },
       "bullet": {
         "type": "ShrapnelBulletType",
-        "length": 100,
+        "length": 50,
         "damage": 1235,
         "shootEffect": "thoriumShoot",
         "smokeEffect": "thoriumShoot",
@@ -150,7 +149,7 @@
       "shoot": {
         "type": "ShootSpread",
         "shots": 1,
-        "spread": 20
+        "spread": 20,
       },
       "bullet": {
         "type": "ShrapnelBulletType",
