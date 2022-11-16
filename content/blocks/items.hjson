@@ -1,8 +1,9 @@
 type: ItemSource
 name: DUPE
+description: DO NOT USE BLOCK:SPEED ON THIS
 health: 9999999999999999999
 category: distribution
-itemsPerSecond: 5000
+itemsPerSecond: 10000
 requirements: [
 ]
 buildTime: 0
