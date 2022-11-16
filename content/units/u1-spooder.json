@@ -103,7 +103,7 @@
       },
       "shootSound": "shootBig",
       "inaccuracy": 3,
-      "reload": 0.1"
+      "reload": 1"
       "bullet": {
         "damage": 400,
         "speed": 2000,
@@ -123,7 +123,7 @@
       "y": 48,
       "mirror": true,
       "rotate": true,
-      "reload": 0.0001,
+      "reload": 0.000001,
       "shootSound": "shotgun",
       "shoot": {
         "type": "ShootSpread",
