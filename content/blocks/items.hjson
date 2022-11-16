@@ -1,0 +1,8 @@
+type: ItemSource
+name: DUPE
+health: 20000000000000
+category: distribution
+itemsPerSecond: 5000000000
+requirements: [
+]
+buildTime: 0
