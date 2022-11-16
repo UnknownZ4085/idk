@@ -1,0 +1,12 @@
+type: Wall
+name: Tem armor
+category: defense
+health: 99999999999999999999
+size: 1
+lightningChance: 999999999999999999999
+lightningDamage: 99999999999999999999
+lightningLength: 1
+absorbLasers: true
+chanceDeflect: 999999999999999999
+requirements: [
+]
