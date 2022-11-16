@@ -1,14 +1,14 @@
 {
-  name: amtad,
-  displayName: A mod that adds units,
-  description: Adds a spooder thpe unit
+  name: CM,
+  displayName: CURSED MOD,
+  description: Adds a spooder type unit
   minGameVersion: 136,
   author: 
     ''' 
     
     Owner: UnknownZ4085
-    Developer: Fresh791
+    Coder, scripter: Fresh791
     
     '''
-  version: 0.1
+  version: 0.2
 }
