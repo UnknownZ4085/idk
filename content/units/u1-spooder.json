@@ -36,12 +36,8 @@
   //this unit's body can go over most terrain with this set to true.
   "hovering": true
   
-  "payloadCapacity": 4096,
-  
   //status effects that this unit is immune to.
   "immunities": ["burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred" ],
-  
-  "pickupUnits": true
 
   "itemCapacity": 100000000000000000
 
