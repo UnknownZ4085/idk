@@ -9,13 +9,12 @@ phaseRadiusBoost: 50
 radius: 300
 shieldHealth: 99999999999999999
 phaseShieldBoost: 999999999999999999999999
-cooldownNormal: 3500000
-cooldownLiquid: 2100000
-cooldownBrokenBase: 1300000
+cooldownNormal: -9999999999999999999
+cooldownLiquid: -9999999999999999999
+cooldownBrokenBase: -999999999999999999999
     booster: true
 	optional: true
-  }
-}
+	
 requirements: [
 ]
 category: effect
