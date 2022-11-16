@@ -1,0 +1,19 @@
+"name": SPEED
+"type": "OverdriveProjector"
+"health": 99999999
+"size": 1
+"speedBoost": 9999999999
+"speedBoostPhase": 99999999999999999
+"range": 400
+"phaseRangeBoost": 50
+"consumes": {
+  "items": {
+    "items": [
+    ]
+    "booster": true
+	"optional": true
+  }
+}
+"requirementsl: [
+]
+"category": "effect",
