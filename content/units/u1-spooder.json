@@ -184,13 +184,13 @@
       "max": 16000,
       "regen": 1000,
       "cooldown": 60
+     },    
     {
-     },
-      "type": "ForceFieldAbility",
-      "radius": 300,
-      "max": 16000,
-      "regen": 1000,
-      "cooldown": 60
+      "type": "mindustry.entities.abilities.StatusFieldAbility",
+      "range" : 100,
+      "reload" : 540,
+      "duration" : 245,
+      "effect": "overclock"
     }
   ]
 }
