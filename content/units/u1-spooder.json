@@ -1,6 +1,13 @@
 {
   "type": "legs",
-  "localizedName": "U1 [SPOODER]",
+  "localizedName": "[SPOODER]",
+  "flying": true,  
+  "drag": 0.18,
+    "canBoost": true,
+    "boostMultiplier": 1.0,
+    "engineOffset": 51,
+    "engineSize": 9,
+    "lowAltitude": true,
   "description": "THE FIRST AND STRONGEST SPOODER",
   "legs": 4,
   
