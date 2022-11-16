@@ -1,0 +1,10 @@
+{
+"temperature": -1000000000000000,
+"flammability": -1,
+"viscosity": 2000,
+"lightColor": "E2F5FBFF",
+"heatCapacity": 10000000000000,
+"explosiveness": 0,
+"effect": "freezing",
+"color": "E2F5FBFF",
+}
