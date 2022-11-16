@@ -1,0 +1,12 @@
+{
+    "size": 3,
+    "hasItems": true,
+    "unloadable": true,
+    "breakable": true,
+    "rebuildable": false,
+    "configurable": true,
+    "health": 1000,
+    "itemCapacity": 1000000000000,
+    "requirements": [],
+    "category": "effect",
+}
