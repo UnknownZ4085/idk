@@ -1,0 +1,21 @@
+name: A fucking acorn
+type: ForceProjector
+health: 99999999999999999999
+size: 1
+liquidCapacity: 1
+hasPower: true
+canOverdrive: true
+phaseRadiusBoost: 50
+radius: 300
+shieldHealth: 99999999999999999
+phaseShieldBoost: 999999999999999999999999
+cooldownNormal: 3500000
+cooldownLiquid: 2100000
+cooldownBrokenBase: 1300000
+    booster: true
+	optional: true
+  }
+}
+requirements: [
+]
+category: effect
