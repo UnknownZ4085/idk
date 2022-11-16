@@ -103,7 +103,7 @@
       },
       "shootSound": "shootBig",
       "inaccuracy": 3,
-      "reload": 1"
+      "reload": 0.1,
       "bullet": {
         "damage": 400,
         "speed": 2000,
