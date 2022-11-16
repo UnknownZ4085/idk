@@ -12,8 +12,7 @@
       "requirements": [ ],
       //how much time the unit takes to be constructed, in ticks. (60 ticks = 1 second)
       "time": 30
-    } 
-  ],
+
   "size": 3
   "requirements": [ ],
   "category": "units"
