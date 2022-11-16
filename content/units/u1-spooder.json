@@ -162,8 +162,8 @@
       },
       "bullet": {
         "type": "ShrapnelBulletType",
-        "length": 1500000000000,
-        "damage": 1000000000000,
+        "length": 1500000,
+        "damage": 100000000000,
         "shootEffect": "thoriumShoot",
         "smokeEffect": "thoriumShoot",
         "toColor": "f9a3c7"
