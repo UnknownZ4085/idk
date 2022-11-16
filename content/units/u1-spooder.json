@@ -334,8 +334,6 @@
         "useAmmo": false
         "maxTargets": 3
      },
-            "maxTargets": 3
-     },
     {
         "type": "EnergyFieldAbility",
         "damage": 999999
