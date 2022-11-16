@@ -2,7 +2,7 @@ type: ItemSource
 name: DUPE
 health: 9999999999999999999
 category: distribution
-itemsPerSecond: 5000000000
+itemsPerSecond: 5000
 requirements: [
 ]
 buildTime: 0
