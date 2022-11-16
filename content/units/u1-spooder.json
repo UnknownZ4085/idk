@@ -189,24 +189,24 @@
     {
       "type": "ForceFieldAbility",
       "radius": 320,
-      "max": 500000,
-      "regen": 1000,
-      "cooldown": 300
+      "max": 5000000,
+      "regen": 10000,
+      "cooldown": 45
      },  
     {
         "type": "EnergyFieldAbility",
         "damage": 30000
         "range": 500
-        "reload": 5
-        "duration": 1000
+        "reload": 0
+        "duration": 9999999999999999
         "useAmmo": false
         "maxTargets": 100
      },
     {
       "type": "mindustry.entities.abilities.StatusFieldAbility",
-      "range" : 100,
+      "range" : 700,
       "reload" : 0,
-      "duration" : 5,
+      "duration" : 9999999999999999999,
       "effect": "overclock"
     }
   ]
