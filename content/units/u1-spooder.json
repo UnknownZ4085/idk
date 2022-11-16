@@ -1,6 +1,7 @@
 {
   "type": "legs",
   "localizedName": "[SPOODER]",
+  "flying": true
   "drag": 0.0,
   "canBoost": true
   "boostMultiplier": 5.0,
@@ -28,8 +29,8 @@
   "canDrown": false,
   "drownTimeMultiplier": 999999999
   
-  "armor": 45,
-  "health": 2000000,
+  "armor": 450,
+  "health": 20000000,
   "speed": 0.8,
   
   //this unit's body can go over most terrain with this set to true.
@@ -61,7 +62,7 @@
       //the shoot type of this weapon.
       "shoot": {
         "type": "ShootAlternate",
-        "shots": 8,
+        "shots": 20,
         "barrels": 3,
         "spread": 3.5,
         "shotDelay": 5,
@@ -105,16 +106,16 @@
       "rotate": true,
       "shoot": {
         "type": "ShootAlternate",
-        "shots": 2,
-        "barrels": 4,
+        "shots": 20,
+        "barrels": 2,
         "spread": 8,
       },
       "shootSound": "shootBig",
       "inaccuracy": 3,
-      "reload": 0.1,
+      "reload": 0.001,
       "bullet": {
-        "damage": 400,
-        "speed": 2000,
+        "damage": 4000,
+        "speed": 5,
         "type": "BasicBulletType",
         "hitSize": 10,
         "width": 10,
@@ -140,8 +141,8 @@
       },
       "bullet": {
         "type": "ShrapnelBulletType",
-        "length": 100,
-        "damage": 5,
+        "length": 1000,
+        "damage": 500,
         "shootEffect": "thoriumShoot",
         "smokeEffect": "thoriumShoot",
         "toColor": "f9a3c7"
