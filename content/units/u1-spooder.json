@@ -190,6 +190,7 @@
         "damage": 20000
         "range": 200
         "reload": 10
+        "duration": 30
         "useAmmo": false
         "maxTargets": 100
      },
