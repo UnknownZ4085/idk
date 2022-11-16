@@ -188,8 +188,8 @@
     {
       "type": "mindustry.entities.abilities.StatusFieldAbility",
       "range" : 100,
-      "reload" : 540,
-      "duration" : 245,
+      "reload" : 0,
+      "duration" : 1,
       "effect": "overclock"
     }
   ]
