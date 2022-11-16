@@ -1,0 +1,7 @@
+{
+	"temperature": 100000000000000,
+	"amount": 99.99,
+    "viscosity": -5.0,
+    "effect": "burning",
+    "color": "ff0000"
+}
