@@ -135,7 +135,7 @@
       "shootSound": "shotgun",
       "shoot": {
         "type": "ShootSpread",
-        "shots": 100,
+        "shots": 50,
         "spread": 0,
       },
       "bullet": {
@@ -157,7 +157,7 @@
       "shootSound": "shotgun",
       "shoot": {
         "type": "ShootSpread",
-        "shots": 200,
+        "shots": 20,
         "spread": 0,
       },
       "bullet": {
