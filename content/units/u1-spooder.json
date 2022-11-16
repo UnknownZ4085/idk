@@ -3,10 +3,10 @@
   "localizedName": "[SPOODER]",
   "drag": 0.0,
   "canBoost": true
-  "boostMultiplier": 2.0,
+  "boostMultiplier": 5.0,
   "engineOffset": 0,
   "engineSize": 0,
-  "lowAltitude": false,
+  "lowAltitude": false
   "description": "THE FIRST AND STRONGEST SPOODER",
   "legs": 4,
   
@@ -105,6 +105,7 @@
       "rotate": true,
       "shoot": {
         "type": "ShootAlternate",
+        "barrels": 4,
         "spread": 8,
       },
       "shootSound": "shootBig",
@@ -133,7 +134,7 @@
       "shootSound": "shotgun",
       "shoot": {
         "type": "ShootSpread",
-        "shots": 1000,
+        "shots": 500,
         "spread": 0,
       },
       "bullet": {
@@ -151,11 +152,11 @@
       "y": 32,
       "mirror": true,
       "rotate": true,
-      "reload": 300,
+      "reload": 1000,
       "shootSound": "shotgun",
       "shoot": {
         "type": "ShootSpread",
-        "shots": 999999999,
+        "shots": 999,
         "spread": 0,
       },
       "bullet": {
