@@ -1,0 +1,11 @@
+{
+  "name": E3,
+  "description": HMM,
+  "health": 6000,
+  "size": 1,
+  "requirements": [
+    "copper/54
+    ]
+  "category": "effect",
+  "alwaysUnlocked": true
+}
