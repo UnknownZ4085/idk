@@ -2,15 +2,16 @@
   "type": "legs",
   "localizedName": "[SPOODER]",
   "flying": true
-  "drag": 0.0,
+  "drag": -10.0,
   "canBoost": true
   "boostMultiplier": 5.0,
   "engineOffset": 0,
   "engineSize": 0,
-  "lowAltitude": false
+  "lowAltitude": true
   "description": "THE FIRST AND STRONGEST SPOODER",
   "legs": 4,
   
+  "envEnabled": 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
   //how many legs of this unit will move at the same time.
   "legGroupSize": 2,
   
@@ -36,14 +37,16 @@
   //this unit's body can go over most terrain with this set to true.
   "hovering": true
   
-  "payloadCapacity": 262144,
+  "payloadCapacity": 4096,
   
   //status effects that this unit is immune to.
   "immunities": ["burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred" ],
   
-  "itemCapacity": 100000
+  "pickupUnits": true
 
-  "buildSpeed": 100
+  "itemCapacity": 100000000000000000
+
+  "buildSpeed": 10000000000000000000
 
   //all of the weapons this unit shoots with.
   "weapons": [
@@ -65,14 +68,14 @@
         "shots": 20,
         "barrels": 3,
         "spread": 3.5,
-        "shotDelay": 5,
+        "shotDelay": 0,
       },
       
       //how long it will take until this weapon can shoot again
       "reload": 2,
       
       //inaccuracy of the bullets spawned by this weapon in °
-      "inaccuracy": 10,
+      "inaccuracy": 20,
       
       //what sound plays when this weapon shoots
       "shootSound": "missile",
@@ -107,7 +110,7 @@
       "shoot": {
         "type": "ShootAlternate",
         "shots": 20,
-        "barrels": 2,
+        "barrels": 4,
         "spread": 8,
       },
       "shootSound": "shootBig",
