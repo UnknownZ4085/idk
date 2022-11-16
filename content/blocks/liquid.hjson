@@ -1,0 +1,7 @@
+name: Bottomless bucket
+type: LiquidSource
+health: 200000000000
+category: liquid
+requirements: [
+]
+buildTime: 0
