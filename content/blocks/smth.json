@@ -1,6 +1,6 @@
-type: "ItemSource"
-name: "ITEM SAUCE"
-description: "IDK"
+"type": "ItemSource"
+"name": "ITEM SAUCE"
+"description": "IDK"
 "health": 6000,
 "size": 1,
 "hasItems": true
@@ -11,6 +11,6 @@ description: "IDK"
 "requirements": [
 { "item": "copper", "amount": 35}
 ],
-alwaysUnlocked: true
-category: distribution
+"alwaysUnlocked": true
+"category": "distribution"
 }
