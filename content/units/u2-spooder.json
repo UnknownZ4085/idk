@@ -150,7 +150,7 @@
    
          }
      },
- ],
+ ]
  
   //thing that has to be researched in order for this unit to be researched in the research tree.
   "research": "",
