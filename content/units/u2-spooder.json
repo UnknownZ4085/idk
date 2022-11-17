@@ -199,8 +199,8 @@
     "name": "u2-spooder1"
     "mirror": true
     "rotate": false
-    "x": 40
-    "y": 0
+    "x": 50
+    "y": -5
     "shoot": {  
         "type": "ShootAlternate",
         "shots": 1,
@@ -254,16 +254,16 @@
   "abilities": [
     {
       "type": "ForceFieldAbility",
-      "radius": 150,
-      "max": 10000,
-      "regen": 200,
+      "radius": 200.1,
+      "max": 300000,
+      "regen": 1000,
       "cooldown": 120
      },  
      {
       "type": "ForceFieldAbility",
       "radius": 200,
-      "max": 5000,
-      "regen": 100,
+      "max": 10000,
+      "regen": 200,
       "cooldown": 60,
      }
    ]
