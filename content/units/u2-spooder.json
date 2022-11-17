@@ -47,7 +47,11 @@
   //all of the weapons this unit shoots with.
   "weapons": [
     {    
-     "name": "u2-spoodera"
+     "name": "u2-spooder1"
+     "mirror": true
+      "rotate": false
+      "x": 20
+      "y": 20
       "shoot": {
         "type": "ShootAlternate",
         "shots": 1,
