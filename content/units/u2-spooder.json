@@ -89,7 +89,7 @@
         "lightning": 100,    
         "lightningLength": 1
     },
-   {     
+
     "name": "u2-spooder1"
     "mirror": true
     "rotate": false
@@ -101,7 +101,7 @@
         "barrels": 1,
         "spread": 0,
         "shotDelay": 0,
-      }, 
+       },
 
       //how long it will take until this weapon can shoot again
       "reload": 20,
@@ -132,8 +132,8 @@
    
    
        }
-    },
-]
+    }
+],
  
   //thing that has to be researched in order for this unit to be researched in the research tree.
   "research": "",
