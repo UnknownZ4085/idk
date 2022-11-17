@@ -71,7 +71,7 @@
       
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {
-        "sprite": "idk-u2-spooder-bullet1-idk"
+        "sprite": "cm-u2-spooder-bullet1-idk"
         "type": "BasicBulletType",
         "damage": 100,
         "speed": 100,
@@ -119,7 +119,7 @@
       "shootSound": "missile",
      
         "bullet": {
-        "sprite": "idk-u2-spooder-bullet3-idk"
+        "sprite": "cm-u2-spooder-bullet3-idk"
         "type": "MissileBulletType",
         "damage": 500,
         "speed": 100,
