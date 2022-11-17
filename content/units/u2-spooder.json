@@ -47,7 +47,8 @@
   //all of the weapons this unit shoots with.
   "weapons": [
     {    
-             "type": "ShootAlternate",
+      "shoot": {
+        "type": "ShootAlternate",
         "shots": 1,
         "barrels": 1,
         "spread": 0,
@@ -101,14 +102,13 @@
       "regen": 200,
       "cooldown": 120
      },  
-    {
+     {
       "type": "ForceFieldAbility",
       "radius": 200,
       "max": 5000,
       "regen": 100,
       "cooldown": 60,
-     },  
-
+     }
    }
-   
-]
+ ]
+}
