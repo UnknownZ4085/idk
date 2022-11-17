@@ -148,6 +148,23 @@
         "lightningLength": 10
       }
     },
+     {
+      "name": "u2-spooder1"
+    "mirror": true
+    "rotate": false
+    "x": 40
+    "y": 0
+    "shoot": {  
+        "type": "ShootAlternate",
+        "shots": 1,
+        "barrels": 1,
+        "spread": 0,
+        "shotDelay": 0,
+       },
+
+      //how long it will take until this weapon can shoot again
+      "reload": 20,
+      
       "range": 300,
   
       //inaccuracy of the bullets spawned by this weapon in °
@@ -176,7 +193,8 @@
         "lightningDamage": 5,
         "lightning": 100,    
         "lightningLength": 4
-        },
+        }
+      },
 {
     "name": "u2-spooder1"
     "mirror": true
