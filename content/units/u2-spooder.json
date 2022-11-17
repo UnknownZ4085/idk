@@ -51,7 +51,7 @@
      "mirror": true
       "rotate": false
       "x": 0
-      "y": 2
+      "y": 5
       "shoot": {
         "type": "ShootAlternate",
         "shots": 1,
@@ -106,8 +106,8 @@
       //the shoot type of this weapon.
       "shoot": {
         "type": "ShootAlternate",
-        "shots": 8,
-        "barrels": 8,
+        "shots": 16,
+        "barrels": 16,
         "spread": 3.5,
         "shotDelay": 1,
       },
@@ -148,6 +148,50 @@
         "lightningLength": 10
       }
     },
+    "mirror": true
+    "rotate": false
+    "x": 50
+    "y": -5
+    "shoot": {  
+        "type": "ShootAlternate",
+        "shots": 1,
+        "barrels": 1,
+        "spread": 0,
+        "shotDelay": 0,
+       },
+
+      //how long it will take until this weapon can shoot again
+      "reload": 20,
+      
+      "range": 300,
+  
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 0,
+      
+      //what sound plays when this weapon shoots
+      "shootSound": "missile",
+     
+        "bullet": {
+        "sprite": "cm-u2-spooder-bullet3-idk"
+        "type": "MissileBulletType",
+        "damage": 500,
+        "homing": true
+        "speed": 100,
+        "height": 10,
+        "width": 10,
+        "shrinkY": 0,
+        "splashDamageRadius": 30,
+        "splashDamage": 100,
+        
+        //effects when this bullet hits something or despawns.
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        
+        //lightning spawned by this bullet upon hit or despawn.
+        "lightningDamage": 5,
+        "lightning": 100,    
+        "lightningLength": 4
+        },
 {
     "name": "u2-spooder1"
     "mirror": true
