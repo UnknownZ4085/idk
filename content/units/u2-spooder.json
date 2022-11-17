@@ -71,11 +71,12 @@
       
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {
+        "sprite": "u2-spooder-bullet1"
         "type": "BasicBulletType",
-        "damage": 30,
+        "damage": 100,
         "speed": 100,
-        "height": 20,
-        "width": 4,
+        "height": 10,
+        "width": 10,
         "shrinkY": 0,
         "splashDamageRadius": 1,
         "splashDamage": 10,
@@ -96,7 +97,7 @@
     "rotate": false
     "x": 40
     "y": 0
-    "shoot": {
+    "shoot": {  
         "type": "ShootAlternate",
         "shots": 1,
         "barrels": 1,
@@ -116,11 +117,24 @@
       
       //what sound plays when this weapon shoots
       "shootSound": "missile",
-      
-      //parameters for the bullet, including it's type, speed, damage, etc.
+     
+        "bullet": {
+        "sprite": "u2-spooder-bullet3"
+        "type": "MissileBulletType",
+        "damage": 500,
+        "speed": 100,
+        "height": 10,
+        "width": 10,
+        "shrinkY": 0,
+        "splashDamageRadius": 30,
+        "splashDamage": 100,
+ 
+          //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet":
        {
         "type": "ShrapnelBulletType",
+        "shots": 10,
+        "spread": 36,
         "length": 10,
         "damage": 50,
         
