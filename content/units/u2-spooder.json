@@ -125,15 +125,16 @@
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {
         "type": "ArtilleryBulletType",
+        "sprite": "cm-u2-spooder-bullet4-idk"
         "damage": 500,
         "homing": true
-        "homingPower": 0.3
+        "homingPower": 0.02
         "homingRange": 500
         "speed": 5,
-        "height": 20,
-        "width": 20,
-        "shrinkY": 30,
-        "shrinkX": 30,
+        "height": 4,
+        "width": 4,
+        "shrinkY": 1,
+        "shrinkX": 1,
         "splashDamageRadius": 50,
         "splashDamage": 900,
         
