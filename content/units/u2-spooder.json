@@ -107,6 +107,8 @@
       //how long it will take until this weapon can shoot again
       "reload": 20,
       
+      "range": 300,
+
       "homing": true
   
       //inaccuracy of the bullets spawned by this weapon in °
