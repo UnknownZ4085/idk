@@ -50,8 +50,8 @@
      "name": "u2-spooder1"
      "mirror": true
       "rotate": false
-      "x": 20
-      "y": 20
+      "x": 2
+      "y": 4
       "shoot": {
         "type": "ShootAlternate",
         "shots": 1,
@@ -61,7 +61,7 @@
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 10,
+      "reload": 5,
       
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 0,
@@ -73,8 +73,8 @@
       "bullet": {
         "type": "BasicBulletType",
         "damage": 30,
-        "speed": 10,
-        "height": 10,
+        "speed": 100,
+        "height": 20,
         "width": 4,
         "shrinkY": 0,
         "splashDamageRadius": 1,
@@ -85,9 +85,9 @@
         "despawnEffect": "blastExplosion",
         
         //lightning spawned by this bullet upon hit or despawn.
-        "lightningDamage": 10,
-        "lightning": 11,    
-        "lightningLength": 2
+        "lightningDamage": 1,
+        "lightning": 100,    
+        "lightningLength": 1
       }
     },
 ]
