@@ -9,15 +9,15 @@
   
   //leg parameters
   "legMoveSpace": 0.4,
-  "legLength": 300,
-  "legExtenstion": -20,
+  "legLength": 100,
+  "legExtenstion": -10,
   "legBaseOffset": 8,
-  "stepShake": 2,
-  "legLengthScl": 0.93,
-  "rippleScale": 10,
-  "legSpeed": 1.0,
-  "legSplashRange": 2,
-  "legSplashDamage": 100,
+  "stepShake": 20,
+  "legLengthScl": 0.83,
+  "rippleScale": 30,
+  "legSpeed": 0.360,
+  "legSplashRange": 30,
+  "legSplashDamage": 20000,
   
   "envEnabled": 17,
   
