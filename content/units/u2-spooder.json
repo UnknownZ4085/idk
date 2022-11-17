@@ -88,8 +88,9 @@
         "lightningDamage": 1,
         "lightning": 100,    
         "lightningLength": 1
-    },
-
+    }
+},
+{
     "name": "u2-spooder1"
     "mirror": true
     "rotate": false
