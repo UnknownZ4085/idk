@@ -12,16 +12,16 @@
   "legLength": 100,
   "legExtenstion": -10,
   "legBaseOffset": 8,
-  "stepShake": 20,
+  "stepShake": 2,
   "legLengthScl": 0.83,
-  "rippleScale": 30,
+  "rippleScale": 3,
   "legSpeed": 0.360,
-  "legSplashRange": 30,
-  "legSplashDamage": 20000,
+  "legSplashRange": 3,
+  "legSplashDamage": 200,
   
   "envEnabled": 17,
   
-  "envDisable": 0,
+  "envDisabled": 0,
   
   "canDrown": false,
   "drownTimeMultiplier": 999999999
@@ -47,6 +47,7 @@
   //all of the weapons this unit shoots with.
   "weapons": [
     {    
+     "name": "u2-spoodera"
       "shoot": {
         "type": "ShootAlternate",
         "shots": 1,
