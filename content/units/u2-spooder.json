@@ -91,6 +91,62 @@
         "lightningLength": 1
     }
 },
+   {
+      //name of this weapon. give the weapon's sprite file the same name and the game will automatically render it.
+      "name": "u2-spooder3",
+      
+      //position of this weapon on the unit.
+      "x": 0,
+      "y": -32,
+      
+      //if this weapon is mirrored to the other side of the unit and whether or not it rotates.
+      "mirror": false,
+      "rotate": false,
+      
+      //the shoot type of this weapon.
+      "shoot": {
+        "type": "ShootAlternate",
+        "shots": 8,
+        "barrels": 8,
+        "spread": 3.5,
+        "shotDelay": 1,
+      },
+      
+      //how long it will take until this weapon can shoot again
+      "reload": 20,
+      
+      "range": 1000
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 20,
+     
+      //what sound plays when this weapon shoots
+      "shootSound": "missile",
+      
+      //parameters for the bullet, including it's type, speed, damage, etc.
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "damage": 500,
+        "homing": true
+        "homingPower": 0.3
+        "homingRange": 500
+        "speed": 5,
+        "height": 20,
+        "width": 20,
+        "shrinkY": 30,
+        "shrinkX": 30,
+        "splashDamageRadius": 50,
+        "splashDamage": 900,
+        
+        //effects when this bullet hits something or despawns.
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        
+        //lightning spawned by this bullet upon hit or despawn.
+        "lightningDamage": 10,
+        "lightning": 100,    
+        "lightningLength": 10
+      }
+    },
 {
     "name": "u2-spooder1"
     "mirror": true
@@ -109,8 +165,6 @@
       "reload": 20,
       
       "range": 300,
-
-      "homing": true
   
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 0,
@@ -122,6 +176,7 @@
         "sprite": "cm-u2-spooder-bullet3-idk"
         "type": "MissileBulletType",
         "damage": 500,
+        "homing": true
         "speed": 100,
         "height": 10,
         "width": 10,
