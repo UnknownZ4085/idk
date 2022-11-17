@@ -69,7 +69,7 @@
       "shoot": {
         "type": "ShootAlternate",
         "shots": 20,
-        "barrels": 3,
+        "barrels": 100,
         "spread": 3.5,
         "shotDelay": 0,
       },
@@ -88,9 +88,13 @@
         "type": "MissileBulletType",
         "damage": 300,
         "speed": 5,
-        "height": 20,
-        "width": 20,
-        "shrinkY": 0,
+        "homing": true
+        "homingPower": 1000,
+        "homingRange": 2000,
+        "height": 10,
+        "width": 10,
+        "shrinkY": 5,
+        "shrinkX": 5,
         "splashDamageRadius": 50,
         "splashDamage": 900,
         
