@@ -1,4 +1,4 @@
-name: Grandpa's Wallet
+name: Shulker box in a chest
 type: StorageBlock
 health: 20000,
 itemCapacity: 100000000999999999999999
