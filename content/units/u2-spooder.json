@@ -128,15 +128,6 @@
         "shrinkY": 0,
         "splashDamageRadius": 30,
         "splashDamage": 100,
- 
-          //parameters for the bullet, including it's type, speed, damage, etc.
-      "bullet":
-       {
-        "type": "ShrapnelBulletType",
-        "shots": 10,
-        "spread": 36,
-        "length": 10,
-        "damage": 50,
         
         //effects when this bullet hits something or despawns.
         "hitEffect": "blastExplosion",
