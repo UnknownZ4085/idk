@@ -50,8 +50,8 @@
      "name": "u2-spooder1"
      "mirror": true
       "rotate": false
-      "x": 2
-      "y": 4
+      "x": 0
+      "y": 2
       "shoot": {
         "type": "ShootAlternate",
         "shots": 1,
@@ -88,7 +88,49 @@
         "lightningDamage": 1,
         "lightning": 100,    
         "lightningLength": 1
-      }
+    },
+   {
+    "name": "u2-spooder1"
+    "mirror": true
+    "rotate": false
+    "x": 40
+    "y": 0
+    "shoot": {
+        "type": "ShootAlternate",
+        "shots": 1,
+        "barrels": 1,
+        "spread": 0,
+        "shotDelay": 0,
+      }, 
+      
+      //how long it will take until this weapon can shoot again
+      "reload": 20,
+      
+      "homing": true
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 0,
+      
+      //what sound plays when this weapon shoots
+      "shootSound": "missile",
+      
+      //parameters for the bullet, including it's type, speed, damage, etc.
+      "bullet":
+       {
+        "type": "ShrapnelBulletType",
+        "length": 10,
+        "damage": 50,
+        
+        //effects when this bullet hits something or despawns.
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        
+        //lightning spawned by this bullet upon hit or despawn.
+        "lightningDamage": 5,
+        "lightning": 100,    
+        "lightningLength": 4
+   
+   
+       }
     },
 ]
  
