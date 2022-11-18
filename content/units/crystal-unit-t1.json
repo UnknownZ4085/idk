@@ -1,7 +1,7 @@
 {
   "type": "legs",
-  "localizedName": "[SPOODER]",
-  "description": "The second spooder",
+  "localizedName": "Crystal UNIT T1",
+  "description": "Materialized from Unknown crystals. this is the weakest crystal structure than can attack",
   "legs": 6,
   
   //how many legs of this unit will move at the same time.
@@ -9,15 +9,15 @@
   
   //leg parameters
   "legMoveSpace": 0.4,
-  "legLength": 100,
+  "legLength": 20,
   "legExtenstion": -10,
-  "legBaseOffset": 8,
-  "stepShake": 2,
+  "legBaseOffset": 1,
+  "stepShake": 0,
   "legLengthScl": 1.00,
-  "rippleScale": 3,
+  "rippleScale": 1,
   "legSpeed": 0.360,
-  "legSplashRange": 3,
-  "legSplashDamage": 200,
+  "legSplashRange": 1,
+  "legSplashDamage": 2,
   
   "envEnabled": 17,
   
