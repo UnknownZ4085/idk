@@ -261,11 +261,12 @@
      },
     {
         "type": "EnergyFieldAbility",
-        "damage": 10000
-        "range": 1000
+        "damage": 0
+        "range": 1100
         "reload": 0
         "duration": 9999999999999999
         "useAmmo": false
+        "status": "cm-time-broken"
         "maxTargets": 500
      },
     {
