@@ -72,7 +72,8 @@
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {
         "sprite": "cm-u2-spooder-bullet2-idk"
-        "type": "LaserBulletType",
+        "type": "PointLaserBulletType",
+    "color": "f77e05"
     "length": 200,
         "damage": 100,
         "speed": 10,
