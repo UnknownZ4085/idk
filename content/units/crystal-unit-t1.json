@@ -86,11 +86,17 @@
     "fragOnHit": true
         //lightning spawned by this bullet upon hit or despawn.
   
-      "fragBullet": "LightningBulletType"
-        "lightningDamage": 1,
-        "fragBullets": 5,    
-        "lightningLength": 3,
-        
+          "fragBullets": 10,
+    "fragLifeMin": 0.5,
+	"fragAngle": 36,
+	"fragBullet": {
+	"type": "LightningBulletType",
+    "sprite": "crystal-unit-crystal-bullet",
+    "lightning": 5,
+    "lightningLength": 3,
+    "lightningDamage": 1,
+    "absorbable": false,
+    },
         }
       }
    ],
