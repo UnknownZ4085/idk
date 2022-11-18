@@ -17,7 +17,7 @@
   
   //leg parameters
   "legMoveSpace": 0.4,
-  "legLength": 832,
+  "legLength": 416,
   "legExtenstion": 0,
   "legBaseOffset": 8,
   "stepShake": 1000,
@@ -38,9 +38,9 @@
   
   "pickupUnits": true
   
-  "armor": 1000,
+  "armor": 1500,
   "health": 1710020045,
-  "speed": 0.1,
+  "speed": 0.360,
   
   //this unit's body can go over most terrain with this set to true.
   "hovering": true
