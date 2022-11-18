@@ -47,7 +47,7 @@
   //all of the weapons this unit shoots with.
   "weapons": [
     {    
-     "name": "crystal-unit-t1-basic-gun"
+     "name": "crystal-unit-basic-gun"
      "mirror": false
       "rotate": false
       "x": 0
