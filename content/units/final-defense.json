@@ -266,7 +266,7 @@
         "reload": 0
         "duration": 9999999999999999
         "useAmmo": false
-        "status": "cm-time-broken"
+        "status": "cm-broken-time"
         "maxTargets": 500
      },
     {
