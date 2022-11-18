@@ -4,7 +4,7 @@
         "speedMultiplier": 0.0,
         "reloadMultiplier": 0.0,
         "healthMultiplier": 5,
-        "dragMultiplier": 10000,
+        "dragMultiplier": 0,
         "disarm": true
         "effectChance": 100,
         "damage": 1,
