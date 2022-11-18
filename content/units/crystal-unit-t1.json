@@ -40,9 +40,9 @@
   //status effects that this unit is immune to.
   "immunities": ["burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred" ],
 
-  "itemCapacity": 120
+  "itemCapacity": 500,
 
-  "buildSpeed": 0
+  "buildSpeed": 0.01
 
   //all of the weapons this unit shoots with.
   "weapons": [
@@ -51,17 +51,17 @@
      "mirror": false
       "rotate": false
       "x": 0
-      "y": 5
+      "y": 4
       "shoot": {
         "type": "ShootAlternate",
-        "shots": 1,
+        "shots": 2,
         "barrels": 1,
         "spread": 0,
         "shotDelay": 0,
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 5,
+      "reload": 3,
         
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 0,
@@ -74,29 +74,12 @@
         "sprite": "cm-crystal-unit-crystal-bullet"
         "type": "LightningBulletType",
         "lightningColor": "68386CFF"
-        "lightningLength": 20,
-        "damage": 2,
+        "lightningLength": 100,
+        "damage": 10,
         "splashDamageRadius": 1,
-        "splashDamage": 1,    
+        "splashDamage": 2,    
+        "absorbable": false    
         
-        //effects when this bullet hits something or despawns.
-        "hitEffect": "blastExplosion",
-        "despawnEffect": "blastExplosion",
-        
-    "fragOnHit": true
-        //lightning spawned by this bullet upon hit or despawn.
-  
-          "fragBullets": 10,
-    "fragLifeMin": 0.5,
-	"fragAngle": 36,
-	"fragBullet": {
-	"type": "LightningBulletType",
-    "sprite": "crystal-unit-crystal-bullet",
-    "lightning": 5,
-    "lightningLength": 3,
-    "lightningDamage": 1,
-    "absorbable": false,
-    },
         }
       }
    ],
@@ -111,9 +94,9 @@
   "abilities": [
     {
       "type": "ForceFieldAbility",
-      "radius": 20,
+      "radius": 40,
       "max": 3000,
-      "regen": 10,
+      "regen": 50,
       "cooldown": 120
      },
    ]
