@@ -17,13 +17,14 @@
         "type": "shocked",
         "lifetime": 35,
         "sizeFrom": 0,
-        "sizeTo": 5,
+        "sizeTo": 10,
         "sides": 4,
-        "strokeFrom": 4,
+        "strokeFrom": 10,
         "strokeTo": 0,
         "colorFrom": "68386CFF",
         "colorTo": "68386CFF"
         },
+ "research": "cm-ancient-crystal"
         ]
         }
        }
