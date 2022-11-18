@@ -1,14 +1,14 @@
 {
         "name": "crystallized",
-        "description": "frozen from the energy, you cankt move"
+        "description": "frozen from the energy, you can't move"
         "speedMultiplier": 0.0,
         "reloadMultiplier": 0.000001,
         "effectChance": 100,
         "damage": 4,
         "transitionDamage": 20,
-        "affinities": [ "freezing", "shocked" ],
+        "affinities": [ "shocked", ],
         "effect": {
-        "type": "multiEffect",
+        "type": "status",
         "effects": [
         {
         "type": "WaveEffect",
