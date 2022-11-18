@@ -6,7 +6,6 @@
         "effectChance": 100,
         "damage": 4,
         "transitionDamage": 20,
-        "opposites": [ "" ],
         "affinities": [ "freezing", "shocked" ],
         "effect": {
         "type": "multiEffect",
