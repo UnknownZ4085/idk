@@ -30,8 +30,8 @@
   
   "pickupUnits": true
   
-  "armor": 15,
-  "health": 2000,
+  "armor": 20,
+  "health": 5520,
   "speed": 1.5,
   
   //this unit's body can go over most terrain with this set to true.
@@ -61,7 +61,7 @@
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 3,
+      "reload": 5,
         
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 0,
@@ -75,7 +75,44 @@
         "type": "LightningBulletType",
         "status": "cm-crystallized"
         "lightningColor": "68386CFF"
-        "lightningLength": 100,
+        "lightningLength": 50,
+        "damage": 10,
+        "splashDamageRadius": 1,
+        "splashDamage": 2,    
+        "absorbable": false    
+        
+        }
+      }
+ {    
+     "name": "crystal-unit-basic-gun"
+     "mirror": true
+      "rotate": false
+      "x": 32
+      "y": 0
+      "shoot": {
+        "type": "ShootAlternate",
+        "shots": 1,
+        "barrels": 1,
+        "spread": 0,
+        "shotDelay": 0,
+      },
+      
+      //how long it will take until this weapon can shoot again
+      "reload": 5,
+        
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 0,
+      
+      //what sound plays when this weapon shoots
+      "shootSound": "Spark",
+      
+      //parameters for the bullet, including it's type, speed, damage, etc.
+      "bullet": {
+        "sprite": "cm-crystal-unit-crystal-bullet"
+        "type": "LightningBulletType",
+        "status": "cm-crystallized"
+        "lightningColor": "68386CFF"
+        "lightningLength": 50,
         "damage": 10,
         "splashDamageRadius": 1,
         "splashDamage": 2,    
@@ -96,9 +133,16 @@
     {
       "type": "ForceFieldAbility",
       "radius": 40,
-      "max": 3000,
-      "regen": 50,
-      "cooldown": 120
+      "max": 4480,
+      "regen": 200,
+      "cooldown": 360,
+    },
+     {
+      "type": "mindustry.entities.abilities.StatusFieldAbility",
+      "range" : 70,
+      "reload" : 0,
+      "duration" : 120,
+      "effect": "cm-crystallized"
      },
    ]
 }
