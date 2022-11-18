@@ -50,7 +50,6 @@
      "name": "crystal-unit-basic-gun"
      "mirror": false
       "rotate": false
-      "status": "cm-crystallized"
       "x": 0
       "y": 4
       "shoot": {
@@ -74,6 +73,7 @@
       "bullet": {
         "sprite": "cm-crystal-unit-crystal-bullet"
         "type": "LightningBulletType",
+        "status": "cm-crystallized"
         "lightningColor": "68386CFF"
         "lightningLength": 100,
         "damage": 10,
