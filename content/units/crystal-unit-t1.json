@@ -123,7 +123,7 @@
    ],
  
   //thing that has to be researched in order for this unit to be researched in the research tree.
-  "research": "",
+  "research": "cm-ancient-crystal",
   
   //how big the hitbox for your unit is. to get this value, divide your sprite size by 8.
   "hitSize": 8,
