@@ -50,6 +50,7 @@
      "name": "crystal-unit-basic-gun"
      "mirror": false
       "rotate": false
+      "status": "crystallized"
       "x": 0
       "y": 4
       "shoot": {
@@ -67,7 +68,7 @@
       "inaccuracy": 0,
       
       //what sound plays when this weapon shoots
-      "shootSound": "Laser",
+      "shootSound": "Spark",
       
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {
