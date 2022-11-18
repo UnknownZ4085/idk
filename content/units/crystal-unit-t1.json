@@ -38,7 +38,7 @@
   "hovering": true
   
   //status effects that this unit is immune to.
-  "immunities": ["burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "crystallized" ],
+  "immunities": ["burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-crystallized" ],
 
   "itemCapacity": 500,
 
