@@ -4,9 +4,9 @@
 "flammability": 1000000000000,
 "viscosity": -1,
 "lightColor": "E2F500FF",
-"heatCapacity": 50,
-"explosiveness": 10000000000,
+"heatCapacity": 0,
+"explosiveness": 100000000000,
 "effect": "burning",
 "color": "E2F5FBFF",
-"research": "cm-liquids"
+"research": "cm-liquid"
 }
