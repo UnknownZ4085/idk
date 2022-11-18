@@ -6,7 +6,7 @@
         "effectChance": 100,
         "damage": 4,
         "transitionDamage": 20,
-        "affinities": [ "shocked", ],
+        "affinities": [ "shocked" ],
         "effect": {
         "type": "status",
         "effects": [
