@@ -73,8 +73,8 @@
       "bullet": {
         "sprite": "cm-crystal-unit-crystal-bullet"
         "type": "LightningBulletType",
-    "color": "68386CFF"
-    "length": 20,
+    "lightningColor": "68386CFF"
+    "lightningLength": 20,
         "damage": 0.1,
         "speed": 10,
     "range": 20,
