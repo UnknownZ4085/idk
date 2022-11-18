@@ -262,7 +262,7 @@
     {
         "type": "EnergyFieldAbility",
         "damage": 0
-        "range": 1100
+        "range": 1000
         "reload": 0
         "duration": 9999999999999999
         "useAmmo": false
