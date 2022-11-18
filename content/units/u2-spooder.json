@@ -95,6 +95,8 @@
       //name of this weapon. give the weapon's sprite file the same name and the game will automatically render it.
       "name": "u2-spooder3",
       
+     "recoil": 0
+     
       //position of this weapon on the unit.
       "x": 0,
       "y": -32,
