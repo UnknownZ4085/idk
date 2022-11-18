@@ -46,7 +46,7 @@
   "hovering": true
   
   //status effects that this unit is immune to.
-  "immunities": ["burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-broken-time", "cm-crystallized", ],
+  "immunities": ["burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
 
   "itemCapacity": 100000000000000000
 
@@ -89,7 +89,7 @@
         "damage": 999999,
         "length": 10000,
         "pierceDamageFactor": -100
-        "pierceEffect": "cm-broken-time"
+        "pierceEffect": "cm-brokentime"
         "splashDamageRadius": 350,
         "splashDamage": 10000,
         
@@ -265,7 +265,7 @@
         "reload": 0
         "duration": 9999999999999999
         "useAmmo": false
-        "status": "cm-broken-time"
+        "status": "cm-brokentime"
         "maxTargets": 500
      },
     {
