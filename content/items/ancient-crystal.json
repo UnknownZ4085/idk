@@ -1,1 +1,11 @@
-
+{
+	"name": "[#63C74DFF]CRYSTALLITE"
+	"description": "[#63C74DFF] THE WORLD IS ON YOUR HANDS"
+	"hardness": 50,
+	"cost": 5.0,
+	"color": "63C74DFF",
+	"explosiveness": 1.0,
+	"flammability": 0.5,
+  "radiocativity": 2.0,
+  "charge": 200.0,
+}
