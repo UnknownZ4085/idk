@@ -10,3 +10,4 @@ absorbLasers: true
 chanceDeflect: 999999999999999999
 requirements: [
 ]
+research: cm-core
