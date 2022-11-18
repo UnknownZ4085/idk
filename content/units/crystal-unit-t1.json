@@ -30,7 +30,7 @@
   
   "pickupUnits": true
   
-  "armor": 10,
+  "armor": 15,
   "health": 2000,
   "speed": 1.5,
   
@@ -73,7 +73,7 @@
       "bullet": {
         "sprite": "cm-crystal-unit-crystal-bullet"
         "type": "LightningBulletType",
-        "status": [ "cm-crystallized", "unmoving" ]
+        "status": "cm-crystallized"
         "lightningColor": "68386CFF"
         "lightningLength": 100,
         "damage": 10,
