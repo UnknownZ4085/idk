@@ -73,14 +73,9 @@
       "bullet": {
         "sprite": "cm-crystal-unit-crystal-bullet"
         "type": "LightningBulletType",
-    "lightningColor": "68386CFF"
-    "lightningLength": 20,
-        "damage": 0.1,
-        "speed": 10,
-    "range": 20,
-        "height": 5,
-        "width": 5,
-        "shrinkY": 0,
+        "lightningColor": "68386CFF"
+        "lightningLength": 20,
+        "damage": 2,
         "splashDamageRadius": 1,
         "splashDamage": 1,    
         
@@ -88,10 +83,13 @@
         "hitEffect": "blastExplosion",
         "despawnEffect": "blastExplosion",
         
+    "fragOnHit": true
         //lightning spawned by this bullet upon hit or despawn.
+  
+      "fragBullet": "LightningBulletType"
         "lightningDamage": 1,
-        "lightning": 5,    
-        "lightningLength": 3
+        "fragBullets": 5,    
+        "lightningLength": 3,
         
         }
       }
