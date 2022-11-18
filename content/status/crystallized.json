@@ -2,7 +2,7 @@
         "name": "crystallized",
         "description": "frozen from the energy, you can't move"
         "speedMultiplier": 0.0,
-        "reloadMultiplier": 0.000001,
+        "reloadMultiplier": 0.0,
         "effectChance": 100,
         "damage": 10,
         "transitionDamage": 20,
@@ -11,7 +11,7 @@
         "type": "status",
         "effects": [
         {
-        "type": "WaveEffect",
+        "type": "shocked",
         "lifetime": 35,
         "sizeFrom": 0,
         "sizeTo": 5,
