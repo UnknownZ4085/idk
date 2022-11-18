@@ -3,6 +3,9 @@
         "description": "frozen from the energy, you can't move"
         "speedMultiplier": 0.0,
         "reloadMultiplier": 0.0,
+        "healthMultiplier": 5,
+        "dragMultiplier": 10000,
+        "disarm": true
         "effectChance": 100,
         "damage": 1,
         "transitionDamage": 20,
