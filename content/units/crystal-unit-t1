@@ -1,1 +1,115 @@
+{
+  "type": "legs",
+  "localizedName": "[SPOODER]",
+  "description": "The second spooder",
+  "legs": 6,
+  
+  //how many legs of this unit will move at the same time.
+  "legGroupSize": 2,
+  
+  //leg parameters
+  "legMoveSpace": 0.4,
+  "legLength": 100,
+  "legExtenstion": -10,
+  "legBaseOffset": 8,
+  "stepShake": 2,
+  "legLengthScl": 1.00,
+  "rippleScale": 3,
+  "legSpeed": 0.360,
+  "legSplashRange": 3,
+  "legSplashDamage": 200,
+  
+  "envEnabled": 17,
+  
+  "envDisabled": 0,
+  
+  "canDrown": false,
+  "drownTimeMultiplier": 999999999
+  
+  "payloadCapacity":4096
+  
+  "pickupUnits": true
+  
+  "armor": 45,
+  "health": 200000,
+  "speed": 1.2,
+  
+  //this unit's body can go over most terrain with this set to true.
+  "hovering": true
+  
+  //status effects that this unit is immune to.
+  "immunities": ["burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred" ],
 
+  "itemCapacity": 120
+
+  "buildSpeed": 0
+
+  //all of the weapons this unit shoots with.
+  "weapons": [
+    {    
+     "name": "crystal-unit-t1-basicgun"
+     "mirror": false
+      "rotate": false
+      "x": 0
+      "y": 5
+      "shoot": {
+        "type": "ShootAlternate",
+        "shots": 1,
+        "barrels": 1,
+        "spread": 0,
+        "shotDelay": 0,
+      },
+      
+      //how long it will take until this weapon can shoot again
+      "reload": 5,
+        
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 0,
+      
+      //what sound plays when this weapon shoots
+      "shootSound": "Laser",
+      
+      //parameters for the bullet, including it's type, speed, damage, etc.
+      "bullet": {
+        "sprite": "cm-crystal-unit-crystal-bullet"
+        "type": "LightningBulletType",
+    "color": "68386CFF"
+    "length": 20,
+        "damage": 0.1,
+        "speed": 10,
+        "height": 5,
+        "width": 5,
+        "shrinkY": 0,
+        "splashDamageRadius": 1,
+        "splashDamage": 1,    
+        
+        //effects when this bullet hits something or despawns.
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        
+        //lightning spawned by this bullet upon hit or despawn.
+        "lightningDamage": 1,
+        "lightning": 5,    
+        "lightningLength": 3
+        
+        }
+      }
+   ],
+ 
+  //thing that has to be researched in order for this unit to be researched in the research tree.
+  "research": "",
+  
+  //how big the hitbox for your unit is. to get this value, divide your sprite size by 8.
+  "hitSize": 8,
+
+  //abilities that this unit has
+  "abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "radius": 20,
+      "max": 3000,
+      "regen": 10,
+      "cooldown": 120
+     },
+   ]
+}
