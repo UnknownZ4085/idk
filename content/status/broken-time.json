@@ -1,13 +1,19 @@
 {
         "name": "TIME BROKEN",
-        "description": "[green]Time broke[white], you can't affect the real world."
+        "description": "[green]Time broke[white], you can't affect the real world [crimson]ANYMORE!"
         "speedMultiplier": 0.0,
         "reloadMultiplier": 1.0,
+        "buildSpeedMultiplier": 0.0,
         "healthMultiplier": 1,
         "dragMultiplier": 1,
         "disarm": false
         "effectChance": 100,
+        "outline": true
+        "color":
         "damage": 0,
         "transitionDamage": 0,
+        "permanent": true
         "affinities": [ "unmoving" ],
+
+       "research": "crystallite"
 }
