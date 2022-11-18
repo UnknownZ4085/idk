@@ -1,4 +1,5 @@
 {
+"name": "SLAG 100% POWER"
 "temperature": 10000000000,
 "flammability": 1000000000000,
 "viscosity": -1,
@@ -7,4 +8,5 @@
 "explosiveness": 10000000000,
 "effect": "burning",
 "color": "E2F5FBFF",
+"research": "cm-liquids"
 }
