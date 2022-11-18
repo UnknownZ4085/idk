@@ -89,7 +89,6 @@
         "damage": 999999,
         "length": 10000,
         "pierceDamageFactor": -100
-        "status": "cm-broken-time"
         "pierceEffect": "cm-broken-time"
         "splashDamageRadius": 350,
         "splashDamage": 10000,
