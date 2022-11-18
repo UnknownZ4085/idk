@@ -74,7 +74,7 @@
         "sprite": "cm-u2-spooder-bullet1-idk"
         "type": "BasicBulletType",
         "damage": 100,
-        "speed": 100,
+        "speed": 10,
         "height": 10,
         "width": 10,
         "shrinkY": 0,
@@ -133,8 +133,8 @@
         "homingPower": 0.02
         "homingRange": 500
         "speed": 5,
-        "height": 4,
-        "width": 4,
+        "height": 10,
+        "width": 10,
         "shrinkY": 1,
         "shrinkX": 1,
         "splashDamageRadius": 50,
@@ -180,7 +180,7 @@
         "type": "MissileBulletType",
         "damage": 500,
         "homing": true
-        "speed": 100,
+        "speed": 4,
         "height": 10,
         "width": 10,
         "shrinkY": 0,
@@ -227,7 +227,7 @@
         "type": "MissileBulletType",
         "damage": 500,
         "homing": true
-        "speed": 100,
+        "speed": 4,
         "height": 10,
         "width": 10,
         "shrinkY": 0,
