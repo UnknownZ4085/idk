@@ -11,5 +11,5 @@
         "powerBuffered": 100000000000000000000000000000
     },
     "requirements": [],
-    "research": "core-shard"
+    "research": "cm-core"
 }
