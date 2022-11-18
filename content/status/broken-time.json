@@ -9,7 +9,7 @@
         "disarm": false
         "effectChance": 100,
         "outline": true
-        "color":
+        "color": "63C74DFF"
         "damage": 0,
         "transitionDamage": 0,
         "permanent": true
