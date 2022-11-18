@@ -73,7 +73,7 @@
       "bullet": {
         "sprite": "cm-crystal-unit-crystal-bullet"
         "type": "LightningBulletType",
-        "status": "cm-crystallized"
+        "status": [ "cm-crystallized", "unmoving" ]
         "lightningColor": "68386CFF"
         "lightningLength": 100,
         "damage": 10,
