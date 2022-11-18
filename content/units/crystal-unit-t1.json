@@ -11,11 +11,11 @@
   "legMoveSpace": 0.4,
   "legLength": 20,
   "legExtenstion": -10,
-  "legBaseOffset": 1,
+  "legBaseOffset": 0,
   "stepShake": 0,
   "legLengthScl": 1.00,
   "rippleScale": 1,
-  "legSpeed": 0.360,
+  "legSpeed": 0.5,
   "legSplashRange": 1,
   "legSplashDamage": 2,
   
@@ -32,7 +32,7 @@
   
   "armor": 10,
   "health": 2000,
-  "speed": 2.5,
+  "speed": 1.5,
   
   //this unit's body can go over most terrain with this set to true.
   "hovering": true
