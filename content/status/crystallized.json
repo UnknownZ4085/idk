@@ -4,9 +4,9 @@
         "speedMultiplier": 0.0,
         "reloadMultiplier": 0.0,
         "effectChance": 100,
-        "damage": 10,
+        "damage": 1,
         "transitionDamage": 20,
-        "affinities": [ "shocked" ],
+        "affinities": [ "shocked", "unmoving" ],
         "effect": {
         "type": "status",
         "effects": [
