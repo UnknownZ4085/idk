@@ -177,9 +177,11 @@
      
         "bullet": {
         "sprite": "cm-u2-spooder-bullet3-idk"
-        "type": "MissileBulletType",
+        "type": "BasicBulletType",
         "damage": 500,
         "homing": true
+          "homingPower": 0.01
+          "homingRange": 10
         "speed": 4,
         "height": 10,
         "width": 10,
@@ -224,9 +226,11 @@
      
         "bullet": {
         "sprite": "cm-u2-spooder-bullet3-idk"
-        "type": "MissileBulletType",
+        "type": "BasicBulletType",
         "damage": 500,
         "homing": true
+          "homingPower": 0.01
+          "homingRange": 10
         "speed": 4,
         "height": 10,
         "width": 10,
