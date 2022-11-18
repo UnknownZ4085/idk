@@ -6,6 +6,7 @@
 	"color": "63C74DFF",
 	"explosiveness": 1000.0,
 	"flammability": 0.0,
-  "radiocativity": 500.0,
-  "charge": 115.0,
+        "radiocativity": 500.0,
+        "charge": 115.0,
+	"research": "cm-spooder-factory"
 }
