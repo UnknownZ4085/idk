@@ -1,7 +1,11 @@
 {
+	"name": "OOB"
 	"hardness": 9999999999,
 	"cost": 2.0,
 	"color": "fb00ff",
-	"explosiveness": 100000000
-	"flammability": 100000000
+	"explosiveness": 10000000099999999
+	"flammability": 1000000009999999
+	"radioactivity": 19999999999999
+	"charge": 9999999999999
+	"research": "cm-items"
 }
