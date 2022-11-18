@@ -1,0 +1,27 @@
+{
+        "name": "crystallized",
+        "description": "frozen from the energy, you cankt move"
+        "speedMultiplier": 0.0,
+        "reloadMultiplier": 0.000001,
+        "effectChance": 100,
+        "damage": 4,
+        "transitionDamage": 20,
+        "opposites": [ "" ],
+        "affinities": [ "freezing", "shocked" ],
+        "effect": {
+        "type": "multiEffect",
+        "effects": [
+        {
+        "type": "WaveEffect",
+        "lifetime": 35,
+        "sizeFrom": 0,
+        "sizeTo": 5,
+        "sides": 4,
+        "strokeFrom": 4,
+        "strokeTo": 0,
+        "colorFrom": "68386CFF",
+        "colorTo": "68386CFF"
+        },
+        ]
+        }
+       }
