@@ -18,4 +18,4 @@ cooldownBrokenBase: -999999999999999999999
 requirements: [
 ]
 category: effect
-research: cm-item
+research: cm-power
