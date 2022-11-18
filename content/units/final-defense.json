@@ -1,1 +1,579 @@
 
+{
+  "type": "legs",
+  "localizedName": "[SPOODER]",
+  "flying": true
+  "drag": 0.0,
+  "canBoost": true
+  "boostMultiplier": 5.0,
+  "engineOffset": 0,
+  "engineSize": 0,
+  "lowAltitude": false
+  "description": "THE FIRST AND STRONGEST SPOODER",
+  "legs": 4,
+  
+  //how many legs of this unit will move at the same time.
+  "legGroupSize": 2,
+  
+  //leg parameters
+  "legMoveSpace": 0.4,
+  "legLength": 300,
+  "legExtenstion": -20,
+  "legBaseOffset": 8,
+  "stepShake": 20,
+  "legLengthScl": 0.93,
+  "rippleScale": 30,
+  "legSpeed": 0.360,
+  "legSplashRange": 30,
+  "legSplashDamage": 20000,
+  
+  "envEnabled": 17,
+  
+  "envDisable": 0,
+  
+  "canDrown": false,
+  "drownTimeMultiplier": 999999999
+  
+  "payloadCapacity":4096
+  
+  "pickupUnits": true
+  
+  "armor": 450,
+  "health": 20000000,
+  "speed": 0.8,
+  
+  //this unit's body can go over most terrain with this set to true.
+  "hovering": true
+  
+  //status effects that this unit is immune to.
+  "immunities": ["burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred" ],
+
+  "itemCapacity": 100000000000000000
+
+  "buildSpeed": 10000000000000000000
+
+  //all of the weapons this unit shoots with.
+  "weapons": [
+    {
+      //name of this weapon. give the weapon's sprite file the same name and the game will automatically render it.
+      "name": "spooder-swarmer",
+      
+      //position of this weapon on the unit.
+      "x": 16,
+      "y": 32,
+      
+      //if this weapon is mirrored to the other side of the unit and whether or not it rotates.
+      "mirror": true,
+      "rotate": true,
+      
+      //the shoot type of this weapon.
+      "shoot": {
+        "type": "ShootAlternate",
+        "shots": 20,
+        "barrels": 100,
+        "spread": 3.5,
+        "shotDelay": 0,
+      },
+      
+      //how long it will take until this weapon can shoot again
+      "reload": 2,
+      
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 20,
+      
+      //what sound plays when this weapon shoots
+      "shootSound": "missile",
+      
+      //parameters for the bullet, including it's type, speed, damage, etc.
+      "bullet": {
+        "type": "MissileBulletType",
+        "damage": 300,
+        "speed": 5,
+        "homing": true
+        "homingPower": 1000,
+        "homingRange": 2000,
+        "height": 10,
+        "width": 10,
+        "shrinkY": 5,
+        "shrinkX": 5,
+        "splashDamageRadius": 50,
+        "splashDamage": 900,
+        
+        //effects when this bullet hits something or despawns.
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        
+        //lightning spawned by this bullet upon hit or despawn.
+        "lightningDamage": 500,
+        "lightning": 1,    
+        "lightningLength": 2
+      }
+    },
+    {
+      "name": "spooder-spectre",
+      "x": 20,
+      "y": -31,
+      "mirror": true,
+      "rotate": true,
+      "shoot": {
+        "type": "ShootAlternate",
+        "shots": 20,
+        "barrels": 4,
+        "spread": 8,
+      },
+      "shootSound": "shootBig",
+      "inaccuracy": 3,
+      "reload": 0.001,
+      "bullet": {
+        "damage": 4000,
+        "speed": 5,
+        "type": "BasicBulletType",
+        "hitSize": 10,
+        "width": 10,
+        "height": 30,
+        "shootEffect": "shootBig",
+        "pierceCap": 99999,
+        "pierceBuilding": true,
+        "knockback": 0.0,
+      }
+    },
+    {
+      "name": "spooder-fuse",
+      "x": -16,
+      "y": 48,
+      "mirror": true,
+      "rotate": true,
+      "reload": 0.000001,
+      "shootSound": "shotgun",
+      "shoot": {
+        "type": "ShootSpread",
+        "shots": 50,
+        "spread": 0,
+      },
+      "bullet": {
+        "type": "ShrapnelBulletType",
+        "length": 1000,
+        "damage": 500,
+        "shootEffect": "thoriumShoot",
+        "smokeEffect": "thoriumShoot",
+        "toColor": "f9a3c7"
+      }
+    },
+    {
+      "name": "spooder-fuse",
+      "x": 0,
+      "y": 32,
+      "mirror": true,
+      "rotate": true,
+      "reload": 1000,
+      "shootSound": "shotgun",
+      "shoot": {
+        "type": "ShootSpread",
+        "shots": 20,
+        "spread": 0,
+      },
+      "bullet": {
+        "type": "ShrapnelBulletType",
+        "length": 1500000,
+        "damage": 100000000000,
+        "shootEffect": "thoriumShoot",
+        "smokeEffect": "thoriumShoot",
+        "toColor": "f9a3c7"
+      }
+    }
+  ],
+  //thing that has to be researched in order for this unit to be researched in the research tree.
+  "research": "",
+  
+  //how big the hitbox for your unit is. to get this value, divide your sprite size by 8.
+  "hitSize": 104,
+
+  //abilities that this unit has
+  "abilities": [  
+    {
+      "type": "ForceFieldAbility",
+      "radius": 850,
+      "max": 700111992,
+      "regen": 80000,
+      "cooldown": 6000
+     },  
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 10000
+        "range": 1000
+        "reload": 0
+        "duration": 9999999999999999
+        "useAmmo": false
+        "maxTargets": 500
+     },
+  ]
+}
