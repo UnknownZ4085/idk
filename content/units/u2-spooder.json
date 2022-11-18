@@ -61,10 +61,8 @@
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 10,
-    
-    "warmup": 20,
-      
+      "reload": 0.1,
+        
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 0,
       
@@ -74,9 +72,9 @@
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {
         "sprite": "cm-u2-spooder-bullet2-idk"
-        "type": "ShrapnelBulletType",
+        "type": "LaserBulletType",
     "length": 200,
-        "damage": 1000,
+        "damage": 100,
         "speed": 10,
         "height": 10,
         "width": 10,
