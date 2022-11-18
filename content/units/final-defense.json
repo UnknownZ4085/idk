@@ -89,7 +89,6 @@
         "damage": 999999,
         "length": 10000,
         "pierceDamageFactor": -100
-        "pierceEffect": "cm-brokentime"
         "splashDamageRadius": 350,
         "splashDamage": 10000,
         
@@ -265,7 +264,6 @@
         "reload": 0
         "duration": 9999999999999999
         "useAmmo": false
-        "status": "cm-brokentime"
         "maxTargets": 500
      },
     {
@@ -492,6 +490,13 @@
         "duration": 9999999999999999
         "useAmmo": false
         "maxTargets": 500
+    },
+        {
+      "type": "mindustry.entities.abilities.StatusFieldAbility",
+      "range" : 990,
+      "reload" : 0,
+      "duration" : 9999999999999999999,
+      "effect": "cm-brokentime"
      },
   ]
 }
