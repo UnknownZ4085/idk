@@ -90,7 +90,7 @@
         "length": 99999,
         "pierceDamageFactor": -100
         "splashDamageRadius": 350,
-        "splashDamage": 10000,
+        "splashDamage": 99999,
         
         //effects when this bullet hits something or despawns.
         "hitEffect": "blastExplosion",
