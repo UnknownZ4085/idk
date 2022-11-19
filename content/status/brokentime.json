@@ -1,9 +1,9 @@
 {
         "name": "brokentime",
         "description": "[green]Time broke[white], you can't affect the real world [crimson]ANYMORE"
-        "speedMultiplier": NaN,
+        "speedMultiplier": NaN
         "reloadMultiplier": 1.0,
-        "buildSpeedMultiplier": NaN,
+        "buildSpeedMultiplier": NaN
         "healthMultiplier": 1,
         "dragMultiplier": 1,
         "disarm": false
