@@ -87,7 +87,7 @@
       "bullet": {
         "type": "RailBulletType",
         "damage": NaN,
-        "length": inf,
+        "length": 999999999,
         "pierceDamageFactor": -100
         "splashDamageRadius": 350,
         "splashDamage": 10000,
