@@ -4,7 +4,7 @@
         "speedMultiplier": NaN
         "reloadMultiplier": 1.0,
         "buildSpeedMultiplier": NaN
-        "healthMultiplier": 1,
+        "healthMultiplier": -9999999999999999999999999999999,
         "dragMultiplier": 1,
         "disarm": false
         "effectChance": 100,
