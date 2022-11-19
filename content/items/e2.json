@@ -1,8 +1,8 @@
 {
 	"name": "OOHB"
-	"hardness": NaN,
-	"cost": NaN,
-	"color": "fb00ff",
+	"hardness": NaN
+	"cost": inf
+	"color": "fb00ff"
 	"explosiveness": NaN
 	"flammability": NaN
 	"radioactivity": NaN
