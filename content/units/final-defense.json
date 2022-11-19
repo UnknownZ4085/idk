@@ -68,14 +68,14 @@
       
       //the shoot type of this weapon.
       "shoot": {
-        "shots": 50,
+        "shots": 10,
         "barrels": 1,
         "spread": 1,
         "shotDelay": 0,
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 0.0
+      "reload": 0.00001
       
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 0,
@@ -87,7 +87,7 @@
       "bullet": {
         "type": "RailBulletType",
         "damage": NaN,
-        "length": 999999999,
+        "length": 9999999,
         "pierceDamageFactor": -100
         "splashDamageRadius": 350,
         "splashDamage": 10000,
