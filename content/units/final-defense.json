@@ -38,8 +38,8 @@
   
   "pickupUnits": true
   
-  "armor": 1500,
-  "health": 1710020045,
+  "armor": inf,
+  "health": inf,
   "speed": 0.360,
   
   //this unit's body can go over most terrain with this set to true.
@@ -48,9 +48,9 @@
   //status effects that this unit is immune to.
   "immunities": ["burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
 
-  "itemCapacity": 100000000000000000
+  "itemCapacity": inf
 
-  "buildSpeed": 10000000000000000000
+  "buildSpeed": inf
 
   //all of the weapons this unit shoots with.
   "weapons": [
@@ -63,7 +63,7 @@
       "y": 0,
       
       //if this weapon is mirrored to the other side of the unit and whether or not it rotates.
-      "mirror": false,
+      "mirror": true,
       "rotate": true,
       
       //the shoot type of this weapon.
@@ -75,7 +75,7 @@
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 0.01,
+      "reload": NaN
       
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 0,
