@@ -59,7 +59,7 @@
       "name": "empty",
       
       //position of this weapon on the unit.
-      "x": 700,
+      "x": 0,
       "y": 0,
       
       //if this weapon is mirrored to the other side of the unit and whether or not it rotates.
