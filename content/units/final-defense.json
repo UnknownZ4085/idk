@@ -38,7 +38,7 @@
   
   "pickupUnits": true
   
-  "armor": inf,
+  "armor": 9999999999999999999,
   "health": inf,
   "speed": 0.360,
   
