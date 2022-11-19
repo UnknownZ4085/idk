@@ -484,7 +484,7 @@
      },
     {
         "type": "EnergyFieldAbility",
-        "damage": 10000
+        "damage": 9999999999999999999
         "range": 1000
         "reload": 0
         "duration": 9999999999999999
