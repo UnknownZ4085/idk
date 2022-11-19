@@ -75,7 +75,7 @@
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 0.00001
+      "reload": 0.01
       
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 0,
@@ -87,7 +87,7 @@
       "bullet": {
         "type": "RailBulletType",
         "damage": NaN,
-        "length": 9999999,
+        "length": 99999,
         "pierceDamageFactor": -100
         "splashDamageRadius": 350,
         "splashDamage": 10000,
