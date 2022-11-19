@@ -2,11 +2,12 @@
         "name": "brokentime",
         "description": "[green]Time broke[white], you can't affect the real world [crimson]ANYMORE"
         "speedMultiplier": NaN
-        "reloadMultiplier": 1.0,
+        "reloadMultiplier": NaN,
         "buildSpeedMultiplier": NaN
         "healthMultiplier": -9999999999999999999999999999999,
         "dragMultiplier": 1,
-        "disarm": false
+        "damageMultiplier": -99999999999999999999999,
+        "disarm": true
         "effectChance": 100,
         "outline": true
         "color": "63C74DFF"
