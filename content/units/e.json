@@ -96,6 +96,7 @@
 		   "type": "SpawnDeathAbility"
 		   "amount": 1
 		   "unit": "e"
+		    "spread": 200
 	   },
 		   ]
     
