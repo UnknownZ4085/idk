@@ -95,7 +95,7 @@
 	    {
 		   "type": "SpawnDeathAbility"
 		   "amount": 1
-		   "unitType": "e"
+		   "unit": "e"
 	   },
 		   ]
     
