@@ -10,7 +10,7 @@
         "drag": 0.0,
         "flying": true,
         "health": 999999999999999999999999,
-        "hitSize": 128,
+        "hitSize": 0,
         "armor": 99999999999999999999999999992,
         "mineSpeed": 99999999999999999992,
         "buildSpeed": 9999999999999999999991,
@@ -31,17 +31,17 @@
       "y": 0
       "shoot": {
         "type": "ShootAlternate",
-        "shots": 5,
+        "shots": 1,
         "barrels": 100,
-        "spread": 100,
+        "spread": 0,
         "shotDelay": 0,
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 0.1,
+      "reload": 0.0000001,
         
       //inaccuracy of the bullets spawned by this weapon in °
-      "inaccuracy": 100,
+      "inaccuracy": 0,
       
       //what sound plays when this weapon shoots
       "shootSound": "Spark",
@@ -52,9 +52,9 @@
         "type": "LightningBulletType",
         "status": "cm-brokentime"
         "lightningColor": "68386CFF"
-        "lightningLength": 550,
+        "lightningLength": 1000,
         "damage": 999999999999999999999,
-        "splashDamageRadius": 100,
+        "splashDamageRadius": 5,
         "splashDamage": 9999999999999999992,    
         "absorbable": false    
         
