@@ -1,0 +1,116 @@
+{
+        "name": "[CRIMSON]DEATH"
+        "description": "[RED]I DO NOT RECOMMEND SPAWNING MORE THAN 5"
+        "type": "flying",
+        "canHeal": true,
+        "research": "cm-core",
+        "lowAltitude": false,
+        "speed": 10,
+        "accel": 10,
+        "drag": 0.0,
+        "flying": true,
+        "health": 999999999999999999999999,
+        "hitSize": 128,
+        "armor": 99999999999999999999999999992,
+        "mineSpeed": 99999999999999999992,
+        "buildSpeed": 9999999999999999999991,
+        "mineTier": 9999999999999999992,
+        "itemCapacity": 9999999999999999999999,
+        "engineOffset": 0,
+        "range": 9999999999999999999999,
+        "targetAir": true,
+        "commandLimit": 9999999999999999999999999,
+        "faceTarget": false,
+	    "weapons": [
+	   {
+    "name": "e",
+    "shootCone": 0,
+    "mirror": true,
+    "rotate": false,
+    "x": 200,
+    "y": 0,
+    "shootY": 0,
+    "reload": 0.1,
+    "firstShotDelay": 0,
+    "recoil": 20.0,
+    "shootSound": "missile",
+    "bullet": {
+    "shootEffect": {
+	    "type": "MultiEffect",
+	    "lifetime": 20,
+	    "effects": [
+	   {     
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 1,
+    "sizeTo": 50,
+    "length": 10,
+    "lifetime": 20,
+    "colorFrom": "84F491FF",
+    "colorTo": "F2FFF3FF",
+    "cone": 360
+    },
+    {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 15,
+    "lifetime": 23,
+    "length": 35,
+    "baseLength": -35,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "84F491FF",
+    "colorTo": "F2FFF3FF"
+    }
+    ]
+    },
+    "keepVelocity": true,
+    "collidesTeam": false,
+    "healPercent": 5,
+    "type": "basicBulletType",
+    "sprite": "e",
+    "damage": 0,
+    "width": 1,
+    "height": 1,
+    "speed": 50,
+	"frontColor": "84F491FF",
+    "backColor": "F2FFF3FF",
+    "trailChance": 100,
+    "trailEffect": {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "length": 2,
+    "lifetime": 99,
+    "sizeFrom": 7,
+    "sizeTo": 100,
+    "colorFrom": "84F491FF",
+    "colorTo": "64CF8DAA"
+    },
+    "lifetime": 6000,
+  	"homingPower": 10.0,
+	"homingRange": 9999999999999999999999,
+	"weaveScale": 5,			
+	"weaveMag": 2,
+	"splashDamageRadius": 999999999999999999999999999,
+	"splashDamage": 99999999999999999999999999999,
+	"lightningColor": "84F491FF",
+    "lightning": 30,
+    "lightningDamage": 9999999999999999999999,
+    "lightningLength": 999999,
+    "lightningCone": 1,
+    }
+
+		}
+     ],
+    "abilities": [
+        {
+              "type": "mindustry.entities.abilities.RepairFieldAbility",
+              "range": 9999999999999999999,
+              "amount": 99999999999999999,
+              "reload": 0
+        }
+        ]
+    
+    
+}
