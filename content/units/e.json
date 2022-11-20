@@ -25,73 +25,41 @@
 	    "weapons": [
 	   {
     "name": "e",
-    "shootCone": 0,
-    "mirror": true,
-    "rotate": false,
-    "x": 0,
-    "y": 0,
-    "shootY": 0,
-    "reload": 0.1,
-    "recoil": 20.0,
-    "shootSound": "missile",
-    "bullet": {
-	    "sprite": "e"
-    "shootEffect": {
-	    "type": "MultiEffect",
-	    "lifetime": 20,
-	    "effects": [
-	   {     
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 1,
-    "sizeTo": 50,
-    "length": 10,
-    "lifetime": 20,
-    "colorFrom": "84F491FF",
-    "colorTo": "F2FFF3FF",
-    "cone": 360
-    },
-    {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 15,
-    "lifetime": 23,
-    "length": 35,
-    "baseLength": -35,
-    "cone": -360,
-    "lenFrom": 5,
-    "lenTo": 0,
-    "colorFrom": "84F491FF",
-    "colorTo": "F2FFF3FF"
-    }
-    ]
-    },
-    "keepVelocity": true,
-    "collidesTeam": false,
-    "healPercent": 5,
-    "type": "LightningBulletType",
-    "sprite": "e",
-    "damage": 0,
-    "width": 1,
-    "height": 1,
-    "speed": 50,
-    },
-    "lifetime": 6000,
-  	"homingPower": 10.0,
-	"homingRange": 9999999999999999999999,
-	"weaveScale": 5,			
-	"weaveMag": 2,
-	"splashDamageRadius": 999999999999999999999999999,
-	"splashDamage": 99999999999999999999999999999,
-	"lightningColor": "84F491FF",
-    "lightning": 30,
-    "lightningDamage": 9999999999999999999999,
-    "lightningLength": 999999,
-    "lightningCone": 1,
-    }
-
-		
-     ],
+     "mirror": true
+      "rotate": true
+      "x": 0
+      "y": 0
+      "shoot": {
+        "type": "ShootAlternate",
+        "shots": 22,
+        "barrels": 1,
+        "spread": 0,
+        "shotDelay": 0,
+      },
+      
+      //how long it will take until this weapon can shoot again
+      "reload": 0.1,
+        
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 0,
+      
+      //what sound plays when this weapon shoots
+      "shootSound": "Spark",
+      
+      //parameters for the bullet, including it's type, speed, damage, etc.
+      "bullet": {
+        "sprite": "e"
+        "type": "LightningBulletType",
+        "status": "cm-brokentime"
+        "lightningColor": "68386CFF"
+        "lightningLength": 9999,
+        "damage": 999999999999999999999,
+        "splashDamageRadius": 99999999999999999991,
+        "splashDamage": 9999999999999999992,    
+        "absorbable": false    
+        
+        }
+      }
     "abilities": [
         {
               "type": "mindustry.entities.abilities.RepairFieldAbility",
