@@ -1,25 +1,25 @@
 {
         "name": "[#386CFF]VOID"
-        "description": "[RED]I DO NOT RECOMMEND SPAWNING MORE THAN 5"
+        "description": "[crimson]DO NOT SPAWN"
         "type": "flying",
         "canHeal": true,
         "research": "cm-core",
         "lowAltitude": false,
-	"hittable": true
+	"hittable": false
 	"killable": false
-	"targetable": true
-        "speed": 10,
-        "accel": 10,
+	"targetable": false
+        "speed": 100,
+        "accel": 110,
         "drag": 0.0,
         "flying": true,
         "health": 999999999999999999999999,
-        "hitSize": 80,
+        "hitSize": 0,
         "armor": 99999999999999999999999999992,
         "mineSpeed": 99999999999999999992,
         "buildSpeed": 9999999999999999999991,
         "mineTier": 9999999999999999992,
         "itemCapacity": 9999999999999999999999,
-        "engineOffset": 0,
+        "engineOffset": 9999999999999999999999999999999,
         "range": 9999999999999999999999,
         "targetAir": true,
         "commandLimit": 9999999999999999999999999,
@@ -81,13 +81,13 @@
    "abilities": [
  	    {
               "type": "mindustry.entities.abilities.RepairFieldAbility",
-              "range": 9999999999999999999,
+              "range": 0,
               "amount": 99999999999999999,
               "reload": 0
         },
 	   {
 		   "type": "ForceFieldAbility"
-		   "range": 999999999999999
+		   "range": 0
 		   "max": 9999999999999999999
 		   "regen": 999999999999999
 		   "cooldown": 0
