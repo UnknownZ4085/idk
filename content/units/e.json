@@ -20,7 +20,8 @@
         "range": 9999999999999999999999,
         "targetAir": true,
         "commandLimit": 9999999999999999999999999,
-        "faceTarget": false,
+        "immunities": [ "burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
+	"faceTarget": false,
 	    "weapons": [
 	   {
     "name": "e",
