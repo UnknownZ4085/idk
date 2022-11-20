@@ -31,14 +31,14 @@
       "y": 0
       "shoot": {
         "type": "ShootAlternate",
-        "shots": 22,
+        "shots": 10,
         "barrels": 1,
         "spread": 0,
         "shotDelay": 0,
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 0.1,
+      "reload": 1.0,
         
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 0,
@@ -52,9 +52,9 @@
         "type": "LightningBulletType",
         "status": "cm-brokentime"
         "lightningColor": "68386CFF"
-        "lightningLength": 9999,
+        "lightningLength": 999,
         "damage": 999999999999999999999,
-        "splashDamageRadius": 99999999999999999991,
+        "splashDamageRadius": 100,
         "splashDamage": 9999999999999999992,    
         "absorbable": false    
         
