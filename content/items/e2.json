@@ -1,7 +1,7 @@
 {
 	"name": "OOHB"
 	"hardness": 99999999999999999999
-	"sprite": "atomic"
+	"sprite": "cm-atomic"
 	"cost": 9999999999999999999999999
 	"color": "fb00ff"
 	"explosiveness": NaN
