@@ -28,14 +28,14 @@
     "shootCone": 0,
     "mirror": true,
     "rotate": false,
-    "x": 200,
+    "x": 0,
     "y": 0,
     "shootY": 0,
     "reload": 0.1,
-    "firstShotDelay": 0,
     "recoil": 20.0,
     "shootSound": "missile",
     "bullet": {
+	    "sprite": "e"
     "shootEffect": {
 	    "type": "MultiEffect",
 	    "lifetime": 20,
