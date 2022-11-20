@@ -61,7 +61,20 @@
         "splashDamageRadius": 5,
         "splashDamage": 9999999999999999992,    
         "absorbable": false    
-        
+     
+		    "fragBullets": 2,
+"fragBullet": {
+		     "sprite": "e"
+        "type": "LightningBulletType",
+        "status": "cm-brokentime"
+        "lightningColor": "68386CFF"
+        "lightningLength": 1000,
+        "damage": 999999999999999999999,
+        "splashDamageRadius": 5,
+        "splashDamage": 9999999999999999992,    
+        "absorbable": false    
+  
+}
         }
       }
 ],
@@ -73,7 +86,7 @@
               "reload": 0
         },
 	   {
-		   "type": "forceFieldAbility
+		   "type": "ForceFieldAbility"
 		   "range": 999999999999999
 		   "max": 9999999999999999999
 		   "regen": 999999999999999
