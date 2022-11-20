@@ -5,6 +5,9 @@
         "canHeal": true,
         "research": "cm-core",
         "lowAltitude": false,
+	"hittable": false
+	"killable": false
+	"targetable": false
         "speed": 10,
         "accel": 10,
         "drag": 0.0,
@@ -62,13 +65,19 @@
         }
       }
 ],
-    "abilities": [
-        {
+   "abilities": [
+ 	    {
               "type": "mindustry.entities.abilities.RepairFieldAbility",
               "range": 9999999999999999999,
               "amount": 99999999999999999,
               "reload": 0
-        }
+        },
+	   {
+		   "type": "forceFieldAbility
+		   "range": 999999999999999
+		   "max": 9999999999999999999
+		   "regen": 999999999999999
+		   "cooldown": 0
         ]
     
     
