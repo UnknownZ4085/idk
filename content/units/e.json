@@ -5,9 +5,9 @@
         "canHeal": true,
         "research": "cm-core",
         "lowAltitude": false,
-	"hittable": false
+	"hittable": true
 	"killable": false
-	"targetable": false
+	"targetable": true
         "speed": 10,
         "accel": 10,
         "drag": 0.0,
@@ -91,6 +91,11 @@
 		   "max": 9999999999999999999
 		   "regen": 999999999999999
 		   "cooldown": 0
+	   },
+	    {
+		   "type": "SpawnDeathAbility"
+		   "amount": 1
+		   "unitType": "e"
 	   },
 		   ]
     
