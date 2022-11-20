@@ -31,17 +31,17 @@
       "y": 0
       "shoot": {
         "type": "ShootAlternate",
-        "shots": 10,
-        "barrels": 1,
-        "spread": 0,
+        "shots": 5,
+        "barrels": 100,
+        "spread": 100,
         "shotDelay": 0,
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 1.0,
+      "reload": 0.1,
         
       //inaccuracy of the bullets spawned by this weapon in °
-      "inaccuracy": 0,
+      "inaccuracy": 100,
       
       //what sound plays when this weapon shoots
       "shootSound": "Spark",
@@ -52,7 +52,7 @@
         "type": "LightningBulletType",
         "status": "cm-brokentime"
         "lightningColor": "68386CFF"
-        "lightningLength": 999,
+        "lightningLength": 550,
         "damage": 999999999999999999999,
         "splashDamageRadius": 100,
         "splashDamage": 9999999999999999992,    
