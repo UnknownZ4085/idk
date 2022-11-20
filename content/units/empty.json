@@ -92,11 +92,85 @@
 		   "regen": 999999999999999
 		   "cooldown": 0
 	   },
-	    {
-		   "type": "SpawnDeathAbility"
-		   "amount": 1
+	   {
+		   "type": "UnitSpawnAbility"
+		   "spawnTime": 0.000001
 		   "unit": "empty"
-		    "spread": 200
+	   },
+	   {
+		   "type": "UnitSpawnAbility"
+		   "spawnTime": 0.000001
+		   "unit": "empty"
+	   },
+	   {
+		   "type": "UnitSpawnAbility"
+		   "spawnTime": 0.000001
+		   "unit": "empty"
+	   },
+	   {
+		   "type": "UnitSpawnAbility"
+		   "spawnTime": 0.000001
+		   "unit": "empty"
+	   },
+	   {
+		   "type": "UnitSpawnAbility"
+		   "spawnTime": 0.000001
+		   "unit": "empty"
+	   },
+	   {
+		   "type": "UnitSpawnAbility"
+		   "spawnTime": 0.000001
+		   "unit": "empty"
+	   },
+	   {
+		   "type": "UnitSpawnAbility"
+		   "spawnTime": 0.000001
+		   "unit": "empty"
+	   },
+	   {
+		   "type": "UnitSpawnAbility"
+		   "spawnTime": 0.000001
+		   "unit": "empty"
+	   },
+	   {
+		   "type": "UnitSpawnAbility"
+		   "spawnTime": 0.000001
+		   "unit": "empty"
+	   },
+	   {
+		   "type": "UnitSpawnAbility"
+		   "spawnTime": 0.000001
+		   "unit": "empty"
+	   },
+	   {
+		   "type": "UnitSpawnAbility"
+		   "spawnTime": 0.000001
+		   "unit": "empty"
+	   },
+	   {
+		   "type": "UnitSpawnAbility"
+		   "spawnTime": 0.000001
+		   "unit": "empty"
+	   },
+	   {
+		   "type": "UnitSpawnAbility"
+		   "spawnTime": 0.000001
+		   "unit": "empty"
+	   },
+	   {
+		   "type": "UnitSpawnAbility"
+		   "spawnTime": 0.000001
+		   "unit": "empty"
+	   },
+	   {
+		   "type": "UnitSpawnAbility"
+		   "spawnTime": 0.000001
+		   "unit": "empty"
+	   },
+	    {
+		   "type": "UnitSpawnAbility"
+		   "spawnTime": 0.000001
+		   "unit": "empty"
 	   },
 		   ]
     
