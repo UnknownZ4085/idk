@@ -12,7 +12,7 @@
         "accel": 30,
         "drag": 0.0,
         "flying": true,
-        "health": 1,
+        "health": 1000000,
         "hitSize": 0,
         "armor": 1,
         "mineSpeed": 99999999999999999992,
