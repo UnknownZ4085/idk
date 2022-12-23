@@ -1,1 +1,53 @@
-
+{
+        "name": "[CRIMSON]DEATH"
+        "description": "[RED]I DO NOT RECOMMEND SPAWNING MORE THAN 5"
+        "type": "flying",
+        "canHeal": true,
+        "research": "cm-core",
+        "lowAltitude": false,
+	"hittable": true
+	"killable": false
+	"targetable": true
+        "speed": 10,
+        "accel": 10,
+        "drag": 0.0,
+        "flying": true,
+        "health": 999999999999999999999999,
+        "hitSize": 0,
+        "armor": 99999999999999999999999999992,
+        "mineSpeed": 99999999999999999992,
+        "buildSpeed": 9999999999999999999991,
+        "mineTier": 9999999999999999992,
+        "itemCapacity": 9999999999999999999999,
+        "engineOffset": 0,
+        "range": 9999999999999999999999,
+        "targetAir": true,
+        "commandLimit": 9999999999999999999999999,
+        "immunities": [ "burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
+	"faceTarget": false,
+	    "weapons": [
+],
+   "abilities": [
+ 	    {
+              "type": "mindustry.entities.abilities.RepairFieldAbility",
+              "range": 999,
+              "amount": 99999999999999999,
+              "reload": 0
+        },
+	   {
+		   "type": "ForceFieldAbility"
+		   "range": 0
+		   "max": 9999999999999999999
+		   "regen": 999999999999999
+		   "cooldown": 0
+	   },
+	    {
+		   "type": "SpawnDeathAbility"
+		   "amount": 1
+		   "unit": "bloop"
+		    "spread": 1
+	   },
+		   ]
+    
+    
+}
