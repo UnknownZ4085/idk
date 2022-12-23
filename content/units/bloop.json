@@ -8,8 +8,8 @@
 	"hittable": true
 	"killable": true
 	"targetable": true
-        "speed": 100,
-        "accel": 99,
+        "speed": 30,
+        "accel": 30,
         "drag": 0.0,
         "flying": true,
         "health": 1,
