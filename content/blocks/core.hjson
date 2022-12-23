@@ -2,7 +2,7 @@ type: CoreBlock
 name: THE CENTER OF ALL THINGS
 unloadable: true
 hasItems: true 
-size: 3
+size: 1
 health: 99999999999999999999999
 itemCapacity: 100000000000000000000000
 canOverdrive: true
