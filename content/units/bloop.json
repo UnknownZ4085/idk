@@ -4,7 +4,7 @@
         "type": "flying",
         "canHeal": true,
         "research": "cm-core",
-        "lowAltitude": false,
+        "lowAltitude": true,
 	"hittable": true
 	"killable": false
 	"targetable": true
@@ -24,7 +24,7 @@
         "targetAir": true,
         "commandLimit": 9999999999999999999999999,
         "immunities": [ "burning", "freezing", "melting", "unmoving", "blooped", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
-	"faceTarget": true,
+	"faceTarget": false,
 	    "weapons": [
                 {
     "name": "bloopgun",
