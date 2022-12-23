@@ -1,7 +1,7 @@
 {
         "name": "[blue]bloop"
         "description": "[RED]GOD"
-        "type": "flying",
+        "type": "mech",
         "canHeal": true,
         "research": "cm-core",
         "lowAltitude": true,
