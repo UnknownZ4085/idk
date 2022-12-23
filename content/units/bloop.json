@@ -4,12 +4,12 @@
         "type": "flying",
         "canHeal": true,
         "research": "cm-core",
-        "lowAltitude": true,
+        "lowAltitude": false,
 	"hittable": true
-	"killable": false
+	"killable": true
 	"targetable": true
-        "speed": 1,
-        "accel": 1,
+        "speed": 10,
+        "accel": 10,
         "drag": 0.0,
         "flying": true,
         "health": 1000000,
@@ -19,10 +19,8 @@
         "buildSpeed": 9999999999999999999991,
         "mineTier": 9999999999999999992,
         "itemCapacity": 9999999999999999999999,
-        "engineOffset": 0,
         "range": 9999999999999999999999,
         "targetAir": true,
-        "commandLimit": 9999999999999999999999999,
         "immunities": [ "burning", "freezing", "melting", "unmoving", "blooped", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
 	"faceTarget": false,
 	    "weapons": [
@@ -96,15 +94,9 @@
 	   {
 		   "type": "ForceFieldAbility"
 		   "range": 0
-		   "max": 1
-		   "regen": 1
+		   "max": 10,
+		   "regen": 10
 		   "cooldown": 0
-	   },
-	    {
-		   "type": "SpawnDeathAbility"
-		   "amount": 1
-		   "unit": "bloop"
-		    "spread": 1
 	   },
 		   ]
     
