@@ -9,8 +9,8 @@
 	"killable": true
 	"targetable": true
         "speed": 100,
-        "accel": 100,
-        "drag": 0.1,
+        "accel": 99,
+        "drag": 0.0,
         "flying": true,
         "health": 1,
         "hitSize": 0,
@@ -19,7 +19,7 @@
         "buildSpeed": 9999999999999999999991,
         "mineTier": 9999999999999999992,
         "itemCapacity": 9999999999999999999999,
-        "engineOffset": 99999999999999999999999999999999990,
+        "engineOffset": 0,
         "range": 9999999999999999999999,
         "targetAir": true,
         "commandLimit": 9999999999999999999999999,
@@ -97,7 +97,7 @@
 		   "type": "ForceFieldAbility"
 		   "range": 0
 		   "max": 1
-		   "regen": 0
+		   "regen": 1
 		   "cooldown": 0
 	   },
 	    {
