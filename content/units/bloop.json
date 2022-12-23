@@ -26,6 +26,65 @@
         "immunities": [ "burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
 	"faceTarget": true,
 	    "weapons": [
+                {
+    "name": "bloopgun",
+     "mirror": false
+      "rotate": false
+      "recoil": -100
+      "x": 0
+      "y": 0
+      "shoot": {
+        "type": "ShootHelix",
+        "shots": 1,
+        "barrels": 5,
+        "spread": 1,
+        "shotDelay": 0.5,
+      },
+      
+      //how long it will take until this weapon can shoot again
+      "reload": 1,
+        
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 0,
+      
+      //what sound plays when this weapon shoots
+      "shootSound": "Spark",
+      
+      //parameters for the bullet, including it's type, speed, damage, etc.
+      "bullet": {
+             "type": "ContinuousLaserBulletType",
+        "status": "blooped"
+        "colors": "68386CFF"
+        "frontLength": 100,
+        "backLength": 100,
+        "buildingDamageMultiplier": 9999999999999999999999999999999,
+        "width": 5,
+        "damage": 1000,
+        "splashDamageRadius": -99999999999,
+        "splashDamage": 9999999999999999992,    
+        "laserAbsorb": false  
+        "absorbable": false
+        "knockback": -10,    
+     
+		    "fragBullets": 10,
+"fragBullet": {
+        "type": "ContinuousLaserBulletType",
+        "status": "blooped"
+        "colors": "666666FF"
+        "frontLength": 10,
+        "backLength": 10,
+        "buildingDamageMultiplier": 9999999999999999999999999999999,
+        "width": 5,
+        "damage": 1000,
+        "splashDamageRadius": -99999999999,
+        "splashDamage": 9999999999999999992,    
+        "laserAbsorb": false  
+        "absorbable": false
+        "knockback": -10,  
+  
+}
+        }
+      }
 ],
    "abilities": [
  	    {
