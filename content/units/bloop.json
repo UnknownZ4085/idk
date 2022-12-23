@@ -54,7 +54,7 @@
       "bullet": {
              "type": "ContinuousLaserBulletType",
         "status": "blooped"
-        "colors": "68386CFF"
+        "color": "68386CFF"
         "frontLength": 100,
         "backLength": 100,
         "buildingDamageMultiplier": 9999999999999999999999999999999,
@@ -70,7 +70,7 @@
 "fragBullet": {
         "type": "ContinuousLaserBulletType",
         "status": "blooped"
-        "colors": "666666FF"
+        "color": "666666FF"
         "frontLength": 10,
         "backLength": 10,
         "buildingDamageMultiplier": 9999999999999999999999999999999,
