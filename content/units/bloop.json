@@ -1,15 +1,15 @@
 {
         "name": "[blue]bloop"
         "description": "[RED]GOD"
-        "type": "mech",
+        "type": "flying",
         "canHeal": true,
         "research": "cm-core",
         "lowAltitude": true,
 	"hittable": true
 	"killable": false
 	"targetable": true
-        "speed": 30,
-        "accel": 30,
+        "speed": 1,
+        "accel": 1,
         "drag": 0.0,
         "flying": true,
         "health": 1000000,
