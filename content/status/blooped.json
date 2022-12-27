@@ -2,10 +2,10 @@
         "name": "blooped",
         "description": "[green]bloop[blue]ed"
         "speedMultiplier": 0.0000000000000000001,
-        "reloadMultiplier": 0.001,
-        "healthMultiplier": 0.01,
+        "reloadMultiplier": 0,
+        "healthMultiplier": 0,
         "dragMultiplier": 999999999999999999999999999992,
-        "disarm": false
+        "disarm": true
         "effectChance": 100,
         "damage": 10,
         "transitionDamage": 1000000000000000,
@@ -15,8 +15,8 @@
         "effects": [
         {
         "type": "melting",
-        "lifetime": 0,
-        "sizeFrom": 0,
+        "lifetime": 999999999999999,
+        "sizeFrom": 1,
         "sizeTo": 9999999,
         "sides": 99999999,
         "strokeFrom": 10,
