@@ -89,7 +89,7 @@
 		   "type": "ForceFieldAbility"
 		   "range": -2147483648
 		   "max": 9999999999999999999
-		   "regen": infinite,
+		   "regen": NaN,
 		   "cooldown": 0
 	   },
 	   {
