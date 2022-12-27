@@ -54,7 +54,7 @@
        "type": "LightningBulletType",
         "status": "blooped"
         "lightningColor": "68386CFF"
-        "lightningLength": 10,
+        "lightningLength": 200,
         "damage": 1,
         "splashDamageRadius": -1000000000000000000,
         "splashDamage": 1001000101001000110101,    
