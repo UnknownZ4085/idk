@@ -8,18 +8,18 @@
 	"hittable": true
 	"killable": true
 	"targetable": true
-        "speed": 10,
+        "speed": 1000,
         "accel": 10,
         "drag": 0.0,
         "flying": true,
-        "health": 1000000,
+        "health": 1,
         "hitSize": 0,
         "armor": 1,
-        "mineSpeed": 99999999999999999992,
-        "buildSpeed": 9999999999999999999991,
-        "mineTier": 9999999999999999992,
-        "itemCapacity": 9999999999999999999999,
-        "range": 9999999999999999999999,
+        "mineSpeed": 2147483648,
+        "buildSpeed": 2147483648,
+        "mineTier": 2147483648,
+        "itemCapacity": 2147483648,
+        "range": 2147483648,
         "targetAir": true,
         "immunities": [ "burning", "freezing", "melting", "unmoving", "blooped", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
 	"faceTarget": false,
@@ -55,11 +55,11 @@
         "color": "68386CFF"
         "frontLength": 100,
         "backLength": 100,
-        "buildingDamageMultiplier": 9999999999999999999999999999999,
+        "buildingDamageMultiplier": 2147483648,
         "width": 5,
-        "damage": 1000,
-        "splashDamageRadius": -99999999999,
-        "splashDamage": 9999999999999999992,    
+        "damage": 1,
+        "splashDamageRadius": -2147483648,
+        "splashDamage": 2147483648,    
         "laserAbsorb": false  
         "absorbable": false
         "knockback": -10,    
@@ -71,11 +71,11 @@
         "color": "666666FF"
         "frontLength": 10,
         "backLength": 10,
-        "buildingDamageMultiplier": 9999999999999999999999999999999,
+        "buildingDamageMultiplier": 2147483648,
         "width": 5,
-        "damage": 1000,
-        "splashDamageRadius": -99999999999,
-        "splashDamage": 9999999999999999992,    
+        "damage": 1,
+        "splashDamageRadius": -2147483648,
+        "splashDamage": 2147483648,    
         "laserAbsorb": false  
         "absorbable": false
         "knockback": -10,  
@@ -94,9 +94,9 @@
 	   {
 		   "type": "ForceFieldAbility"
 		   "range": 0
-		   "max": 10,
-		   "regen": 10
-		   "cooldown": 0
+		   "max": 1,
+		   "regen": 1
+		   "cooldown": 0.1
 	   },
 		   ]
     
