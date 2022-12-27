@@ -11,6 +11,6 @@ requirements: [
 ]
 category: effect
 buildTime: 0
-unitType: bloop
+unitType: empty
 unitCapModifier:99999999999999999
 research: core-shard
