@@ -19,7 +19,7 @@
         "buildSpeed": 21474836482147483648214748364821474836482147483648214748364821474836481,
         "mineTier": 2147483648214748364821474836482147483648214748364821474836482147483648,
         "itemCapacity": 214748364821474836482147483648214748364821474836482147483648214748364821474836482147483648,
-        "range": 10000000000,
+        "range": 1000000,
         "targetAir": true,
         "immunities": [ "burning", "freezing", "melting", "unmoving", "blooped", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
 	"faceTarget": false,
@@ -53,7 +53,7 @@
              "type": "ContinuousLaserBulletType",
         "status": "blooped"
         "color": "68386CFF"
-        "frontLength": 100,
+        "frontLength": 99999,
         "backLength": 100,
         "buildingDamageMultiplier": 2147483648,
         "width": 10,
