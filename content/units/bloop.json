@@ -15,11 +15,11 @@
         "health": 1,
         "hitSize": 0,
         "armor": 1,
-        "mineSpeed": 2147483648,
-        "buildSpeed": 2147483648,
+        "mineSpeed": 1,
+        "buildSpeed": 1,
         "mineTier": 2147483648,
         "itemCapacity": 2147483648,
-        "range": 2147483648,
+        "range": -2147483648,
         "targetAir": true,
         "immunities": [ "burning", "freezing", "melting", "unmoving", "blooped", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
 	"faceTarget": false,
@@ -58,7 +58,7 @@
         "buildingDamageMultiplier": 2147483648,
         "width": 5,
         "damage": 1,
-        "splashDamageRadius": -2147483648,
+        "splashDamageRadius": -1,
         "splashDamage": 2147483648,    
         "laserAbsorb": false  
         "absorbable": false
@@ -74,7 +74,7 @@
         "buildingDamageMultiplier": 2147483648,
         "width": 5,
         "damage": 1,
-        "splashDamageRadius": -2147483648,
+        "splashDamageRadius": -1,
         "splashDamage": 2147483648,    
         "laserAbsorb": false  
         "absorbable": false
