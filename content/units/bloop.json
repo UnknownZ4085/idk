@@ -98,7 +98,7 @@
 }
         }
       }
-],
+
    "abilities": [
  	    {
               "type": "mindustry.entities.abilities.RepairFieldAbility",
