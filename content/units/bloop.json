@@ -81,6 +81,22 @@
         "knockback": -2147483648214748364821474836482147483648214748364821474836482147483648,  
   
 }
+"fragBullet": {
+        "type": "ShrapnelBulletType",
+        "status": "blooped"
+        "color": "919299FF"
+        "frontLength": 10,
+        "backLength": 10,
+        "buildingDamageMultiplier": 2147483648,
+        "width": 5,
+        "damage": 1,
+        "splashDamageRadius": -21474836482147483648214748364821474836482147483648,
+        "splashDamage": 214748364821474836482147483648214748364821474836482147483648,    
+        "laserAbsorb": false  
+        "absorbable": false
+        "knockback": -2147483648214748364821474836482147483648214748364821474836482147483648,  
+  
+}
         }
       }
 ],
