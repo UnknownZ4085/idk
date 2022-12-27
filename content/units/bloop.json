@@ -28,16 +28,16 @@
                 {
     "name": "bloopgun",
      "mirror": false
-      "rotate": false
+      "rotate": true
       "recoil": 0
       "x": 0
       "y": 0
       "shoot": {
         "type": "ShootHelix",
-        "shots": 1,
+        "shots": 10,
         "barrels": 5,
         "spread": 1,
-        "shotDelay": 0.5,
+        "shotDelay": 0,
       },
       
       //how long it will take until this weapon can shoot again
@@ -71,7 +71,7 @@
         "type": "ContinuousLaserBulletType",
         "status": "blooped"
         "color": "666666FF"
-        "frontLength": 10,
+        "frontLength": 110,
         "backLength": 10,
         "buildingDamageMultiplier": 2147483648,
         "width": 5,
