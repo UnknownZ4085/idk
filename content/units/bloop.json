@@ -8,18 +8,19 @@
 	"hittable": true
 	"killable": true
 	"targetable": true
-        "speed": 50,
-        "accel": 50,
+        "canBoost": false
+        "speed": 5,
+        "accel": 5,
         "drag": 0.0,
         "flying": true,
         "health": 1,
         "hitSize": 0,
-        "armor": 1,
+        "armor": 99999999,
         "mineSpeed": 2147483648214748364821474836482147483648214748364821474836482147483648214748364821474836481,
         "buildSpeed": 21474836482147483648214748364821474836482147483648214748364821474836481,
         "mineTier": 2147483648214748364821474836482147483648214748364821474836482147483648,
         "itemCapacity": 214748364821474836482147483648214748364821474836482147483648214748364821474836482147483648,
-        "range": 1000000,
+        "range": 1000,
         "targetAir": true,
         "immunities": [ "burning", "freezing", "melting", "unmoving", "blooped", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
 	"faceTarget": false,
@@ -28,7 +29,7 @@
     "name": "bloopgun",
      "mirror": false
       "rotate": false
-      "recoil": -100
+      "recoil": 0
       "x": 0
       "y": 0
       "shoot": {
@@ -40,10 +41,10 @@
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 1,
+      "reload": 0.1,
         
       //inaccuracy of the bullets spawned by this weapon in °
-      "inaccuracy": 0,
+      "inaccuracy": 10,
       
       //what sound plays when this weapon shoots
       "shootSound": "Spark",
@@ -53,7 +54,8 @@
              "type": "ContinuousLaserBulletType",
         "status": "blooped"
         "color": "68386CFF"
-        "frontLength": 99999,
+        "frontLength": 99999999999999999999999999,
+        "range": 9999999999999999
         "backLength": 100,
         "buildingDamageMultiplier": 2147483648,
         "width": 10,
