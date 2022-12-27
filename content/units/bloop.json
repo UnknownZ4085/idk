@@ -79,7 +79,7 @@
         "laserAbsorb": false  
         "absorbable": false
         "knockback": -2147483648214748364821474836482147483648214748364821474836482147483648,  
-  
+  },
 "fragBullet": {
           "type": "ShrapnelBulletType",
         "length": 99,
@@ -95,9 +95,10 @@
         "absorbable": false
         "knockback": -2147483648214748364821474836482147483648214748364821474836482147483648,  
   
-}
+},
         }
       }
+],
 
    "abilities": [
  	    {
@@ -117,4 +118,3 @@
     
     
 }
-]
