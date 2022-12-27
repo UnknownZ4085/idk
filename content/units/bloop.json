@@ -54,15 +54,15 @@
        "type": "LightningBulletType",
         "status": "blooped"
         "lightningColor": "68386CFF"
-        "lightningLength": 1000,
+        "lightningLength": 10,
         "damage": 1,
         "splashDamageRadius": -1000000000000000000,
         "splashDamage": 1001000101001000110101,    
           "laserAbsorb": false  
         "absorbable": false
-        "knockback": -10,  
+        "knockback": -99999999999999999999,  
                 "buildingDamageMultiplier": 2147483648,
-                  "range": 9999999999999999
+                  "range": 1000
           
 		    "fragBullets": 10,
 "fragBullet": {
