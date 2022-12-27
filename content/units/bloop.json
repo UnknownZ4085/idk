@@ -86,7 +86,7 @@
         "length": 99,
          "status": "blooped"
         "damage": 0,
-        "shootEffect": "titaniumShoot",
+        "shootEffect": "thoriumShoot",
         "smokeEffect": "thoriumShoot",
         "fromColor": "919200"
         "toColor": "f9a3c7"
