@@ -1,14 +1,14 @@
 {
   name: CM,
   displayName: THINGS MOD,
-  description: Adds a spooder type unit
+  description: Test mod with a ton of bugs
   minGameVersion: 136,
   author: 
     ''' 
     
-    Owner: UnknownZ4085
-    Coder, scripter: Fresh791
+    Owner, Coder: UnknownZ4085
+    Coder: Fresh791
     
     '''
-  version: 0.1
+  version: 0.3
 }
