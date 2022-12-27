@@ -87,89 +87,14 @@
         },
 	   {
 		   "type": "ForceFieldAbility"
-		   "range": 0
+		   "range": -2147483648
 		   "max": 9999999999999999999
-		   "regen": 999999999999999
+		   "regen": inf,
 		   "cooldown": 0
 	   },
 	   {
 		   "type": "UnitSpawnAbility"
-		   "spawnTime": 0.000001
-		   "unit": "empty"
-	   },
-	   {
-		   "type": "UnitSpawnAbility"
-		   "spawnTime": 0.000001
-		   "unit": "empty"
-	   },
-	   {
-		   "type": "UnitSpawnAbility"
-		   "spawnTime": 0.000001
-		   "unit": "empty"
-	   },
-	   {
-		   "type": "UnitSpawnAbility"
-		   "spawnTime": 0.000001
-		   "unit": "empty"
-	   },
-	   {
-		   "type": "UnitSpawnAbility"
-		   "spawnTime": 0.000001
-		   "unit": "empty"
-	   },
-	   {
-		   "type": "UnitSpawnAbility"
-		   "spawnTime": 0.000001
-		   "unit": "empty"
-	   },
-	   {
-		   "type": "UnitSpawnAbility"
-		   "spawnTime": 0.000001
-		   "unit": "empty"
-	   },
-	   {
-		   "type": "UnitSpawnAbility"
-		   "spawnTime": 0.000001
-		   "unit": "empty"
-	   },
-	   {
-		   "type": "UnitSpawnAbility"
-		   "spawnTime": 0.000001
-		   "unit": "empty"
-	   },
-	   {
-		   "type": "UnitSpawnAbility"
-		   "spawnTime": 0.000001
-		   "unit": "empty"
-	   },
-	   {
-		   "type": "UnitSpawnAbility"
-		   "spawnTime": 0.000001
-		   "unit": "empty"
-	   },
-	   {
-		   "type": "UnitSpawnAbility"
-		   "spawnTime": 0.000001
-		   "unit": "empty"
-	   },
-	   {
-		   "type": "UnitSpawnAbility"
-		   "spawnTime": 0.000001
-		   "unit": "empty"
-	   },
-	   {
-		   "type": "UnitSpawnAbility"
-		   "spawnTime": 0.000001
-		   "unit": "empty"
-	   },
-	   {
-		   "type": "UnitSpawnAbility"
-		   "spawnTime": 0.000001
-		   "unit": "empty"
-	   },
-	    {
-		   "type": "UnitSpawnAbility"
-		   "spawnTime": 0.000001
+		   "spawnTime": 1
 		   "unit": "empty"
 	   },
 		   ]
