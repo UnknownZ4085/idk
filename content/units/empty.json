@@ -52,27 +52,29 @@
       
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {
-        "sprite": "e"
-        "type": "LightningBulletType",
-        "status": "cm-brokentime"
-        "lightningColor": "68386CFF"
-        "lightningLength": 1000,
-        "damage": 999999999999999999999,
-        "splashDamageRadius": 5,
-        "splashDamage": 9999999999999999992,    
-        "absorbable": false    
+        "type": "RailBulletType",
+        "damage": 9999999999999999,
+        "length": 999999999999999999999999,
+        "pierceDamageFactor": -100
+        "splashDamageRadius": 350,
+        "splashDamage": 99999,
+        
+        //effects when this bullet hits something or despawns.
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
      
 		    "fragBullets": 10,
 "fragBullet": {
-		     "sprite": "empty"
-        "type": "LightningBulletType",
-        "status": "cm-brokentime"
-        "lightningColor": "68386CFF"
-        "lightningLength": 1000,
-        "damage": 999999999999999999999,
-        "splashDamageRadius": 5,
-        "splashDamage": 9999999999999999992,    
-        "absorbable": false    
+        "type": "RailBulletType",
+        "damage": 9999999999999999,
+        "length": 1000,
+        "pierceDamageFactor": -100
+        "splashDamageRadius": 350,
+        "splashDamage": 99999,
+        
+        //effects when this bullet hits something or despawns.
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
   
 }
         }
