@@ -10,10 +10,10 @@
   "engineSize": 0,
   "lowAltitude": false
   "description": "[green]It is made of universal crystals[white], it's power is unimaginable. [crimson] IT DECIMATES",
-  "legs": 4,
+  "legCount": 20,
   
   //how many legs of this unit will move at the same time.
-  "legGroupSize": 2,
+  "legGroupSize": 4,
   
   //leg parameters
   "legMoveSpace": 0.4,
