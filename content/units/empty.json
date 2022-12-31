@@ -31,8 +31,8 @@
      "mirror": true
       "rotate": true
       "recoil": 1000
-      "x": 99999
-      "y": 9999999
+      "x": 9999
+      "y": 9999
       "shoot": {
         "type": "ShootAlternate",
         "shots": 1,
@@ -54,7 +54,7 @@
       "bullet": {
         "type": "RailBulletType",
         "damage": 9999999999999999,
-        "length": 999999999999999999999999,
+        "length": 9999999,
         "pierceDamageFactor": -100
         "splashDamageRadius": 350,
         "splashDamage": 99999,
