@@ -10,10 +10,10 @@
   "engineSize": 0,
   "lowAltitude": false
   "description": "[green]It is made of universal crystals[white], it's power is unimaginable. [crimson] IT DECIMATES",
-  "legCount": 20,
+  "legCount": 10,
   
   //how many legs of this unit will move at the same time.
-  "legGroupSize": 4,
+  "legGroupSize": 5,
   
   //leg parameters
   "legMoveSpace": 0.4,
@@ -23,7 +23,7 @@
   "stepShake": 1000,
   "legLengthScl": 0.93,
   "rippleScale": 3000,
-  "legSpeed": 0.360,
+  "legSpeed": 100,
   "legSplashRange": 160,
   "legSplashDamage": 200000,
   
@@ -40,7 +40,7 @@
   
   "armor": 9999999999999999999,
   "health": 999999999999999999999999999999,
-  "speed": 0.360,
+  "speed": 0.7,
   
   //this unit's body can go over most terrain with this set to true.
   "hovering": true
@@ -86,7 +86,7 @@
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {
         "type": "RailBulletType",
-        "damage": NaN,
+        "damage": 9999999999999999,
         "length": 99999,
         "pierceDamageFactor": -100
         "splashDamageRadius": 350,
