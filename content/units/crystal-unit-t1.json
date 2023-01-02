@@ -2,7 +2,7 @@
   "type": "legs",
   "localizedName": "Crystal UNIT T1",
   "description": "Materialized from Unknown crystals. this is the weakest crystal structure than can attack",
-  "legs": 6,
+  "legCount": 1,
   
   //how many legs of this unit will move at the same time.
   "legGroupSize": 2,
