@@ -54,7 +54,7 @@
        "type": "BasicBulletType",
         "status": "blooped"
         "color": "68386CFF"
-        "range": 1000,
+        "lifetime": 600,
         "width": 3,
         "height": 10,
         "damage": 1,
