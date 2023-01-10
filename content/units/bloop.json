@@ -34,8 +34,8 @@
       "y": 0
       "shoot": {
         "type": "ShootHelix",
-        "shots": 10,
-        "barrels": 10,
+        "shots": 2,
+        "barrels": 1,
         "spread": 2,
         "shotDelay": 0,
       },
