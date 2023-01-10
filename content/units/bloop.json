@@ -7,14 +7,14 @@
         "lowAltitude": false,
 	"hittable": true
 	"killable": true
-	"targetable": true
+	"targetable": false
         "canBoost": false
         "speed": 5,
         "accel": 5,
         "drag": 0.0,
         "flying": true,
         "health": 100000,
-        "hitSize": 0.00000000000001,
+        "hitSize": 1,
         "armor": 99999999,
         "mineSpeed": 2147483648214748364821474836482147483648214748364821474836482147483648214748364821474836481,
         "buildSpeed": 21474836482147483648214748364821474836482147483648214748364821474836481,
@@ -35,8 +35,8 @@
       "shoot": {
         "type": "ShootHelix",
         "shots": 10,
-        "barrels": 5,
-        "spread": 1,
+        "barrels": 10,
+        "spread": 2,
         "shotDelay": 0,
       },
       
@@ -44,7 +44,7 @@
       "reload": 0.1,
         
       //inaccuracy of the bullets spawned by this weapon in °
-      "inaccuracy": 10,
+      "inaccuracy": 0,
       
       //what sound plays when this weapon shoots
       "shootSound": "Spark",
@@ -54,18 +54,19 @@
        "type": "BasicBulletType",
         "status": "blooped"
         "color": "68386CFF"
-        "width": 1,
-        "height": 1,
+        "range": 1000,
+        "width": 3,
+        "height": 10,
         "damage": 1,
-        "splashDamageRadius": -1000000000000000000,
-        "splashDamage": 1001000101001000110101,    
+        "splashDamageRadius": 100,
+        "splashDamage": 1,    
           "laserAbsorb": false  
         "absorbable": false
         "knockback": -99999999999999999999,  
                 "buildingDamageMultiplier": 2147483648,
                   "range": 1000
           
-		    "fragBullets": 10,
+		    "fragBullets": 1,
 "fragBullet": {
         "type": "ContinuousLaserBulletType",
         "status": "blooped"
