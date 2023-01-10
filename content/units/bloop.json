@@ -1,26 +1,26 @@
 {
         "name": "[blue]bloop"
-        "description": "[RED]GOD"
+        "description": "[RED]ANNIHILATOR"
         "type": "flying",
         "canHeal": true,
         "research": "cm-core",
         "lowAltitude": false,
-	"hittable": true
-	"killable": true
+	"hittable": false
+	"killable": false
 	"targetable": false
         "canBoost": false
-        "speed": 5,
-        "accel": 5,
+        "speed": 10,
+        "accel": 15,
         "drag": 0.0,
         "flying": true,
-        "health": 100000,
-        "hitSize": 1,
-        "armor": 99999999,
+        "health": 99999999999999,
+        "hitSize": 8,
+        "armor": 99999999999999999999,
         "mineSpeed": 2147483648214748364821474836482147483648214748364821474836482147483648214748364821474836481,
         "buildSpeed": 21474836482147483648214748364821474836482147483648214748364821474836481,
         "mineTier": 2147483648214748364821474836482147483648214748364821474836482147483648,
         "itemCapacity": 214748364821474836482147483648214748364821474836482147483648214748364821474836482147483648,
-        "range": 1000,
+        "range": 10000,
         "targetAir": true,
         "immunities": [ "burning", "freezing", "melting", "unmoving", "blooped", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
 	"faceTarget": false,
@@ -41,7 +41,7 @@
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 1,
+      "reload": 0.1,
         
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 0,
@@ -55,7 +55,7 @@
         "status": "blooped"
         "color": "68386CFF"
         "lifetime": 60,
-        "speed": 666
+        "speed": 666666
         "width": 2,
         "height": 666,
         "damage": 0,
@@ -81,7 +81,7 @@
         "splashDamage": 100,    
         "laserAbsorb": false  
         "absorbable": false
-        "knockback": -100,  
+        "knockback": -999,  
   },
         }
       },
@@ -141,7 +141,7 @@
         "splashDamage": 100,    
         "laserAbsorb": false  
         "absorbable": false
-        "knockback": -100,  
+        "knockback": -999,  
   },
         }
       }
