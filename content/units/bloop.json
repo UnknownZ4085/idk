@@ -41,7 +41,7 @@
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 0.1,
+      "reload": 1,
         
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 0,
@@ -54,10 +54,10 @@
        "type": "BasicBulletType",
         "status": "blooped"
         "color": "68386CFF"
-        "lifetime": 600,
-        "speed": 10
-        "width": 3,
-        "height": 10,
+        "lifetime": 120,
+        "speed": 20
+        "width": 6,
+        "height": 20,
         "damage": 1,
         "splashDamageRadius": 100,
         "splashDamage": 1,    
