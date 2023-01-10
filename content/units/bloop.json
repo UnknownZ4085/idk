@@ -29,12 +29,72 @@
     "name": "bloopgun",
      "mirror": true
       "rotate": true
-      "recoil": 0
+      "recoil": 1
       "x": 100
-      "y": 0
+      "y": 100
       "shoot": {
         "type": "ShootHelix",
-        "shots": 1,
+        "shots": 2,
+        "barrels": 4,
+        "spread": 10,
+        "shotDelay": 0,
+      },
+      
+      //how long it will take until this weapon can shoot again
+      "reload": 1,
+        
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 0,
+      
+      //what sound plays when this weapon shoots
+      "shootSound": "Spark",
+      
+      //parameters for the bullet, including it's type, speed, damage, etc.
+      "bullet": {   
+       "type": "BasicBulletType",
+        "status": "blooped"
+        "color": "68386CFF"
+        "lifetime": 60,
+        "speed": 666
+        "width": 2,
+        "height": 666,
+        "damage": 0,
+        "splashDamageRadius": 20,
+        "splashDamage": 1,    
+          "laserAbsorb": false  
+        "absorbable": false
+        "knockback": -666,  
+                "buildingDamageMultiplier": 2147483648,
+                  "range": 1000
+          
+		    "fragBullets": 3,
+"fragBullet": {
+        "type": "ContinuousLaserBulletType",
+        "status": "blooped"
+        "color": "66666666"
+        "frontLength": 110,
+        "backLength": 10,
+        "buildingDamageMultiplier": 100000,
+        "width": 10,
+        "damage": 666,
+        "splashDamageRadius": 2,
+        "splashDamage": 100,    
+        "laserAbsorb": false  
+        "absorbable": false
+        "knockback": -100,  
+  },
+        }
+      },
+           {
+    "name": "bloopgun",
+     "mirror": true
+      "rotate": true
+      "recoil": 1
+      "x": 100
+      "y": -100
+      "shoot": {
+        "type": "ShootHelix",
+        "shots": 2,
         "barrels": 4,
         "spread": 10,
         "shotDelay": 0,
