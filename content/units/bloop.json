@@ -70,9 +70,9 @@
 "fragBullet": {
         "type": "ContinuousLaserBulletType",
         "status": "blooped"
-        "color": "666666FF"
+        "color": "66666666"
         "frontLength": 110,
-        "backLength": 10,
+        "backLength": 120,
         "buildingDamageMultiplier": 2147483648,
         "width": 5,
         "damage": 1,
@@ -82,22 +82,6 @@
         "absorbable": false
         "knockback": -2147483648214748364821474836482147483648214748364821474836482147483648,  
   },
-"fragBullet": {
-          "type": "ShrapnelBulletType",
-        "length": 99,
-         "status": "blooped"
-        "damage": 0,
-        "shootEffect": "thoriumShoot",
-        "smokeEffect": "thoriumShoot",
-        "fromColor": "919200"
-        "toColor": "f9a3c7"
-          "splashDamageRadius": -21474836482147483648214748364821474836482147483648,
-        "splashDamage": 214748364821474836482147483648214748364821474836482147483648,   
-        "laserAbsorb": false  
-        "absorbable": false
-        "knockback": -2147483648214748364821474836482147483648214748364821474836482147483648,  
-  
-},
         }
       }
 ],
