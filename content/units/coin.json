@@ -52,7 +52,7 @@
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {   
        "type": "BasicBulletType",
-        "sprite": "coin5"
+        "sprite": "coin"
         "status": "coin5"
         "color": "68386CFF"
         "lifetime": 60,
@@ -71,7 +71,7 @@
 		    "fragBullets": 6,
 "fragBullet": {
         "type": "BasicBulletType",
-        "sprite": "coin4"
+        "sprite": "coin"
         "status": "coin4"
         "color": "66666666"
         "buildingDamageMultiplier": 15,
