@@ -9,7 +9,7 @@
         "effectChance": 100,
         "damage": 0.025,
         "transitionDamage": 10,
-        "affinities": [ "Coin1 ],
+        "affinities": [ "Coin1" ],
         "effect": {
         "type": "status",
        "research": "C.O.I.N."
