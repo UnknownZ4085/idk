@@ -86,6 +86,67 @@
 		    },
 },
 },
+  "name": "coingun",
+     "mirror": true
+      "rotate": false
+      "recoil": 0
+      "x": 6
+      "y": 4
+      "shoot": {
+        "type": "ShootHelix",
+        "shots": 1,
+        "barrels": 1,
+        "spread": 0,
+        "shotDelay": 0,
+      },
+      
+      //how long it will take until this weapon can shoot again
+      "reload": 1
+        
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 0,
+      
+      //what sound plays when this weapon shoots
+      "shootSound": "Spark",
+      
+      //parameters for the bullet, including it's type, speed, damage, etc.
+      "bullet": {   
+       "type": "SapBulletType",
+        "sprite": "cm-coin"
+        "status": "coin3"
+        "color": "68386CFF"
+        "lifetime": 60,
+        "speed": 5
+	"width": 4
+	"sapStrength": 1111
+        "length": 50,
+        "damage": 200,
+        "splashDamageRadius": 1,
+        "splashDamage": 100,    
+          "laserAbsorb": true  
+        "absorbable": false
+        "knockback": -1,  
+                "buildingDamageMultiplier": 15,
+                  "range": 200
+          
+		    "fragBullets": 6,
+"fragBullet": {
+        "type": "BasicBulletType",
+        "sprite": "cm-coin"
+        "status": "coin2"
+        "color": "66666666"
+        "buildingDamageMultiplier": 15,
+        "width": 7,
+        "height": 7
+        "damage": 100,
+        "splashDamageRadius": 2,
+        "splashDamage": 100,    
+        "laserAbsorb": false  
+        "absorbable": false
+        "knockback": -1,  
+		    },
+},
+},
 ],
 
    "abilities": [
