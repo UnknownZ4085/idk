@@ -88,11 +88,12 @@
 },
 {
   "name": "coingun",
+	"sprite": "cm-coin"
      "mirror": true
       "rotate": false
       "recoil": 0
-      "x": 6
-      "y": 4
+      "x": 20
+      "y": 0
       "shoot": {
         "type": "ShootHelix",
         "shots": 1,
