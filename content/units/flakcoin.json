@@ -1,1 +1,21 @@
-
+{
+  "type": "legs",
+  "localizedName": "flakcoin",
+  "description": "COIN GO BOOM",
+  "legCount": 0,
+  
+  //how many legs of this unit will move at the same time.
+  "legGroupSize": 0,
+  
+  //leg parameters
+  "legMoveSpace": 0,
+  "legLength": 0,
+  "legExtenstion": 0,
+  "legBaseOffset": 0,
+  "stepShake": 0,
+  "legLengthScl": 0,
+  "rippleScale": 0,
+  "legSpeed": 0,
+  "legSplashRange": 0,
+  "legSplashDamage": 0,
+}
