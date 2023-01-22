@@ -38,7 +38,7 @@
         "killShooter": true,
       "length": 10
       "width": 1
-      "damage" 1000
+      "damage": 1000
         "instantDisappear": true,
         "hittable": false,
         "collidesAir": true,
@@ -48,4 +48,3 @@
         "collidesTiles": false
       }
     }
-}
