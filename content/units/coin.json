@@ -201,17 +201,11 @@
 "fragBullet": {
         "type": "BasicBulletType",
         "sprite": "cm-coin"
-        "status": "coin1"
-        "color": "FFFFA3B1"
-        "buildingDamageMultiplier": 15,
-        "width": 7,
-        "height": 7
-        "damage": 100,
-        "splashDamageRadius": 2,
-        "splashDamage": 100,    
-        "laserAbsorb": false  
-        "absorbable": false
-        "knockback": -1,  
+       "lifetime": 30
+       "speed": 1,
+       "lifetime": 120
+       "damage": ,
+       "spawnUnit": "flakcoin"
 		    },
 },
 },
