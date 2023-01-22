@@ -27,8 +27,8 @@
 	    "weapons": [
                 {
     "name": "coingun",
-     "mirror": true
-      "rotate": true
+     "mirror": false
+      "rotate": false
       "recoil": 0
       "x": 2
       "y": 8
@@ -41,10 +41,10 @@
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 1.1,
+      "reload": 0.5
         
       //inaccuracy of the bullets spawned by this weapon in °
-      "inaccuracy": 100,
+      "inaccuracy": 0.36,
       
       //what sound plays when this weapon shoots
       "shootSound": "Spark",
@@ -52,7 +52,7 @@
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {   
        "type": "BasicBulletType",
-        "sprite": "coin"
+        "sprite": "cm-coin"
         "status": "coin5"
         "color": "68386CFF"
         "lifetime": 60,
@@ -71,7 +71,7 @@
 		    "fragBullets": 6,
 "fragBullet": {
         "type": "BasicBulletType",
-        "sprite": "coin"
+        "sprite": "cm-coin"
         "status": "coin4"
         "color": "66666666"
         "buildingDamageMultiplier": 15,
