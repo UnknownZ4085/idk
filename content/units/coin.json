@@ -161,9 +161,9 @@
       "shoot": {
         "type": "ShootHelix",
         "shots": 3,
-        "barrels": 3,
+        "barrels": 1,
         "spread": 3,
-        "shotDelay": 1,
+        "shotDelay": 0,
       },
       
       //how long it will take until this weapon can shoot again
@@ -197,7 +197,7 @@
                 "buildingDamageMultiplier": 15,
                   "range": 400
           
-		    "fragBullets": 6,
+		    "fragBullets": 1,
 "fragBullet": {
         "type": "BasicBulletType",
         "sprite": "cm-coin"
