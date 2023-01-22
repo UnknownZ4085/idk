@@ -20,7 +20,7 @@
         "buildSpeed": 0,
         "mineTier": 0,
         "itemCapacity": 1000,
-        "range": 10000,
+        "range": 200,
         "targetAir": true,
         "immunities": [ "burning", "freezing", "melting", "unmoving", "blooped", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
 	"faceTarget": true,
@@ -34,17 +34,17 @@
       "y": 8
       "shoot": {
         "type": "ShootSine",
-        "shots": 2,
+        "shots": 1,
         "barrels": 1,
-        "spread": 2,
+        "spread": 0,
         "shotDelay": 0,
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 0.5
+      "reload": 2
         
       //inaccuracy of the bullets spawned by this weapon in °
-      "inaccuracy": 0.36,
+      "inaccuracy": 0,
       
       //what sound plays when this weapon shoots
       "shootSound": "Spark",
@@ -64,9 +64,9 @@
         "splashDamage": 100,    
           "laserAbsorb": false  
         "absorbable": false
-        "knockback": -100,  
+        "knockback": 1,  
                 "buildingDamageMultiplier": 15,
-                  "range": 1000
+                  "range": 200
           
 		    "fragBullets": 6,
 "fragBullet": {
@@ -82,7 +82,7 @@
         "splashDamage": 100,    
         "laserAbsorb": false  
         "absorbable": false
-        "knockback": -100,  
+        "knockback": -1,  
 		    },
 },
 },
@@ -92,9 +92,9 @@
            {
 		   "type": "ForceFieldAbility"
 		   "range": 1
-		   "max": 25000
-		   "regen": 2500
-		   "cooldown": 60
+		   "max": 111111
+		   "regen": 1111
+		   "cooldown": 11
 	   },
         
 		   ]
