@@ -34,6 +34,7 @@
       "y": 8
       "shoot": {
         "type": "ShootSine",
+			"mag": 5
         "shots": 1,
         "barrels": 1,
         "spread": 0,
@@ -54,7 +55,7 @@
        "type": "BasicBulletType",
         "sprite": "cm-coin"
         "status": "coin5"
-        "color": "68386CFF"
+        "color": "FFFFA3B1"
         "lifetime": 60,
         "speed": 5
         "width": 14,
@@ -73,7 +74,7 @@
         "type": "BasicBulletType",
         "sprite": "cm-coin"
         "status": "coin4"
-        "color": "66666666"
+        "color": "FFFFA3B1"
         "buildingDamageMultiplier": 15,
         "width": 7,
         "height": 7
@@ -117,9 +118,9 @@
         "sprite": "cm-coin"
         "status": "coin3"
         "color": "FFFFA3B1"
-        "lifetime": 60,
-        "speed": 5
-	"width": 4
+        "lifetime": 30,
+        "speed": 10
+	"width": 1
 	"sapStrength": 1111
         "length": 50,
         "damage": 200,
@@ -136,7 +137,7 @@
         "type": "BasicBulletType",
         "sprite": "cm-coin"
         "status": "coin2"
-        "color": "66666666"
+        "color": "FFFFA3B1"
         "buildingDamageMultiplier": 15,
         "width": 7,
         "height": 7
