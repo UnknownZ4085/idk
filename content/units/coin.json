@@ -83,7 +83,7 @@
         "laserAbsorb": false  
         "absorbable": true
         "knockback": -100,  
-
+		    },
 "fragBullets": 6,
 "fragBullet": {
         "type": "BasicBulletType",
@@ -99,7 +99,7 @@
         "laserAbsorb": false  
         "absorbable": true
         "knockback": -100,  
-        
+},
         "fragBullets": 6,
 "fragBullet": {
         "type": "BasicBulletType",
@@ -115,7 +115,7 @@
         "laserAbsorb": false  
         "absorbable": true
         "knockback": -100,  
-        
+},    
           "fragBullets": 6,
 "fragBullet": {
         "type": "BasicBulletType",
@@ -132,7 +132,8 @@
         "absorbable": true
         "knockback": -100,  
   },
-  },
+},
+},
 ],
 
    "abilities": [
