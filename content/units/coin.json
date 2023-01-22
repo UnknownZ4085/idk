@@ -57,8 +57,8 @@
         "color": "68386CFF"
         "lifetime": 60,
         "speed": 5
-        "width": 7,
-        "height": 7,
+        "width": 14,
+        "height": 14,
         "damage": 200,
         "splashDamageRadius": 1,
         "splashDamage": 100,    
@@ -75,64 +75,15 @@
         "status": "coin4"
         "color": "66666666"
         "buildingDamageMultiplier": 15,
-        "width": 2,
-        "height": 2
+        "width": 7,
+        "height": 7
         "damage": 100,
         "splashDamageRadius": 2,
         "splashDamage": 100,    
         "laserAbsorb": false  
-        "absorbable": true
+        "absorbable": false
         "knockback": -100,  
 		    },
-"fragBullets": 6,
-"fragBullet": {
-        "type": "BasicBulletType",
-        "sprite": "coin3"
-        "status": "coin3"
-        "color": "66666666"
-        "buildingDamageMultiplier": 15,
-        "width": 3,
-        "height": 3
-        "damage": 20,
-        "splashDamageRadius": 2,
-        "splashDamage": 100,    
-        "laserAbsorb": false  
-        "absorbable": true
-        "knockback": -100,  
-},
-        "fragBullets": 6,
-"fragBullet": {
-        "type": "BasicBulletType",
-        "sprite": "coin2"
-        "status": "coin2"
-        "color": "66666666"
-        "buildingDamageMultiplier": 15,
-        "width": 2.5,
-        "height": 2.5
-        "damage": 10,
-        "splashDamageRadius": 2,
-        "splashDamage": 100,    
-        "laserAbsorb": false  
-        "absorbable": true
-        "knockback": -100,  
-},    
-          "fragBullets": 6,
-"fragBullet": {
-        "type": "BasicBulletType",
-        "sprite": "coin1"
-        "status": "coin1"
-        "color": "66666666"
-        "buildingDamageMultiplier": 100,
-        "width": 1,
-        "height": 1
-        "damage": 1,
-        "splashDamageRadius": 2,
-        "splashDamage": 100,    
-        "laserAbsorb": false  
-        "absorbable": true
-        "knockback": -100,  
-  },
-},
 },
 ],
 
