@@ -27,16 +27,16 @@
 	    "weapons": [
                 {
     "name": "coingun",
-     "mirror": false
+     "mirror": true
       "rotate": false
       "recoil": 0
-      "x": 0
-      "y": 10
+      "x": 2
+      "y": 8
       "shoot": {
         "type": "ShootSine",
-        "shots": 3,
+        "shots": 2,
         "barrels": 1,
-        "spread": 3,
+        "spread": 2,
         "shotDelay": 0,
       },
       
