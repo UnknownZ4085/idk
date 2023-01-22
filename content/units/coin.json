@@ -157,17 +157,17 @@
       "rotate": false
       "recoil": 0
       "x": 10
-      "y": 10
+      "y": 0
       "shoot": {
         "type": "ShootHelix",
         "shots": 3,
-        "barrels": 1,
+        "barrels": 3,
         "spread": 3,
         "shotDelay": 0,
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 10
+      "reload": 1.5
         
  
         
@@ -181,9 +181,9 @@
       "bullet": {   
        "type": "FlakBulletType",
         "sprite": "cm-coin"
-        "status": "coin2"
+        "status": "coin1"
         "color": "FFFFA3B1"
-        "lifetime": 300,
+        "lifetime": 180,
 	"explodeRange": 4
         "speed": 3
         "width": 10,
@@ -197,16 +197,6 @@
                 "buildingDamageMultiplier": 15,
                   "range": 400
           
-		    "fragBullets": 1,
-"fragBullet": {
-        "type": "BasicBulletType",
-        "sprite": "cm-coin"
-       "lifetime": 30
-       "speed": 1,
-       "lifetime": 120
-       "damage": 10,
-       "spawnUnit": "flakcoin"
-		    },
 },
 },
 ],
