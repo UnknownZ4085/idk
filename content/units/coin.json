@@ -204,7 +204,7 @@
        "lifetime": 30
        "speed": 1,
        "lifetime": 120
-       "damage": ,
+       "damage": 10,
        "spawnUnit": "flakcoin"
 		    },
 },
