@@ -28,7 +28,7 @@
                 {
     "name": "coingun",
      "mirror": true
-      "rotate": false
+      "rotate": true
       "recoil": 0
       "x": 2
       "y": 8
@@ -44,7 +44,7 @@
       "reload": 1.1,
         
       //inaccuracy of the bullets spawned by this weapon in °
-      "inaccuracy": 0,
+      "inaccuracy": 100,
       
       //what sound plays when this weapon shoots
       "shootSound": "Spark",
