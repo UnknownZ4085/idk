@@ -116,7 +116,7 @@
        "type": "SapBulletType",
         "sprite": "cm-coin"
         "status": "coin3"
-        "color": "68386CFF"
+        "color": "FFFFA3B1"
         "lifetime": 60,
         "speed": 5
 	"width": 4
