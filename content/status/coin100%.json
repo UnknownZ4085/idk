@@ -1,1 +1,16 @@
-
+{
+        "name": "Coin1",
+        "description": "[yellow]coin"
+        "speedMultiplier": 1,
+        "reloadMultiplier": 1,
+        "healthMultiplier": 1,
+        "dragMultiplier": 1,
+        "disarm": false
+        "effectChance": 100,
+        "damage": 0.025,
+        "transitionDamage": 10,
+        "affinities": [ "Coin1 ],
+        "effect": {
+        "type": "status",
+       "research": "C.O.I.N."
+}
