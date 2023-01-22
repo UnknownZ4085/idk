@@ -31,7 +31,7 @@
       "rotate": false
       "recoil": 0
       "x": 0
-      "y": 100
+      "y": 10
       "shoot": {
         "type": "ShootSine",
         "shots": 1,
@@ -52,7 +52,7 @@
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {   
        "type": "BasicBulletType",
-        "sprite": "coin"
+        "sprite": "coin5"
         "status": "coin5"
         "color": "68386CFF"
         "lifetime": 60,
@@ -71,7 +71,7 @@
 		    "fragBullets": 6,
 "fragBullet": {
         "type": "BasicBulletType",
-        "sprite": "coin"
+        "sprite": "coin4"
         "status": "coin4"
         "color": "66666666"
         "buildingDamageMultiplier": 15,
@@ -87,7 +87,7 @@
 "fragBullets": 6,
 "fragBullet": {
         "type": "BasicBulletType",
-        "sprite": "coin"
+        "sprite": "coin3"
         "status": "coin3"
         "color": "66666666"
         "buildingDamageMultiplier": 15,
@@ -103,7 +103,7 @@
         "fragBullets": 6,
 "fragBullet": {
         "type": "BasicBulletType",
-        "sprite": "coin"
+        "sprite": "coin2"
         "status": "coin2"
         "color": "66666666"
         "buildingDamageMultiplier": 15,
@@ -119,7 +119,7 @@
           "fragBullets": 6,
 "fragBullet": {
         "type": "BasicBulletType",
-        "sprite": "coin"
+        "sprite": "coin1"
         "status": "coin1"
         "color": "66666666"
         "buildingDamageMultiplier": 100,
