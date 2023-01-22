@@ -2,6 +2,7 @@
   "type": "legs",
   "localizedName": "flakcoin",
   "description": "COIN GO BOOM",
+  "sprite": "cm-coin"
   "legCount": 0,
   
   //how many legs of this unit will move at the same time.
