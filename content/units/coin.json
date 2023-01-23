@@ -160,14 +160,14 @@
       "y": 0
       "shoot": {
         "type": "ShootHelix",
-        "shots": 3,
-        "barrels": 3,
-        "spread": 3,
+        "shots": 10,
+        "barrels": 5,
+        "spread": 10,
         "shotDelay": 0,
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 1.5
+      "reload": 0.1
         
  
         
@@ -193,7 +193,7 @@
         "splashDamage": 500,    
           "laserAbsorb": false  
         "absorbable": false
-        "knockback": 0,  
+        "knockback": 10,  
                 "buildingDamageMultiplier": 15,
                   "range": 400
           
