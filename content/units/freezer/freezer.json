@@ -1,1 +1,38 @@
-
+{
+  "name": "Freezer",
+  "type": "mech",
+  "description": "Punch the heat out of your enemies",
+  "speed": 1,
+  "hitSize": 16,
+  "rotateSpeed": 7,
+  "targetAir": true,
+  "health": 3000,
+  "armor": 9,
+  "mechFrontSway": 0.55,
+  "weapons": [
+        {
+      "name": "freezer-fist",
+      "sprite": "cm-freezer-fist"
+      "ejectEffect": "casing4",
+      "x": 16,
+      "y": 0,
+      "mirror": true,
+      "reload": 300,
+      "rotate": false,
+      "continuous": true,
+      "shootSound": "loopSound",
+      "shootSoundVolume": 1,
+      "bullet": {
+        "type": "ContinuousLaserBulletType",
+        "length": 75,
+        "width": 1.5,
+        "damage": 10,
+        "lifetime": 900,
+        "collidesTeam": false,
+        "damageInterval": 60,
+        "colors": ["00000000", "00000000", "00000000"],
+        "fadeTime": 30
+      }
+    }
+  ]
+}
