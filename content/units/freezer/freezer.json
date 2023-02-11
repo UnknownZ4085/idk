@@ -32,7 +32,7 @@
         "damageInterval": 60,
         "colors": ["0000ffff", "0000ffff", "0000ffff"],
         "fadeTime": 1
-        
+        "fragRandomSpread": 0
             "fragBullets": 1,
 "fragBullet": {
         "type": "ShrapnelBulletType",
@@ -64,7 +64,7 @@
         "damageInterval": 60,
         "colors": ["0000ffff", "0000ffff", "0000ffff"],
         "fadeTime": 1
-        
+          "fragRandomSpread": 0
          "fragBullets": 1,
 "fragBullet": {
         "type": "ShrapnelBulletType",
