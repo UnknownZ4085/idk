@@ -16,7 +16,7 @@
       "x": 16,
       "y": 0,
       "mirror": true,
-      "reload": 60,
+      "reload": 30,
       "rotate": false,
       "continuous": true,
       "shootSound": "loopSound",
@@ -27,18 +27,18 @@
         "length": 5,
         "width": 5,
         "damage": 300,
-        "lifetime": 60,
+        "lifetime": 30,
         "collidesTeam": true,
         "damageInterval": 60,
         "colors": ["00000000", "00000000", "00000000"],
-        "fadeTime": 200
+        "fadeTime": 1
         
             "fragBullets": 1,
 "fragBullet": {
         "type": "ShrapnelBulletType",
            "length": 50,
         "damage": 500,
-        "toColor": "00ff00ff"
+        "toColor": "0000ffff"
 		    },
       }
     }
@@ -48,7 +48,7 @@
       "x": 20,
       "y": 0,
       "mirror": true,
-      "reload": 60,
+      "reload": 30,
       "rotate": false,
       "continuous": true,
       "shootSound": "loopSound",
@@ -59,18 +59,18 @@
         "length": 5,
         "width": 5,
         "damage": 300,
-        "lifetime": 60,
+        "lifetime": 30,
         "collidesTeam": true,
         "damageInterval": 60,
         "colors": ["00000000", "00000000", "00000000"],
-        "fadeTime": 200
+        "fadeTime": 1
         
          "fragBullets": 1,
 "fragBullet": {
         "type": "ShrapnelBulletType",
            "length": 50,
         "damage": 500,
-        "toColor": "00ff00ff"
+        "toColor": "0000ffff"
       }
     }
   }
