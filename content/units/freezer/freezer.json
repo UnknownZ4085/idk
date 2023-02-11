@@ -30,7 +30,7 @@
         "lifetime": 30,
         "collidesTeam": true,
         "damageInterval": 60,
-        "colors": ["0000ffff", "0000ffff", "0000ffff"],
+        "colors": ["6F80E8FF", "6F80E8FF", "88A4FFFF"],
         "fadeTime": 1
         "fragRandomSpread": 0
             "fragBullets": 1,
@@ -38,7 +38,7 @@
         "type": "ShrapnelBulletType",
            "length": 50,
         "damage": 500,
-        "toColor": "0000ffff"
+        "toColor": "6F80E8FF"
 		    },
       }
     }
@@ -62,7 +62,7 @@
         "lifetime": 30,
         "collidesTeam": true,
         "damageInterval": 60,
-        "colors": ["0000ffff", "0000ffff", "0000ffff"],
+        "colors": ["6F80E8FF", "6F80E8FF", "88A4FFFF"],
         "fadeTime": 1
           "fragRandomSpread": 0
          "fragBullets": 1,
@@ -70,7 +70,7 @@
         "type": "ShrapnelBulletType",
            "length": 50,
         "damage": 500,
-        "toColor": "0000ffff"
+        "toColor": "6F80E8FF"
       }
     }
   }
