@@ -13,11 +13,10 @@
         {
       "name": "freezer-fist",
       "sprite": "cm-freezer-fist"
-      "ejectEffect": "casing4",
       "x": 16,
       "y": 0,
       "mirror": true,
-      "reload": 250,
+      "reload": 200,
       "rotate": false,
       "continuous": true,
       "shootSound": "loopSound",
@@ -25,14 +24,14 @@
       "recoil": -3,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "length": 1,
-        "width": 1,
+        "length": 5,
+        "width": 5,
         "damage": 300,
         "lifetime": 900,
-        "collidesTeam": false,
+        "collidesTeam": true,
         "damageInterval": 60,
         "colors": ["00000000", "00000000", "00000000"],
-        "fadeTime": 30
+        "fadeTime": 200
       }
     }
   ]
