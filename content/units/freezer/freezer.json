@@ -28,7 +28,7 @@
         "width": 2,
         "damage": 300,
         "lifetime": 1,
-        "collidesTeam": true,
+        "collidesTeam": false,
         "damageInterval": 60,
         "colors": ["6F80E8FF", "6F80E8FF", "88A4FFFF"],
         "fadeTime": 1
@@ -60,7 +60,7 @@
         "width": 2,
         "damage": 300,
         "lifetime": 1,
-        "collidesTeam": true,
+        "collidesTeam": false,
         "damageInterval": 60,
         "colors": ["6F80E8FF", "6F80E8FF", "88A4FFFF"],
         "fadeTime": 1
