@@ -38,8 +38,6 @@
         "type": "ShrapnelBulletType",
            "length": 50,
         "damage": 500,
-        "shootEffect": "titaniumShoot",
-        "smokeEffect": "titaniumShoot",
         "toColor": "00ff00ff"
 		    },
       }
@@ -72,8 +70,6 @@
         "type": "ShrapnelBulletType",
            "length": 50,
         "damage": 500,
-        "shootEffect": "titaniumShoot",
-        "smokeEffect": "titaniumShoot",
         "toColor": "00ff00ff"
       }
     }
