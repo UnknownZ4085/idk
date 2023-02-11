@@ -30,7 +30,7 @@
         "lifetime": 30,
         "collidesTeam": true,
         "damageInterval": 60,
-        "colors": ["00000000", "00000000", "00000000"],
+        "colors": ["0000ffff", "0000ffff", "0000ffff"],
         "fadeTime": 1
         
             "fragBullets": 1,
@@ -62,7 +62,7 @@
         "lifetime": 30,
         "collidesTeam": true,
         "damageInterval": 60,
-        "colors": ["00000000", "00000000", "00000000"],
+        "colors": ["0000ffff", "0000ffff", "0000ffff"],
         "fadeTime": 1
         
          "fragBullets": 1,
