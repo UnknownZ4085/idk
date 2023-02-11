@@ -33,20 +33,14 @@
         "colors": ["00000000", "00000000", "00000000"],
         "fadeTime": 200
         
-            "fragBullets": 6,
+            "fragBullets": 1,
 "fragBullet": {
         "type": "ShrapnelBulletType",
-        "status": "coin4"
-        "color": "FFFFA3B1"
-        "buildingDamageMultiplier": 15,
-        "width": 7,
-        "height": 7
-        "damage": 100,
-        "splashDamageRadius": 2,
-        "splashDamage": 100,    
-        "laserAbsorb": false  
-        "absorbable": false
-        "knockback": -1,  
+           "length": 50,
+        "damage": 500,
+        "shootEffect": "titaniumShoot",
+        "smokeEffect": "titaniumShoot",
+        "toColor": "00ff00ff"
 		    },
       }
     }
@@ -72,6 +66,15 @@
         "damageInterval": 60,
         "colors": ["00000000", "00000000", "00000000"],
         "fadeTime": 200
+        
+         "fragBullets": 1,
+"fragBullet": {
+        "type": "ShrapnelBulletType",
+           "length": 50,
+        "damage": 500,
+        "shootEffect": "titaniumShoot",
+        "smokeEffect": "titaniumShoot",
+        "toColor": "00ff00ff"
       }
     }
   ]
