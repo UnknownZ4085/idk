@@ -2,7 +2,7 @@
 "name": "SLAG 100% POWER"
 "temperature": 10000000000,
 "flammability": 1000000000000,
-"viscosity": -1,
+"viscosity": -100,
 "lightColor": "E2F500FF",
 "heatCapacity": 0,
 "explosiveness": 100000000000,
