@@ -1,12 +1,12 @@
 localizedName: rats
 mesh: {
     type: SunMesh
-    divisions: 100
+    divisions: 4
     octaves: 5
     persistence: 1
     scl: 10
-    pow: 10
-    mag: 10
+    pow: 1
+    mag: 1
     colorScale: 1
     colors: [
         ff0080
