@@ -7,11 +7,11 @@ hasPower: true
 canOverdrive: true
 phaseRadiusBoost: 50
 radius: 300
-shieldHealth: 99999999999999999
-phaseShieldBoost: 999999999999999999999999
-cooldownNormal: -9999999999999999999
-cooldownLiquid: -9999999999999999999
-cooldownBrokenBase: -999999999999999999999
+shieldHealth: 999999999
+phaseShieldBoost: 99999999999
+cooldownNormal: 0.1
+cooldownLiquid: 0.1
+cooldownBrokenBase: 0.1
     booster: true
 	optional: true
 	
