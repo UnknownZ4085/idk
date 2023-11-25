@@ -21,7 +21,7 @@ visible: true
 hasAtmosphere: true
 bloom: true
 orbitSpacing: 8
-solarSystem: 1-0-rats
+solarSystem: rats
 parent: rats
 orbitRadius: -50
 drawOrbit: false
