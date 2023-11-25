@@ -7,7 +7,7 @@ mesh: {
     scl: 100
     pow: 10
     mag: 10
-    startSector: 10
+    startSector: 1
     alwaysUnlocked: true
     colorScale: 1
     colors: [
@@ -24,10 +24,10 @@ visible: true
 hasAtmosphere: true
 bloom: true
 orbitSpacing: 8
-solarSystem: rats
+solarSystem: sun
 parent: sun
-orbitRadius: 6
-drawOrbit: false
-tidalLock: false
+orbitRadius: 10
+drawOrbit: true
+tidalLock: true
 iconColor: 00ffff
 icon: commandRally
