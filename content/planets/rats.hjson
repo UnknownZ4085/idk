@@ -5,8 +5,8 @@ mesh: {
     octaves: 5
     persistence: 1
     scl: 100
-    pow: 1
-    mag: 1
+    pow: 10
+    mag: 10
     colorScale: 1
     colors: [
         ff0080
@@ -24,7 +24,7 @@ bloom: true
 orbitSpacing: 8
 solarSystem: rats
 parent: sun
-orbitRadius: 3
+orbitRadius: 6
 drawOrbit: false
 tidalLock: false
 iconColor: 00ffff
