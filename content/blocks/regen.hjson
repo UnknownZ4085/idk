@@ -3,7 +3,7 @@ type: RepairTower
 health: 99999999
 range: 500
 size: 1
-refreshInterval: 0.001
+refreshInterval: 0.1
 healAmount: 10000000
 consumes: {
 }
