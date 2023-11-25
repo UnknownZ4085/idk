@@ -22,8 +22,8 @@ hasAtmosphere: true
 bloom: true
 orbitSpacing: 8
 solarSystem: rats
-parent: rats
-orbitRadius: -50
+parent: sun
+orbitRadius: 100
 drawOrbit: false
 tidalLock: false
 iconColor: 00ffff
