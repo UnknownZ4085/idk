@@ -5,7 +5,7 @@
 "healPercent": 2000
 "phaseBoost": 20000000
 "range": 250
-"reload": 210
+"reload": 0
 "phaseRangeBoost": 50
 "itemCapacity": 15
 "consumes": {
