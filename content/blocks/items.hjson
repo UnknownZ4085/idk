@@ -1,6 +1,6 @@
 type: ItemSource
-name: DUPE
-description: DO NOT USE BLOCK:SPEED ON THIS
+name: Duplication glitch level: 9999
+description: When you abuse glitches:
 health: 9999999999999999999
 category: distribution
 itemsPerSecond: 1000000
