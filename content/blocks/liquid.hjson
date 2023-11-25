@@ -1,6 +1,8 @@
 name: Bottomless bucket
 type: LiquidSource
 health: 200000000000
+liquidCapacity: 999999999999999999999999
+hasLiquids: true
 category: liquid
 requirements: [
 ]
