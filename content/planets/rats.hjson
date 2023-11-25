@@ -1,0 +1,30 @@
+localizedName: rats
+mesh: {
+    type: SunMesh
+    divisions: 3
+    octaves: 
+    persistence: 0.6
+    scl: 1
+    pow: 1
+    mag: 0.5
+    colorScale: 1
+    colors: [
+        ff0080
+        8000ff
+        ff00ff
+        800080
+        000000
+    ]
+}
+accessible: true
+visible: true
+hasAtmosphere: true
+bloom: true
+orbitSpacing: 8
+solarSystem: 1-0-rats
+parent: rats
+orbitRadius: -50
+drawOrbit: false
+tidalLock: false
+iconColor: 00ffff
+icon: commandRally
