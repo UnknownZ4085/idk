@@ -1,15 +1,20 @@
 localizedName: rats
-mesh: {
+generator: {
     type: HexMesh
     divisions: 4
     octaves: 5
     persistence: 1
+    radius: 10
     scl: 100
     pow: 10
+    allowLaunchSchematics: true
+		allowLaunchLoadout: true
+		allowWaves: true
     mag: 10
     startSector: 1
     alwaysUnlocked: true
     colorScale: 1
+    allowLanding: true
     colors: [
         ff0080
         8000ff
