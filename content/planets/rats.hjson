@@ -17,13 +17,14 @@ mesh: {
     ]
 }
 accessible: true
+hidden: false
 visible: true
 hasAtmosphere: true
 bloom: true
 orbitSpacing: 8
 solarSystem: rats
 parent: sun
-orbitRadius: 25
+orbitRadius: 3
 drawOrbit: false
 tidalLock: false
 iconColor: 00ffff
