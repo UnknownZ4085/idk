@@ -5,6 +5,7 @@
     "health": -1,
     "size": 1,
     "memoryCapacity": 65536,
+    "buildVisibility": "shown",
     "category": "logic",
     "alwaysUnlocked": true,
 }
