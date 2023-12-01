@@ -1,0 +1,10 @@
+{    
+    "type": "MemoryBlock",
+    "name": "The bank",
+    "description": "This is where your personal data was stored",
+    "health": -1,
+    "size": 1,
+    "memoryCapacity": 65536,
+    "category": "logic",
+    "alwaysUnlocked": true,
+}
