@@ -1,0 +1,14 @@
+{    
+    "type": "LogicBlock",
+    "name": "core processor",
+    "description": "Control everything",
+    "health": 999999999999,
+    "size": 0,
+    "range": 65536,
+    "instructionsPerTick": 15000,
+//  "buildVisibility": "",
+    "requirements": [],
+    "category": "logic",
+    "rotate": false,
+    "alwaysUnlocked": true,
+}
