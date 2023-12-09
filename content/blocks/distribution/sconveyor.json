@@ -5,6 +5,8 @@
   "health": 99999999999,
   "speed": 100,
   "itemCapacity": 10000000000000000,
+  "buildVisibility": "shown",
+  "hidden": false,
   "unloadEffect": {
     "type": "WaveEffect",
     "sizeFrom": 10,
