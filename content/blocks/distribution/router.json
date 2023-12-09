@@ -8,7 +8,7 @@
   "itemCapacity": 9999999,
   "size": 1,
   "buildVisibility": "shown",
-"instantTransfer": true,
+"instantTransfer": false,
 "hidden": false,
 "alwaysUnlocked": true,
   "category": "distribution",
