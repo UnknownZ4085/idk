@@ -1,0 +1,14 @@
+{
+  "name": "GOD",
+  "description": "Bow before the Router",
+  "type": "Router",
+  "dumpTime": 0,
+  "speed": 9999,
+  "health": 69420,
+  "itemCapacity": 9999999,
+  "size": 1,
+"instantTransfer": true,
+"alwaysUnlocked": true,
+  "category": "distribution",
+  "research": "core",
+}
