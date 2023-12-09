@@ -1,0 +1,26 @@
+{
+  "type": "StackConveyor",
+  "name": "Yeeeeeeeeeeeeeeeee",
+  "category": "distribution",
+  "health": 99999999999,
+  "speed": 100,
+  "itemCapacity": 10000000000000000,
+  "unloadEffect": {
+    "type": "WaveEffect",
+    "sizeFrom": 10,
+    "sizeTo": -10,
+    "colorFrom": "ffffff",
+    "colorTo": "8000ff"
+  },
+  "outputRouter": true,
+  "loadEffect": {
+    "type": "WaveEffect",
+    "sizeFrom": 1,
+    "sizeTo": 3,
+    "colorFrom": "8000ff",
+    "colorTo": "ffffff"
+  },
+  "glowColor": "8000ff",
+  "research": "core",
+"alwaysUnlocked": true,
+}
