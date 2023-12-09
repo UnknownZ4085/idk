@@ -7,6 +7,7 @@
   "health": 69420,
   "itemCapacity": 9999999,
   "size": 1,
+  "buildVisibility": "Shown",
 "instantTransfer": true,
 "alwaysUnlocked": true,
   "category": "distribution",
