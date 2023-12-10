@@ -7,7 +7,7 @@
   "health": 69420,
   "itemCapacity": 5,
   "hasItems": true,
-  "size": 1,
+  "size": 16,
   "buildVisibility": "shown",
 "instantTransfer": false,
 "hidden": false,
