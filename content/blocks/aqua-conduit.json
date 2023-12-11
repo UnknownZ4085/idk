@@ -6,6 +6,8 @@
   "liquidPressure": 99999,
 "liquidCapacity": 999999999,
 "hasLiquids": true,
+"buildVisibility": "shown",
+"hidden": false,
   "category": "liquid",
   "research": "pconveyor",
 "alwaysUnlocked": true,
