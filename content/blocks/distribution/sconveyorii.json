@@ -7,7 +7,7 @@
   "itemCapacity": 1000000,
   "buildVisibility": "shown",
   "hidden": false,
-  "size": 5,
+  "size": 2,
   "unloadEffect": {
     "type": "WaveEffect",
     "sizeFrom": 10,
