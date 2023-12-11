@@ -1,0 +1,12 @@
+{
+  "type": "conduit",
+  "name": "Conduit?",
+  "description": "YEEEESH",
+  "health": 99999999,
+  "liquidPressure": 99999,
+"liquidCapacity": 999999999,
+"hasLiquids": true,
+  "category": "liquid",
+  "research": "pconveyor",
+"alwaysUnlocked": true,
+}
