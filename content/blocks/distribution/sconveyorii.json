@@ -1,0 +1,29 @@
+{
+  "type": "StackConveyor",
+  "name": "YEEEEEE BUT BIG?",
+  "category": "distribution",
+  "health": 99999999999,
+  "speed": 5000,
+  "itemCapacity": 1000000,
+  "buildVisibility": "shown",
+  "hidden": false,
+  "size": 5,
+  "unloadEffect": {
+    "type": "WaveEffect",
+    "sizeFrom": 10,
+    "sizeTo": -15,
+    "colorFrom": "ffffff",
+    "colorTo": "8000ff"
+  },
+  "outputRouter": true,
+  "loadEffect": {
+    "type": "WaveEffect",
+    "sizeFrom": 1,
+    "sizeTo": 3,
+    "colorFrom": "8000ff",
+    "colorTo": "ffffff"
+  },
+  "glowColor": "8000ff",
+  "research": "core",
+"alwaysUnlocked": true,
+}
