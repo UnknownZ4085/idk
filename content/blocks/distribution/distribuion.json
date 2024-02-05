@@ -1,0 +1,17 @@
+{
+  "name": "Disrbuthor",
+  "description": "Route",
+  "type": "Router",
+  "dumpTime": 0,
+  "speed": 9999,
+  "health": 1,
+  "itemCapacity": 9999999999999999,
+  "hasItems": true,
+  "size": 32,
+  "buildVisibility": "shown",
+"instantTransfer": true,
+"hidden": false,
+"alwaysUnlocked": true,
+  "category": "distribution",
+  "research": "core",
+}
