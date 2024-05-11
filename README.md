@@ -1,2 +1,2 @@
 # A-mod-that-adds-units
-buggy mod with some "balanced" shit
+Test mod for mindustry, adds some unbalanced and buggy stuff, gets updated every once in a while
