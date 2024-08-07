@@ -4,8 +4,8 @@ generator: {
     divisions: 4
     octaves: 5
     persistence: 1
-    radius: 10
-    scl: 100
+    radius: 100
+    scl: 1000
     pow: 10
     allowLaunchSchematics: true
 		allowLaunchLoadout: true
