@@ -23,6 +23,7 @@
         "range": 9999999999999999999999,
         "targetAir": true,
         "commandLimit": 9999999999999999999999999,
+        "bounded": false,
         "immunities": [ "burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
 	"faceTarget": false,
 	    "weapons": [
@@ -87,6 +88,15 @@
               "amount": 99999999999999999,
               "reload": 0
         },
+        {
+    "type": "MoveEffectAbility",
+    "minVelocity": 0,
+    "x": 0,
+    "y": -10,
+    "effect": "waveEffect",
+    "teamColor": true,
+    "interval": 0.01,
+  },
 		   ]
     
     
