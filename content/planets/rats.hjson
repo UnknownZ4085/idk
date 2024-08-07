@@ -1,12 +1,12 @@
 localizedName: rats
 generator: {
     type: HexMesh
-    divisions: 4
-    octaves: 5
-    persistence: 1
+    divisions: 91
+    octaves: 52
+    persistence: 111
     radius: 100
     scl: 1000
-    pow: 10
+    pow: 1011
     allowLaunchSchematics: true
 		allowLaunchLoadout: true
 		allowWaves: true
@@ -28,10 +28,10 @@ hidden: false
 visible: true
 hasAtmosphere: true
 bloom: true
-orbitSpacing: 8
+orbitSpacing: 10
 solarSystem: sun
 parent: sun
-orbitRadius: 10
+orbitRadius: 20
 drawOrbit: true
 tidalLock: true
 iconColor: 00ffff
