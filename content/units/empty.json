@@ -9,12 +9,12 @@
 	"killable": false
 	"targetable": false
         "speed": 100,
-        "accel": 110,
+        "accel": 1100,
         "drawCell": false,
         "drag": 0.0,
         "flying": true,
         "health": 999999999999999999999999,
-        "hitSize": 0,
+        "hitSize": -1000,
         "armor": 99999999999999999999999999992,
         "mineSpeed": 99999999999999999992,
         "buildSpeed": 9999999999999999999991,
