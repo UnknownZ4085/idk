@@ -72,7 +72,11 @@
         "damage": 500,
         "toColor": "6F80E8FF"
         {
-        "abilities": [
+      }
+    }
+  }
+  ]
+  "abilities": [
     "type": "MoveEffectAbility",
     "minVelocity": 0,
     "x": 0,
@@ -81,9 +85,5 @@
     "teamColor": true,
     "interval": 0.01,
   },
-  ]
-      }
-    }
-  }
   ]
 }
