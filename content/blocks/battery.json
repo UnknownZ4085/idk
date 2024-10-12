@@ -8,7 +8,7 @@
     "emptyLightColor": "#000000",
     "fullLightColor": "#ff3eee",
     "consumes": {
-        "powerBuffered": 100000000000000000000000000000000000000
+        "powerBuffered": 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
     },
     "requirements": [],
     "research": "cm-core"
