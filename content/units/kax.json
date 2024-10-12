@@ -1,5 +1,6 @@
 {
   "name": "kax",
+  "type": "Mech"
   "health": 5000000,
   "armor": 8000,
   "hitSize": 16,
