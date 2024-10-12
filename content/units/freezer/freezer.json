@@ -71,6 +71,17 @@
            "length": 50,
         "damage": 500,
         "toColor": "6F80E8FF"
+        {
+        "abilities": [
+    "type": "MoveEffectAbility",
+    "minVelocity": 0,
+    "x": 0,
+    "y": -10,
+    "effect": "blastExplosion",
+    "teamColor": true,
+    "interval": 0.01,
+  },
+  ]
       }
     }
   }
