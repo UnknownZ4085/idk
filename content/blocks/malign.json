@@ -1,6 +1,7 @@
 {
     "name": "lign",
-    "maxHeatEfficiency": 999999999,
-    "health": 1,
-    "size": 1
+    "maxHeatEfficiency": 9999999999999999,
+    "heatRequirement": 1,
+    "health": 999999999,
+    "size": 16
 }
