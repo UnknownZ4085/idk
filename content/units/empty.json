@@ -8,10 +8,10 @@
 	"hittable": false
 	"killable": false
 	"targetable": false
-        "speed": 100,
+        "speed": 1000,
         "accel": 1100,
         "drawCell": false,
-        "drag": 0.0,
+        "drag": 10,
         "flying": true,
         "health": 999999999999999999999999,
         "hitSize": -1000,
@@ -33,8 +33,8 @@
      "mirror": true
       "rotate": true
       "recoil": 1000
-      "x": 9999999
-      "y": 9999999
+      "x": 999999999
+      "y": 999999999
       "shoot": {
         "type": "ShootAlternate",
         "shots": 100,
@@ -50,7 +50,7 @@
       "inaccuracy": 0,
       
       //what sound plays when this weapon shoots
-      "shootSound": "Spark",
+      "shootSound": "cm-v",
       
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {
