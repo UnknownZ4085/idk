@@ -73,6 +73,8 @@
         "toColor": "6F80E8FF"
       }
     }
+    }
+    ]
   "abilities": [
   {
     "type": "MoveEffectAbility",
