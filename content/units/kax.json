@@ -2,5 +2,21 @@
   "name": "kax",
   "health": 5000000,
   "armor": 8000,
-  "hitsize": 16,
+  "hitSize": 16,
+  "omniMovement": false,
+  "rotateSpeed": 10,
+  "drownTimeMultiplier": 1000000000000000000000000000000000,
+  "drawBody": false,
+  "targetAir": false,
+  "speed": 4,
+
+  "segments": 6,
+  "segmentMag": 1,
+  "segmentScl": 5,
+  "segmentPhase": 3,
+  "segmentRotSpeed": 10,
+  "segmentMaxRot": 135,
+  "crawlSlowdown": 1,
+  "crushDamage": 300,
+  "crawSlowdownFrac": 1
 }
