@@ -3988,8 +3988,8 @@
   },
 {
     "type": "MoveEffectAbility",
-    "minVelocity": 0,
-    "x": 0,
+    "minVelocity": 1,
+    "x": 110,
     "y": -10,
     "effect": "blastExplosion",
     "teamColor": true,
