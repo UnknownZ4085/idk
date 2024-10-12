@@ -2,7 +2,7 @@
   "name": "Freezer",
   "type": "mech",
   "description": "Punch the heat out of your enemies",
-  "speed": 1,
+  "speed": 50,
   "hitSize": 16,
   "rotateSpeed": 7,
   "targetAir": true,
