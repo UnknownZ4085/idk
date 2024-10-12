@@ -78,8 +78,8 @@
   "abilities": [
   {
     "type": "MoveEffectAbility",
-    "minVelocity": 0,
-    "x": 0,
+    "minVelocity": 10,
+    "x": 50,
     "y": -10,
     "effect": "blastExplosion",
     "teamColor": true,
