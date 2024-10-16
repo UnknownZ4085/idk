@@ -1,1 +1,11 @@
-a
+{    
+    "type": "MemoryBlock",
+    "name": "The Cell",
+    "description": "This is where your deleted data was stored",
+    "health": -1,
+    "size": 1,
+    "memoryCapacity": 2048,
+    "buildVisibility": "shown",
+    "category": "logic",
+    "alwaysUnlocked": true,
+}
