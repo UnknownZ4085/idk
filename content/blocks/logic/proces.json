@@ -1,0 +1,15 @@
+{    
+    "type": "LogicBlock",
+    "name": "ULTRA PROCESSOR",
+    "description": "EVERYWHERE AND EVERYTHING",
+    "health": 1000000000,
+    "size": 1,
+    "range": 9999999,
+    "instructionsPerTick": 9999999,
+    "hidden": false,
+    "buildVisibility": "shown",
+    "category": "logic",
+    "rotate": false,
+    "alwaysUnlocked": true,
+    "privileged": true
+}
