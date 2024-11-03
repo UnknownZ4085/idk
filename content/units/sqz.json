@@ -89,7 +89,7 @@
 "drawMinimap": false,
 "loopSound": "spark",
 "loopSoundVolume": 999999,
-"trailLength": 999999,
+"trailLength": 999,
 "outlineRadius": 999,
 "itemCapacity": 999999999,
 "ammoCapacity": 999999999,
