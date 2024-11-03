@@ -15,12 +15,12 @@
         "flying": true,
         "health": "Infinity",
         "hitSize": 8,
-        "armor": 99999999999999999999,
-        "mineSpeed": 2147483648214748364821474836482147483648214748364821474836482147483648214748364821474836481,
-        "buildSpeed": 21474836482147483648214748364821474836482147483648214748364821474836481,
-        "mineTier": 2147483648214748364821474836482147483648214748364821474836482147483648,
-        "itemCapacity": 214748364821474836482147483648214748364821474836482147483648214748364821474836482147483648,
-        "range": 10000,
+        "armor": "Infinity",
+        "mineSpeed": "Infinity",
+        "buildSpeed": "Infinity",
+        "mineTier": "Infinity",
+        "itemCapacity": "Infinity",
+        "range": "Infinity",
         "targetAir": true,
         "immunities": [ "burning", "freezing", "melting", "unmoving", "blooped", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
 	"faceTarget": false,
@@ -58,9 +58,9 @@
         "speed": 666666
         "width": 2,
         "height": 666,
-        "damage": 0,
+        "damage": "Infinity",
         "splashDamageRadius": 20,
-        "splashDamage": 1,    
+        "splashDamage": "Infinity",    
           "laserAbsorb": false  
         "absorbable": false
         "knockback": -666,  
@@ -74,11 +74,11 @@
         "color": "66666666"
         "frontLength": 110,
         "backLength": 10,
-        "buildingDamageMultiplier": 100000,
+        "buildingDamageMultiplier": "Infinity",
         "width": 10,
-        "damage": 666,
+        "damage": "Infinity",
         "splashDamageRadius": 2,
-        "splashDamage": 100,    
+        "splashDamage": "Infinity",    
         "laserAbsorb": false  
         "absorbable": false
         "knockback": -999,  
@@ -118,14 +118,14 @@
         "speed": 666
         "width": 2,
         "height": 666,
-        "damage": 0,
+        "damage": "Infinity",
         "splashDamageRadius": 20,
-        "splashDamage": 1,    
+        "splashDamage": "Infinity",    
           "laserAbsorb": false  
         "absorbable": false
         "knockback": -666,  
-                "buildingDamageMultiplier": 2147483648,
-                  "range": 1000
+                "buildingDamageMultiplier": "Infinity",
+                  "range": "Infinity"
           
 		    "fragBullets": 3,
 "fragBullet": {
@@ -134,11 +134,11 @@
         "color": "66666666"
         "frontLength": 110,
         "backLength": 10,
-        "buildingDamageMultiplier": 100000,
+        "buildingDamageMultiplier": "Infinity",
         "width": 10,
-        "damage": 666,
+        "damage": "Infinity",
         "splashDamageRadius": 2,
-        "splashDamage": 100,    
+        "splashDamage": "Infinity",    
         "laserAbsorb": false  
         "absorbable": false
         "knockback": -999,  
@@ -150,16 +150,16 @@
    "abilities": [
  	    {
               "type": "mindustry.entities.abilities.RepairFieldAbility",
-              "range": 80,
-              "amount": 1,
+              "range": "Infinity",
+              "amount": "Infinity",
               "reload": 0
         },
 	   
            {
 		   "type": "ForceFieldAbility"
-		   "range": 0.0001
-		   "max": 1000
-		   "regen": 1000
+		   "range": "Infinity"
+		   "max": "Infinity"
+		   "regen": "Infinity"
 		   "cooldown": 0
 	   },
         
