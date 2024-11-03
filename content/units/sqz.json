@@ -1,11 +1,11 @@
 {
 "name": "S\nQ\nZ"
 "type": "legs",
-"movementSpeed": 99,
+"movementSpeed": 9,
 "boostMultiplier": 99,
 "rotateSpeed": 999999999,
 "baseRotateSpeed": 999999999,
-"drag": 1,
+"drag": 999,
 "accel": 999999999,
 "hitSize": 99,
 "stepShake": 99,
