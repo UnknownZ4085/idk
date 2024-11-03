@@ -117,7 +117,7 @@
 "outlineRadius": 999,
 //"outlines"
 "itemCapacity": 999999999,
-"ammoCapacity" 999999999,
+"ammoCapacity": 999999999,
 //"ammoType"
 "mineTier": 999999999,
 "mineSpeed": 999999999,
