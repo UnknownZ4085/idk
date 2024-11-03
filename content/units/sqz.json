@@ -75,7 +75,7 @@
 "forceMultiTarget": true,
 "canAttack": true,
 "hidden": false,
-"internal": false,
+//"internal": false,
 "bounded": false,
 "naval": false,
 "autoFindTarget": true,
