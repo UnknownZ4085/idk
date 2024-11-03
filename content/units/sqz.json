@@ -8,8 +8,8 @@
 "envRequired": 0,
 //end
 "alwaysUnlocked": true,
-"movementSpeed": 999,
-"boostMultiplier": 66,
+"movementSpeed": 9999,
+"boostMultiplier": 9,
 "rotateSpeed": 999999,
 "baseRotateSpeed": 999999,
 "drag": 999999999,
