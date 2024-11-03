@@ -66,7 +66,7 @@
 "hovering": true,
 "omniMovement": false,
 "rotateMoveFirst": false,
-"healFlash": false,
+"healFlash": true,
 "canHeal": true,
 "singleTarget": false,
 "forceMultiTarget": true,
@@ -86,6 +86,7 @@
 "drawShields": false,
 "drawBody": true,
 "drawMinimap": false,
+"healColor": "ff0000",
 "loopSound": "laserbig",
 "loopSoundVolume": 9,
 "engineColor": "000000",
@@ -473,6 +474,51 @@
 "x": 0,
 "y": 0,
 "alternate": true,
+},
+{
+"type": "RegenAbility"
+"percentAmount": 999999999,
+"amount": 999999999,
+},
+{
+"type": "RegenAbility"
+"percentAmount": 999999999,
+"amount": 999999999,
+},
+{
+"type": "RegenAbility"
+"percentAmount": 999999999,
+"amount": 999999999,
+},
+{
+"type": "RegenAbility"
+"percentAmount": 999999999,
+"amount": 999999999,
+},
+{
+"type": "RegenAbility"
+"percentAmount": 999999999,
+"amount": 999999999,
+},
+{
+"type": "RegenAbility"
+"percentAmount": 999999999,
+"amount": 999999999,
+},
+{
+"type": "RegenAbility"
+"percentAmount": 999999999,
+"amount": 999999999,
+},
+{
+"type": "RegenAbility"
+"percentAmount": 999999999,
+"amount": 999999999,
+},
+{
+"type": "RegenAbility"
+"percentAmount": 999999999,
+"amount": 999999999,
 }
 ]
 }
