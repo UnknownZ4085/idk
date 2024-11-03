@@ -1,12 +1,12 @@
 {
 	"name": "[#63C74DFF]CRYSTALLITE"
 	"description": "[#63C74DFF] THE MULTIVERSE IS ON YOUR HANDS"
-	"hardness": 50,
-	"cost": 5.0,
+	"hardness": "Infinity",
+	"cost": "-Infinity",
 	"color": "63C74DFF",
-	"explosiveness": 1000.0,
+	"explosiveness": "Infinity",
 	"flammability": 0.0,
-        "radiocativity": 500.0,
-        "charge": 115.0,
+        "radiocativity": "Infinity",
+        "charge": "Infinity",
 	"research": "cm-spooder-factory"
 }
