@@ -3,8 +3,8 @@ name: THE CENTER OF ALL THINGS
 unloadable: true
 hasItems: true 
 size: 1
-health: Infinity
-armor: Infinity
+health: 999999999999
+armor: 999999999
 itemCapacity: 999999999
 canOverdrive: true
 thrusterLength: 999999999
