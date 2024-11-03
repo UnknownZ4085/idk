@@ -99,7 +99,7 @@
 "mineFloor": true,
 "mineHardnessScaling": 999999999,
 "mineSoundVolume": 9,
-"legCount": 9,
+"legCount": 99,
 "legGroupSize": 9,
 "legLength": 99,
 "legSpeed": 99,
