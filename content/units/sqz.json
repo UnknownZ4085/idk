@@ -200,7 +200,7 @@
 "healPercent": -1,
 "useAmmo": false,
 "maxTargets": 999999999,
-"color":
+"color": "000000",
 },
 {
 "type": "EnergyFieldAbility",
