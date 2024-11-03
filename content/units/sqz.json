@@ -213,7 +213,7 @@
 "duration": "Infinity",
 "healPercent": "-Infinity",
 "useAmmo": false,
-"maxTargets": "Infinity",
+"maxTargets": 999999999,
 "color": "000000"
 },
 {
