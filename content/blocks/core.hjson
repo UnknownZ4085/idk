@@ -4,13 +4,13 @@ unloadable: true
 hasItems: true 
 size: 1
 health: 99999999999999999999999
-itemCapacity: 100000000000000000000000
+itemCapacity: 999999999
 canOverdrive: true
-thrusterLength: 100
+thrusterLength: 999999999
 requirements: [
 ]
 category: effect
 buildTime: 0
 unitType: empty
-unitCapModifier:99999999999999999
+unitCapModifier:999999999
 research: core-shard
