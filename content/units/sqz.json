@@ -1,7 +1,8 @@
 {
-"name": "[crimson]S\nQ\nZ"
-"description": "[crimson]FE\nOS\nRT"
+"name": "[crimson]S\nQ\nZ",
+"description": "[crimson]FE\nOS\nRT",
 "type": "legs",
+"alwaysUnlocked": true,
 "movementSpeed": 9,
 "boostMultiplier": 99,
 "rotateSpeed": 999999999,
