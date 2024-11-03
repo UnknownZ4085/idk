@@ -5,7 +5,7 @@ health: 99999999999999999999
 size: 1
 lightningChance: 999
 lightningDamage: 999999999999999
-lightningLength: 999999999
+lightningLength: 999
 absorbLasers: true
 chanceDeflect: 999999999999999999
 requirements: [
