@@ -300,6 +300,13 @@
 "useAmmo": false,
 "maxTargets": 1,
 "color": "a90000"
+},
+{
+"type": "ArmorPlateAbility",
+"color": "a90000",
+"shineSpeed": 99,
+"z": 99,
+"healthMultiplier": 999999999,
 }
 ]
 }
