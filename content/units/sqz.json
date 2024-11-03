@@ -97,7 +97,7 @@
 "legLength": 99,
 "legSpeed": -99,
 "legForwardScl": 9,
-"legBaseOffset": -99,
+"legBaseOffset": -9,
 "legMoveSpace": 9,
 "legExtension": 9,
 "legPairOffset": 9,
