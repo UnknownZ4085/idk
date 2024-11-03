@@ -111,7 +111,7 @@
 "legMaxLength": 19,
 "legMinLength": 0,
 "legSplashDamage": 999999999,
-"legSplashRange": 99,
+"legSplashRange": 9,
 "baseLegStraightness": 0.5,
 "legStraightness": 0.5,
 //"lockLegBase": true,
