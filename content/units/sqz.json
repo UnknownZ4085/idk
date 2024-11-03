@@ -39,8 +39,6 @@
 "lightRadius": 999999999,
 "lightOpacity": 0,
 "fogRadius": 999999999,
-/*"waveTrailX": 9,
-"waveTrailY": 9,*/
 "flying": true,
 "targetAir": true,
 "targetGround": true,
@@ -89,8 +87,6 @@
 "drawMinimap": false,
 "loopSound": "laserbig",
 "loopSoundVolume": 9,
-//"trailLength": 999,
-"outlineRadius": 999,
 "itemCapacity": 999999999,
 "ammoCapacity": 999999999,
 "mineTier": 999999999,
