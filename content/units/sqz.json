@@ -3,8 +3,6 @@
 "type": "Legs",
 "movementSpeed": 99,
 "boostMultiplier": 9.9,
-"rotateSpeed": 999999,
-"baseRotateSpeed": 999999,
 "drag": 1,
 "accel": 99,
 "hitSize": 1,
