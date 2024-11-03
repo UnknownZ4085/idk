@@ -114,7 +114,7 @@
 "legSplashDamage": 999999999,
 "legSplashRange": 999999999999999999,
 "legContinousMove": true,
-/*"flipBackLegs": true,
-"flipLegSide": true,*/
+//"flipBackLegs": true,
+//"flipLegSide": true,
 "crushDamage": 999999999
 }
