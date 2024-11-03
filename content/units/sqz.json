@@ -129,69 +129,159 @@
 "max": 999999999,
 "regen": 999999999,
 "cooldown": 0
-}
+},
 {
 "type": "ForceFieldAbility",
 "radius": 19,
 "max": 999999999,
 "regen": 999999999,
 "cooldown": 0
-}
+},
 {
 "type": "ForceFieldAbility",
 "radius": 29,
 "max": 999999999,
 "regen": 999999999,
 "cooldown": 0
-}
+},
 {
 "type": "ForceFieldAbility",
 "radius": 39,
 "max": 999999999,
 "regen": 999999999,
 "cooldown": 0
-}
+},
 {
 "type": "ForceFieldAbility",
 "radius": 49,
 "max": 999999999,
 "regen": 999999999,
 "cooldown": 0
-}
+},
 {
 "type": "ForceFieldAbility",
 "radius": 59,
 "max": 999999999,
 "regen": 999999999,
 "cooldown": 0
-}
+},
 {
 "type": "ForceFieldAbility",
 "radius": 69,
 "max": 999999999,
 "regen": 999999999,
 "cooldown": 0
-}
+},
 {
 "type": "ForceFieldAbility",
 "radius": 79,
 "max": 999999999,
 "regen": 999999999,
 "cooldown": 0
-}
+},
 {
 "type": "ForceFieldAbility",
 "radius": 89,
 "max": 999999999,
 "regen": 999999999,
 "cooldown": 0
-}
+},
 {
 "type": "ForceFieldAbility",
 "radius": 99,
 "max": 999999999,
 "regen": 999999999,
 "cooldown": 0
+},
+{
+"type": "EnergyFieldAbility",
+"damage": 999999999,
+"range": 99,
+"reload": 0,
+"duration": 9999999999999999,
+"useAmmo": false,
+"maxTargets": 999999999
+},
+{
+"type": "EnergyFieldAbility",
+"damage": 999999999,
+"range": 99,
+"reload": 0,
+"duration": 9999999999999999,
+"useAmmo": false,
+"maxTargets": 999999999
+},
+{
+"type": "EnergyFieldAbility",
+"damage": 999999999,
+"range": 99,
+"reload": 0,
+"duration": 9999999999999999,
+"useAmmo": false,
+"maxTargets": 999999999
+},
+{
+"type": "EnergyFieldAbility",
+"damage": 999999999,
+"range": 99,
+"reload": 0,
+"duration": 9999999999999999,
+"useAmmo": false,
+"maxTargets": 999999999
+},
+{
+"type": "EnergyFieldAbility",
+"damage": 999999999,
+"range": 99,
+"reload": 0,
+"duration": 9999999999999999,
+"useAmmo": false,
+"maxTargets": 999999999
+},
+{
+"type": "EnergyFieldAbility",
+"damage": 999999999,
+"range": 99,
+"reload": 0,
+"duration": 9999999999999999,
+"useAmmo": false,
+"maxTargets": 999999999
+},
+{
+"type": "EnergyFieldAbility",
+"damage": 999999999,
+"range": 99,
+"reload": 0,
+"duration": 9999999999999999,
+"useAmmo": false,
+"maxTargets": 999999999
+},
+{
+"type": "EnergyFieldAbility",
+"damage": 999999999,
+"range": 99,
+"reload": 0,
+"duration": 9999999999999999,
+"useAmmo": false,
+"maxTargets": 999999999
+},
+{
+"type": "EnergyFieldAbility",
+"damage": 999999999,
+"range": 99,
+"reload": 0,
+"duration": 9999999999999999,
+"useAmmo": false,
+"maxTargets": 999999999
+},
+{
+"type": "EnergyFieldAbility",
+"damage": 999999999,
+"range": 99,
+"reload": 0,
+"duration": 9999999999999999,
+"useAmmo": false,
+"maxTargets": 999999999
 }
 ]
 }
