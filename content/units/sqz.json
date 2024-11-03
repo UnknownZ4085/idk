@@ -39,8 +39,8 @@
 "lightRadius": 999999999,
 "lightOpacity": 0,
 "fogRadius": 999999999,
-"waveTrailX": 9,
-"waveTrailY": 9,
+/*"waveTrailX": 9,
+"waveTrailY": 9,*/
 "flying": true,
 "targetAir": true,
 "targetGround": true,
@@ -89,7 +89,7 @@
 "drawMinimap": false,
 "loopSound": "laserbig",
 "loopSoundVolume": 9,
-"trailLength": 999,
+//"trailLength": 999,
 "outlineRadius": 999,
 "itemCapacity": 999999999,
 "ammoCapacity": 999999999,
@@ -125,6 +125,62 @@
 "abilities": [  
 {
 "type": "ForceFieldAbility",
+"radius": 1,
+"max": 999999999,
+"regen": 999999999,
+"cooldown": 0
+},
+{
+"type": "ForceFieldAbility",
+"radius": 2,
+"max": 999999999,
+"regen": 999999999,
+"cooldown": 0
+},
+{
+"type": "ForceFieldAbility",
+"radius": 3,
+"max": 999999999,
+"regen": 999999999,
+"cooldown": 0
+},
+{
+"type": "ForceFieldAbility",
+"radius": 4,
+"max": 999999999,
+"regen": 999999999,
+"cooldown": 0
+},
+{
+"type": "ForceFieldAbility",
+"radius": 5,
+"max": 999999999,
+"regen": 999999999,
+"cooldown": 0
+},
+{
+"type": "ForceFieldAbility",
+"radius": 6,
+"max": 999999999,
+"regen": 999999999,
+"cooldown": 0
+},
+{
+"type": "ForceFieldAbility",
+"radius": 7,
+"max": 999999999,
+"regen": 999999999,
+"cooldown": 0
+},
+{
+"type": "ForceFieldAbility",
+"radius": 8,
+"max": 999999999,
+"regen": 999999999,
+"cooldown": 0
+},
+{
+"type": "ForceFieldAbility",
 "radius": 9,
 "max": 999999999,
 "regen": 999999999,
@@ -132,63 +188,7 @@
 },
 {
 "type": "ForceFieldAbility",
-"radius": 19,
-"max": 999999999,
-"regen": 999999999,
-"cooldown": 0
-},
-{
-"type": "ForceFieldAbility",
-"radius": 29,
-"max": 999999999,
-"regen": 999999999,
-"cooldown": 0
-},
-{
-"type": "ForceFieldAbility",
-"radius": 39,
-"max": 999999999,
-"regen": 999999999,
-"cooldown": 0
-},
-{
-"type": "ForceFieldAbility",
-"radius": 49,
-"max": 999999999,
-"regen": 999999999,
-"cooldown": 0
-},
-{
-"type": "ForceFieldAbility",
-"radius": 59,
-"max": 999999999,
-"regen": 999999999,
-"cooldown": 0
-},
-{
-"type": "ForceFieldAbility",
-"radius": 69,
-"max": 999999999,
-"regen": 999999999,
-"cooldown": 0
-},
-{
-"type": "ForceFieldAbility",
-"radius": 79,
-"max": 999999999,
-"regen": 999999999,
-"cooldown": 0
-},
-{
-"type": "ForceFieldAbility",
-"radius": 89,
-"max": 999999999,
-"regen": 999999999,
-"cooldown": 0
-},
-{
-"type": "ForceFieldAbility",
-"radius": 99,
+"radius": 66,
 "max": 999999999,
 "regen": 999999999,
 "cooldown": 0
@@ -196,8 +196,8 @@
 {
 "type": "EnergyFieldAbility",
 "damage": 1,
-"range": 199,
-"reload": 0,
+"range": 255,
+"reload": 1,
 "duration": 9999999999999999,
 "useAmmo": false,
 "maxTargets": 999999999
