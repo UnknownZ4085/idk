@@ -87,6 +87,7 @@
 "drawMinimap": false,
 "loopSound": "laserbig",
 "loopSoundVolume": 9,
+"outlineRadius": 0,
 "itemCapacity": 999999999,
 "ammoCapacity": 999999999,
 "mineTier": 999999999,
