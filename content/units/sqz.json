@@ -98,11 +98,11 @@
 "mineHardnessScaling": 999999999,
 "mineSoundVolume": 9,
 "legCount": 99,
-"legGroupSize": 9,
+"legGroupSize": 66,
 "legLength": 9,
 "legSpeed": 99,
 "legForwardScl": 9,
-"legBaseOffset": 15,
+"legBaseOffset": 9,
 "legMoveSpace": 9,
 "legExtension": 1,
 "legPairOffset": 99,
@@ -110,7 +110,7 @@
 //"legStraightLength": 9,
 "legMaxLength": 19,
 "legMinLength": 0,
-"legSplashDamage": 999999999,
+"legSplashDamage": 9,
 "legSplashRange": 9,
 "baseLegStraightness": 0.5,
 "legStraightness": 0.5,
@@ -118,7 +118,7 @@
 "legContinousMove": true,
 "flipBackLegs": false,
 "flipLegSide": false,
-"crushDamage": 999999999,
+"crushDamage": 9,
 //Ability spam...
 "abilities": [  
 {
