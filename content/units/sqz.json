@@ -12,7 +12,7 @@
 "boostMultiplier": 9,
 "rotateSpeed": 999999,
 "baseRotateSpeed": 999999,
-"drag": 999999999,
+"drag": 999,
 "accel": 9,
 "hitSize": 20.5,
 "stepShake": 9,
