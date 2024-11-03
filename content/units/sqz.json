@@ -306,9 +306,65 @@
 {
 "type": "ArmorPlateAbility",
 "color": "a90000",
-"shineSpeed": 99,
-"z": 99,
-"healthMultiplier": 999999999,
+"shineSpeed": 999999999,
+"z": 999999999,
+"healthMultiplier": 999999999999999999,
+},
+{
+"type": "ArmorPlateAbility",
+"color": "a90000",
+"shineSpeed": 999999999,
+"z": 999999999,
+"healthMultiplier": 999999999999999999,
+},
+{
+"type": "ArmorPlateAbility",
+"color": "a90000",
+"shineSpeed": 999999999,
+"z": 999999999,
+"healthMultiplier": 999999999999999999,
+},
+{
+"type": "ArmorPlateAbility",
+"color": "a90000",
+"shineSpeed": 999999999,
+"z": 999999999,
+"healthMultiplier": 999999999999999999,
+},
+{
+"type": "ArmorPlateAbility",
+"color": "a90000",
+"shineSpeed": 999999999,
+"z": 999999999,
+"healthMultiplier": 999999999999999999,
+},
+{
+"type": "ArmorPlateAbility",
+"color": "a90000",
+"shineSpeed": 999999999,
+"z": 999999999,
+"healthMultiplier": 999999999999999999,
+},
+{
+"type": "ArmorPlateAbility",
+"color": "a90000",
+"shineSpeed": 999999999,
+"z": 999999999,
+"healthMultiplier": 999999999999999999,
+},
+{
+"type": "ArmorPlateAbility",
+"color": "a90000",
+"shineSpeed": 999999999,
+"z": 999999999,
+"healthMultiplier": 999999999999999999,
+},
+{
+"type": "ArmorPlateAbility",
+"color": "a90000",
+"shineSpeed": 999999999,
+"z": 999999999,
+"healthMultiplier": 999999999999999999,
 }
 ]
 }
