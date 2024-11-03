@@ -1,26 +1,26 @@
 {
         "name": "blooped",
         "description": "[green]bloop[blue]ed"
-        "speedMultiplier": 0.0000000000000000001,
+        "speedMultiplier": 1e-1000,
         "reloadMultiplier": 0,
-        "healthMultiplier": 0,
-        "dragMultiplier": 999999999999999999999999999992,
+        "healthMultiplier": 1e-1000,
+        "dragMultiplier": "Infinity",
         "disarm": true
-        "effectChance": 100,
-        "damage": 10,
-        "transitionDamage": 1000000000000000,
+        "effectChance": "Infinity",
+        "damage": "Infinity",
+        "transitionDamage": "Infinity",
         "affinities": [ "shocked", "melting" ],
         "effect": {
         "type": "status",
         "effects": [
         {
         "type": "melting",
-        "lifetime": 999999999999999,
+        "lifetime": "Infinity",
         "sizeFrom": 1,
-        "sizeTo": 9999999,
-        "sides": 99999999,
+        "sizeTo": "Infinity",
+        "sides": "Infinity",
         "strokeFrom": 10,
-        "strokeTo": 99999999999999,
+        "strokeTo": "Infinity",
         "colorFrom": "68386CFF",
         "colorTo": "68386CFF"
         },
