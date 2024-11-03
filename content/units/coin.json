@@ -7,13 +7,13 @@
         "lowAltitude": true,
 	"hittable": true
 	"killable": true
-	"targetable": false
+	"targetable": true
         "canBoost": false
         "speed": 5,
         "accel": 1,
         "drag": 0.1,
         "flying": true,
-        "health": 111111,
+        "health": "Infinity",
         "hitSize": 16,
         "armor": 50,
         "mineSpeed": 0,
@@ -204,7 +204,7 @@
    "abilities": [
            {
 		   "type": "ForceFieldAbility"
-		   "range": 1
+		   "range": "Infinity"
 		   "max": 111111
 		   "regen": 1111
 		   "cooldown": 11
