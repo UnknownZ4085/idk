@@ -9,7 +9,7 @@
 //end
 "alwaysUnlocked": true,
 "movementSpeed": 999,
-"boostMultiplier": 9,
+"boostMultiplier": 66,
 "rotateSpeed": 999999,
 "baseRotateSpeed": 999999,
 "drag": 999999999,
