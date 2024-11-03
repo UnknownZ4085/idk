@@ -40,7 +40,7 @@
 "lightRadius": 999999999,
 "lightOpacity": 0,
 "fogRadius": 999999999,
-"flying": true,
+"flying": false,
 "targetAir": true,
 "targetGround": true,
 "faceTarget": false,
