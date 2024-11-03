@@ -87,7 +87,7 @@
 "drawShields": true,
 "drawBody": true,
 "drawMinimap": false,
-"loopSound": "v",
+"loopSound": "laserbig",
 "loopSoundVolume": 999999999,
 "trailLength": 999,
 "outlineRadius": 999,
