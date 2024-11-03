@@ -1,12 +1,12 @@
 localizedName: rats
 generator: {
     type: HexMesh
-    divisions: 91
-    octaves: 52
-    persistence: 111
-    radius: 100
-    scl: 1000
-    pow: 1011
+    divisions: 919
+    octaves: 529
+    persistence: 1119
+    radius: 10099999
+    scl: 10009
+    pow: 10119
     allowLaunchSchematics: true
 		allowLaunchLoadout: true
 		allowWaves: true
