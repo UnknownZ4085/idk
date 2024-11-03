@@ -189,7 +189,8 @@
 "radius": 66,
 "max": 999999999,
 "regen": 999999999,
-"cooldown": 0
+"cooldown": 0,
+"color": "a90000"
 },
 {
 "type": "EnergyFieldAbility",
@@ -200,7 +201,7 @@
 "healPercent": -1,
 "useAmmo": false,
 "maxTargets": 999999999,
-"color": "000000",
+"color": "000000"
 },
 {
 "type": "EnergyFieldAbility",
@@ -210,7 +211,8 @@
 "duration": 9999999999999999,
 "healPercent": -99,
 "useAmmo": false,
-"maxTargets": 1
+"maxTargets": 1,
+"color": "a90000"
 },
 {
 "type": "EnergyFieldAbility",
@@ -220,7 +222,8 @@
 "duration": 9999999999999999,
 "healPercent": -99,
 "useAmmo": false,
-"maxTargets": 1
+"maxTargets": 1,
+"color": "a90000"
 },
 {
 "type": "EnergyFieldAbility",
@@ -230,7 +233,8 @@
 "duration": 9999999999999999,
 "healPercent": -99,
 "useAmmo": false,
-"maxTargets": 1
+"maxTargets": 1,
+"color": "a90000"
 },
 {
 "type": "EnergyFieldAbility",
@@ -240,7 +244,8 @@
 "duration": 9999999999999999,
 "healPercent": -99,
 "useAmmo": false,
-"maxTargets": 1
+"maxTargets": 1,
+"color": "a90000"
 },
 {
 "type": "EnergyFieldAbility",
@@ -250,7 +255,8 @@
 "duration": 9999999999999999,
 "healPercent": -99,
 "useAmmo": false,
-"maxTargets": 1
+"maxTargets": 1,
+"color": "a90000"
 },
 {
 "type": "EnergyFieldAbility",
@@ -260,7 +266,8 @@
 "duration": 9999999999999999,
 "healPercent": -99,
 "useAmmo": false,
-"maxTargets": 1
+"maxTargets": 1,
+"color": "a90000"
 },
 {
 "type": "EnergyFieldAbility",
@@ -270,7 +277,8 @@
 "duration": 9999999999999999,
 "healPercent": -99,
 "useAmmo": false,
-"maxTargets": 1
+"maxTargets": 1,
+"color": "a90000"
 },
 {
 "type": "EnergyFieldAbility",
@@ -280,7 +288,8 @@
 "duration": 9999999999999999,
 "healPercent": -99,
 "useAmmo": false,
-"maxTargets": 1
+"maxTargets": 1,
+"color": "a90000"
 },
 {
 "type": "EnergyFieldAbility",
@@ -290,7 +299,8 @@
 "duration": 9999999999999999,
 "healPercent": -99,
 "useAmmo": false,
-"maxTargets": 1
+"maxTargets": 1,
+"color": "a90000"
 }
 ]
 }
