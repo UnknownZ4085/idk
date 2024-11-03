@@ -3,9 +3,9 @@ name: Tem armor
 category: defense
 health: 99999999999999999999
 size: 1
-lightningChance: 999999999999999999999
-lightningDamage: 99999999999999999999
-lightningLength: 1
+lightningChance: 999
+lightningDamage: 999999999999999
+lightningLength: 999999999
 absorbLasers: true
 chanceDeflect: 999999999999999999
 requirements: [
