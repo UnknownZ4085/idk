@@ -88,7 +88,7 @@
 "drawMinimap": false,
 "healColor": "ff0000",
 "loopSound": "fire",
-"loopSoundVolume": 9,
+"loopSoundVolume": 999,
 "engineColor": "000000",
 "engineColorInner": "000000",
 "outlineRadius": 0,
