@@ -2,6 +2,11 @@
 "name": "[crimson]S\nQ\nZ",
 "description": "[crimson]FE\nOS\nRT",
 "type": "legs",
+//Environmental flags.
+"envRequired": 0
+"envEnabled": 0xffffffff,
+"envDisabled": 0,
+//end
 "alwaysUnlocked": true,
 "movementSpeed": 9,
 "boostMultiplier": 99,
