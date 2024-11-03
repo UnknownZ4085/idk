@@ -1,8 +1,8 @@
 {
 	"name": "[#63C74DFF]CRYSTALLITE"
 	"description": "[#63C74DFF] THE MULTIVERSE IS ON YOUR HANDS"
-	"hardness": 999,
-	"cost": 999,
+	"hardness": 0,
+	"cost": 0,
 	"color": "63C74DFF",
 	"explosiveness": "Infinity",
 	"flammability": 0.0,
