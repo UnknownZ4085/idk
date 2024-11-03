@@ -195,9 +195,9 @@
 },
 {
 "type": "EnergyFieldAbility",
-"damage": 1,
-"range": 255,
-"reload": 1,
+"damage": 9,
+"range": 512,
+"reload": 5,
 "duration": 9999999999999999,
 "useAmmo": false,
 "maxTargets": 999999999
