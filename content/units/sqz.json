@@ -93,7 +93,7 @@
 "outlineRadius": 999,
 "itemCapacity": 999999999,
 "ammoCapacity": 999999999,
-"mineTier": 999999999999999999,
+"mineTier": 999999999,
 "mineSpeed": 999999999999999999,
 "mineWalls": true,
 "mineFloor": true,
