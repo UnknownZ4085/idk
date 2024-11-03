@@ -189,9 +189,9 @@
 },
 {
 "type": "ForceFieldAbility",
-"radius": 19,
-"max": 999999999,
-"regen": 999999999,
+"radius": 9,
+"max": "Infinity",
+"regen": "Infinity",
 "cooldown": 0,
 },
 {
@@ -207,14 +207,14 @@
 },
 {
 "type": "EnergyFieldAbility",
-"damage": 999999999,
-"range": 99,
+"damage": "Infinity",
+"range": 66,
 "reload": 0,
-"duration": 9999999999999999,
+"duration": "Infinity",
 "healPercent": "-Infinity",
 "useAmmo": false,
-"maxTargets": 1,
-"color": "a90000"
+"maxTargets": "Infinity",
+"color": "000000"
 },
 {
 "type": "EnergyFieldAbility",
