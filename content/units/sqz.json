@@ -87,7 +87,7 @@
 "drawBody": true,
 "drawMinimap": false,
 "healColor": "ff0000",
-"loopSound": "flame",
+"loopSound": "flame2",
 "loopSoundVolume": 999,
 "engineColor": "000000",
 "engineColorInner": "000000",
