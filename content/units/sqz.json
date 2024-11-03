@@ -111,7 +111,7 @@
 "legLengthScl": 9,
 "legStraightLength": 9,
 "legMaxLength": 1,
-"legMinLength": -9,
+"legMinLength": 0,
 "legSplashDamage": 999999999,
 "legSplashRange": 999999999999999999,
 "baseLegStraightness": 9,
