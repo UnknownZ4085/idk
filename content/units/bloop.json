@@ -19,7 +19,7 @@
         "mineSpeed": "Infinity",
         "buildSpeed": "Infinity",
         "mineTier": 999999999,
-        "itemCapacity": "Infinity",
+        "itemCapacity": 999999999999999999,
         "range": "Infinity",
         "targetAir": true,
         "immunities": [ "burning", "freezing", "melting", "unmoving", "blooped", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
