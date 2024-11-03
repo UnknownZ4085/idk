@@ -9,41 +9,22 @@
 "accel": 99,
 "hitSize": 1,
 "stepShake": 99,
-//"rippleScale": 99, 
-//"riseSpeed": 99,
-//"fallSpeed": 99,
-//"missileAccelTime"
 "health": 999999999,
 "armor": 999999999,
 "range": 999999999,
 "maxRange": 999999999,
 "mineRange": 999999999,
 "buildRange": 999999999,
-//"crashDamageMultiplier": 999999999,
-//"dpsEstimate": -999999999,
-//"clipSize": 999999999,
-//"drownTimeMultiplier": 999999999,
-//"strafePenalty": 9.9,
-//"researchCostMultiplier": -999999999,
-//"groundLayer"
-//"payloadCapacity": 999999999,
 "buildSpeed": 999999999,
-//"aimDst"
 "buildBeamOffset": 999999999,
-//"targetPriority"
-//"shadowElevation"
-//"shadowElevationScl"
 "engineOffset": 9.9,
 "engineSize": 999,
-//"engineLayer"
 "itemOffsetY": -9.9,
 "lightRadius": 999999999,
 "lightOpacity": 0,
 "fogRadius": 999999999,
 "waveTrailX": 1,
 "waveTrailY": 1,
-//"trailScl": 999,
-//"isEnemy": true,
 "flying": true,
 "targetAir": true,
 "targetGround": true,
@@ -76,7 +57,6 @@
 "forceMultiTarget": true,
 "canAttack": true,
 "hidden": false,
-//"internal": false,
 "bounded": false,
 "naval": false,
 "autoFindTarget": true,
@@ -91,80 +71,23 @@
 "drawShields": true,
 "drawBody": true,
 "drawMinimap": false,
-//"healColor"
-//"lightColor"
-//"deathSound"
 "loopSound": true,
-"loopSoundVolume": 999999999,
-//"fallEffect"
-//"fallEngineEffect"
-//"deathExplosionEffect"
-//"treadEffect"
-//"parts"
-//"engines"
-//"useEngineElevation"
-//"engineColor"
-//"engineColorInner"
+"loopSoundVolume": 999999,
 "trailLength": 999999,
-//"trailColor"
-//"pathCost"
-//"pathCostId"
-//"sample"
-//"targetFlags"
-//"commands"
-//"defaultCommand"
-//"stances"
-//"outlineColor"
 "outlineRadius": 999,
-//"outlines"
 "itemCapacity": 999999999,
 "ammoCapacity": 999999999,
-//"ammoType"
 "mineTier": 999999999,
 "mineSpeed": 999999999,
-"mineWalls": 999999999,
-"mineFloor": 999999999,
+"mineWalls": true,
+"mineFloor": true,
 "mineHardnessScaling": 999999999,
-//"mineSound":
 "mineSoundVolume": 999,
-//"mineItems"
 "legCount": 99,
 "legGroupSize": 9,
 "legLength": 99,
 "legSpeed": 99,
-"legForwardScl": 99,
-"legBaseOffset": 99,
-"legMoveSpace": 99,
-"legExtension": 99,
-"legPairOffset": 99,
-"legLengthScl": 99,
-"legStraightLength": 99,
-"legMaxLength": 999,
-"legMinLength": 9,
 "legSplashDamage": 999999999,
 "legSplashRange": 999999999,
-"baseLegStraightness": 999,
-"legStraightness": 999,
-"lockLegBase": true,
 "legContinousMove": true,
-"flipBackLegs": true,
-"flipLegSide": true,
-//"mechLandShake"
-//"mechSideSway"
-//"mechStepParticles"
-//"mechLegColor"
-//"treadRects"
-//"treadFrames"
-//"treadPullOffset"
-//"segments"
-//"segmentMag"
-//"segmentScl"
-//"segmentPhase"
-//"segmentRotSpeed"
-//"segmentMaxRot"
-//"crawlSlowdown"
-"crushDamage": 999999999,
-//"crawlSlowdownFrac"
-//"lifetime"
-//"homingDelay"
 }
