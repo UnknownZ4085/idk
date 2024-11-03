@@ -4,7 +4,7 @@
 "type": "legs",
 //Environmental flags.
 "envEnabled": 999,
-"envDisabled": -999,
+"envDisabled": 0,
 //end
 "alwaysUnlocked": true,
 "movementSpeed": 9,
@@ -110,11 +110,11 @@
 "legLengthScl": 9,
 "legStraightLength": 99,
 "legMaxLength": 9,
-"legMinLength": 9,
+"legMinLength": -9,
 "legSplashDamage": 999999999,
 "legSplashRange": 999999999999999999,
 "legContinousMove": true,
-//"flipBackLegs": true,
-//"flipLegSide": true,
+"flipBackLegs": true,
+"flipLegSide": true,
 "crushDamage": 999999999
 }
