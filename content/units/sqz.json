@@ -14,7 +14,7 @@
 "baseRotateSpeed": 999999,
 "drag": 999999999,
 "accel": 5,
-"hitSize": 25.5,
+"hitSize": 20.5,
 "stepShake": 999999999,
 "rippleScale": 9,
 "riseSpeed": 999999999999999999,
