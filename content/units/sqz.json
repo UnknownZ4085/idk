@@ -190,7 +190,6 @@
 "max": 999999999,
 "regen": 999999999,
 "cooldown": 0,
-"color": "a90000"
 },
 {
 "type": "EnergyFieldAbility",
