@@ -9,11 +9,11 @@
 //end
 "alwaysUnlocked": true,
 "movementSpeed": 999,
-"boostMultiplier": 66,
+"boostMultiplier": 9,
 "rotateSpeed": 999999,
 "baseRotateSpeed": 999999,
 "drag": 999999999,
-"accel": 5,
+"accel": 9,
 "hitSize": 20.5,
 "stepShake": 9,
 "rippleScale": 9,
