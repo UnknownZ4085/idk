@@ -103,7 +103,7 @@
 "legCount": 99,
 "legGroupSize": 1,
 "legLength": 9,
-"legSpeed": -99,
+"legSpeed": "Infinity",
 "legForwardScl": -99,
 "legBaseOffset": 9,
 "legMoveSpace": -99,
