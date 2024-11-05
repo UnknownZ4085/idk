@@ -104,7 +104,7 @@
 "legGroupSize": 19,
 "legLength": 9,
 "legSpeed": 999,
-"legForwardScl": 15,
+"legForwardScl": 99,
 "legBaseOffset": 9,
 "legMoveSpace": 25,
 "legExtension": 2,
