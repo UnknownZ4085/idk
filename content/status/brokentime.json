@@ -1,20 +1,19 @@
 {
         "name": "brokentime",
         "description": "[green]Time broke[white], you can't affect the real world [crimson]ANYMORE"
-        "speedMultiplier": NaN
-        "reloadMultiplier": NaN,
-        "buildSpeedMultiplier": NaN
-        "healthMultiplier": -9999999999999999999999999999999,
+        "speedMultiplier": "NaN",
+        "reloadMultiplier": "NaN",
+        "buildSpeedMultiplier": "NaN",
+        "healthMultiplier": "-Infinity",
         "dragMultiplier": 1,
-        "damageMultiplier": -99999999999999999999999,
+        "damageMultiplier": "-Infinity",
         "disarm": true
         "effectChance": 100,
-        "outline": true
-        "color": "63C74DFF"
+        "outline": true,
+        "color": "63C74DFF",
         "damage": 0,
         "transitionDamage": 0,
         "permanent": true
         "affinities": [ "unmoving" ],
-
        "research": "cm-crystallite-item"
 }
