@@ -5,10 +5,9 @@
 "generator": {
 "type": "HexMesh",
 "divisions": 999,
-"octaves": "Infinity",
-"persistence": "Infinity",
-"radius": -999,
-"scl": 999,
+"octaves": 999,
+"persistence": 999,
+"scl": 999999,
 "pow": 999,
 "mag": 999,
 "colorScale": 999,
@@ -30,6 +29,7 @@
 "orbitRadius": 20,
 "drawOrbit": true,
 "tidalLock": true,
+"radius": -999,
 "iconColor": "00ffff",
 "icon": "commandRally"
 }
