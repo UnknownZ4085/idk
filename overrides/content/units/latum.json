@@ -1,8 +1,0 @@
-{
-  "hidden": false,
-  "speed": 10,
-  "segmentMaxRot": 360,
-  "crawlSlowdown": 5,
-  "segmentRotSpeed": 10,
-  "crawlSlowdownFrac": 5
-}
