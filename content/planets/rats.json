@@ -26,10 +26,10 @@
 "orbitSpacing": 10,
 "solarSystem": "sun",
 "parent": "sun",
-"orbitRadius": 200,
+"orbitRadius": 20,
 "drawOrbit": true,
 "tidalLock": true,
-"radius": 200,
+"radius": 20,
 "iconColor": "00ffff",
 "icon": "commandRally"
 }
