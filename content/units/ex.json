@@ -1,0 +1,81 @@
+{
+        "name": "[CRIMSON]DESTROY"
+        "description": "[RED]X"
+        "type": "flying",
+        "canHeal": true,
+        "research": "cm-core",
+        "lowAltitude": false,
+	"hittable": true
+	"killable": false
+	"targetable": true
+        "speed": 10,
+        "accel": 9999999999,
+        "drag": 99999999999999999,
+        "flying": true,
+        "health": 999999999999999999999999,
+        "hitSize": 99999999999,
+        "armor": 99999999999999999999999999992,
+        "mineSpeed": 99999999999999999992,
+        "buildSpeed": 9999999999999999999991,
+        "mineTier": 9999999999999999992,
+        "itemCapacity": 9999999999999999999999,
+        "engineOffset": 9999999,
+        "range": 9999999999999999999999,
+        "targetAir": true,
+        "commandLimit": 9999999999999999999999999,
+        "immunities": [ "burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
+	"faceTarget": false,
+	    "weapons": [
+	   {
+    "name": "e",
+     "mirror": true
+      "rotate": true
+      "recoil": -9999
+      "x": 0
+      "y": 0
+      "shoot": {
+        "type": "ShootAlternate",
+        "shots": 10,
+        "barrels": 100,
+        "spread": 0,
+        "shotDelay": 0,
+      },
+      
+      //how long it will take until this weapon can shoot again
+      "reload": 0.0000001,
+        
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 0,
+      
+      //what sound plays when this weapon shoots
+      "shootSound": "Spark",
+      
+      //parameters for the bullet, including it's type, speed, damage, etc.
+      "bullet": {
+        "sprite": "e"
+        "type": "LightningBulletType",
+        "status": "cm-brokentime"
+        "lightningColor": "68386CFF"
+        "lightningLength": 1000,
+        "damage": 999999999999999999999,
+        "splashDamageRadius": 5,
+        "splashDamage": 9999999999999999992,    
+        "absorbable": false    
+     
+		    "fragBullets": 9,
+"fragBullet": {
+		     "sprite": "e"
+        "type": "LightningBulletType",
+        "status": "cm-brokentime"
+        "lightningColor": "68386CFF"
+        "lightningLength": 1000,
+        "damage": 999999999999999999999,
+        "splashDamageRadius": 5,
+        "splashDamage": 9999999999999999992,    
+        "absorbable": false    
+  
+}
+        }
+      }
+],
+}
