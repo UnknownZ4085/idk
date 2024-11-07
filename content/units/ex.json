@@ -9,20 +9,20 @@
 	"killable": false
 	"targetable": true
         "speed": 10,
-        "accel": 9999999999,
-        "drag": 99999999999999999,
+        "accel": "Infinity",
+        "drag": "Infinity",
         "flying": true,
-        "health": 999999999999999999999999,
-        "hitSize": 99999999999,
-        "armor": 99999999999999999999999999992,
-        "mineSpeed": 99999999999999999992,
-        "buildSpeed": 9999999999999999999991,
+        "health": "Infinity",
+        "hitSize": "Infinity",
+        "armor": "Infinity",
+        "mineSpeed": "Infinity",
+        "buildSpeed": "Infinity",
         "mineTier": 9999999999999999992,
         "itemCapacity": 9999999999999999999999,
-        "engineOffset": 9999999,
-        "range": 9999999999999999999999,
+        "engineOffset": "Infinity",
+        "range": "Infinity",
         "targetAir": true,
-        "commandLimit": 9999999999999999999999999,
+        "commandLimit": "Infinity",
         "immunities": [ "burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
 	"faceTarget": false,
 	    "weapons": [
@@ -30,7 +30,7 @@
     "name": "e",
      "mirror": true
       "rotate": true
-      "recoil": -9999
+      "recoil": "-Infinity"
       "x": 0
       "y": 0
       "shoot": {
@@ -42,7 +42,7 @@
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 0.0000001,
+      "reload": 1e-100,
         
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 0,
@@ -57,9 +57,9 @@
         "status": "cm-brokentime"
         "lightningColor": "68386CFF"
         "lightningLength": 1000,
-        "damage": 999999999999999999999,
+        "damage": "Infinity",
         "splashDamageRadius": 5,
-        "splashDamage": 9999999999999999992,    
+        "splashDamage": "Infinity",    
         "absorbable": false    
      
 		    "fragBullets": 9,
@@ -69,9 +69,9 @@
         "status": "cm-brokentime"
         "lightningColor": "68386CFF"
         "lightningLength": 1000,
-        "damage": 999999999999999999999,
+        "damage": "Infinity",
         "splashDamageRadius": 5,
-        "splashDamage": 9999999999999999992,    
+        "splashDamage": "Infinity",    
         "absorbable": false    
   
 }
