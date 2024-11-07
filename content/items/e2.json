@@ -1,12 +1,12 @@
 {
-	"name": "OOHB"
-	"hardness": 0
-	"sprite": "e2"
-	"cost": 0
-	"color": "fb00ff"
-	"explosiveness": NaN
-	"flammability": NaN
-	"radioactivity": NaN
-	"charge": NaN
+	"name": ""
+	"hardness": 0,
+	"sprite": "e2",
+	"cost": 0,
+	"color": "fb00ff",
+	"explosiveness": "NaN",
+	"flammability": "NaN",
+	"radioactivity": "NaN",
+	"charge": "NaN",
 	"research": "cm-e"
 }
