@@ -2,13 +2,13 @@
   name: CM,
   displayName: THINGS MOD,
   description: Test mod with a ton of bugs
-  minGameVersion: 136,
+  minGameVersion: 140,
   author: 
     ''' 
     
-    Owner, Coder: UnknownZ4085
-    Coder: Fresh791
+    God of the mod: UnknownZ4085
+    Contributors: Fresh791
     
     '''
-  version: 0.3
+  version: Infinity
 }
