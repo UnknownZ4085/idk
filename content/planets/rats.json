@@ -29,7 +29,7 @@
 "orbitRadius": 20,
 "drawOrbit": true,
 "tidalLock": true,
-"radius": -999,
+"radius": 999,
 "iconColor": "00ffff",
 "icon": "commandRally"
 }
