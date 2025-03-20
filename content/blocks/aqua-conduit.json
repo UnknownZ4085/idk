@@ -18,7 +18,9 @@
     "power": -11.1,
   },
   "plans": [
+    {
       "unit": "sqz",
       "time": 600
+      }
       ]
 }
