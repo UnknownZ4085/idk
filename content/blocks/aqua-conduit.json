@@ -1,5 +1,5 @@
 {
-  "type": "Battery",
+  "type": "ControlBlock",
   "name": "Conduit?",
   "description": "YEEEESH",
   "health": 99999999,
