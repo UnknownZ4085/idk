@@ -1,4 +1,5 @@
 {
+{
         "name": "[yellow]C.O.I.N."
         "description": "[yellow]COINS! COINS! COINS!"
         "type": "flying",
@@ -211,8 +212,6 @@
 	   },
         
 		   ]
-    
-    
 },
 {
   "type": "legs",
@@ -362,4 +361,4 @@
      },
    ]
 }
-
+}
