@@ -24,10 +24,10 @@
     {
       //the unit for this plan. use the file name not the unit's actual name.
       "unit": "sqz",
-      
+      }
       //items required to construct this unit.
       "requirements": [ ],
       //how much time the unit takes to be constructed, in ticks. (60 ticks = 1 second)
       "time": 600
-    } 
+      ]
 }
