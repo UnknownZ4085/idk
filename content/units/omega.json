@@ -35,8 +35,8 @@
       "y": 0
       "shoot": {
         "type": "ShootAlternate",
-        "shots": 1e+308,
-        "barrels": 1e+308,
+        "shots": 100000000,
+        "barrels": 100000000000000000000000000000000000000,
         "spread": 1e+308,
         "shotDelay": 1e+308,
       },
