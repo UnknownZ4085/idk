@@ -18,7 +18,7 @@
         "mineSpeed": 1e+308,
         "buildSpeed": 1e+308,
         "mineTier": 1000000000,
-        "itemCapacity": 1e+308,
+        "itemCapacity": 1000000000,
         "engineOffset": 1e+308,
         "range": 1e+308,
         "targetAir": true,
