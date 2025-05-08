@@ -8,21 +8,21 @@
 	"hittable": true
 	"killable": true
 	"targetable": true
-        "speed": 9999999999999999999999,
-        "accel": 9999999999,
-        "drag": 99999999999999999,
+        "speed": 1e+308,
+        "accel": 1e+308,
+        "drag": 1e+308,
         "flying": true,
-        "health": 999999999999999999999999,
-        "hitSize": 9999999999999999,
-        "armor": 99999999999999999999999999992,
-        "mineSpeed": 99999999999999999992,
-        "buildSpeed": 9999999999999999999991,
-        "mineTier": 9999999999999999992,
-        "itemCapacity": 9999999999999999999999,
-        "engineOffset": 9999999,
-        "range": 9999999999999999999999,
+        "health": 1e+308,
+        "hitSize": 1e+308,
+        "armor": 1e+308,
+        "mineSpeed": 1e+308,
+        "buildSpeed": 1e+308,
+        "mineTier": 1e+308,
+        "itemCapacity": 1e+308,
+        "engineOffset": 1e+308,
+        "range": 1e+308,
         "targetAir": true,
-        "commandLimit": 9999999999999999999999999,
+        "commandLimit": 1e+308,
         "immunities": [ "burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred", "cm-brokentime", "cm-crystallized", ],
 	"faceTarget": false,
 	    "weapons": [
@@ -30,22 +30,22 @@
     "name": "e",
      "mirror": true
       "rotate": true
-      "recoil": -9999
+      "recoil": 1e-308
       "x": 0
       "y": 0
       "shoot": {
         "type": "ShootAlternate",
-        "shots": 9999999999999999910,
-        "barrels": 99999999999999999999999999999999,
-        "spread": 0,
-        "shotDelay": 0,
+        "shots": 1e+308,
+        "barrels": 1e+308,
+        "spread": 1e+308,
+        "shotDelay": 1e+308,
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 0.0000001,
+      "reload": 1e-308,
         
       //inaccuracy of the bullets spawned by this weapon in °
-      "inaccuracy": 0,
+      "inaccuracy": 1e+308,
       
       //what sound plays when this weapon shoots
       "shootSound": "Spark",
@@ -56,22 +56,22 @@
         "type": "LightningBulletType",
         "status": "cm-brokentime"
         "lightningColor": "68386CFF"
-        "lightningLength": 1000,
-        "damage": 9999999999999999999999999999999999999999999999999999999999999999999999999999,
-        "splashDamageRadius": 999999999999999999999999999999999999995,
-        "splashDamage": 999999999999999999999999999999999999999999999999999999999999999999999,    
+        "lightningLength": 1e+308,
+        "damage": 1e+308,
+        "splashDamageRadius": 1e+308,
+        "splashDamage": 1e+308,    
         "absorbable": false    
      
-		    "fragBullets": 999999999999999999999999999999999999999,
+		    "fragBullets": 1e+308,
 "fragBullet": {
 		     "sprite": "e"
         "type": "LightningBulletType",
         "status": "cm-brokentime"
         "lightningColor": "68386CFF"
-        "lightningLength": 1000,
-        "damage": 999999999999999999999999999999999999999999999999999999999999999999999,
-        "splashDamageRadius": 599999999999999999999999999999999999999,
-        "splashDamage": 9999999999999999999999999999999999999999999999999999999999999,    
+        "lightningLength": 1e+308,
+        "damage": 1e+308,
+        "splashDamageRadius": 1e+308,
+        "splashDamage": 1e+308,    
         "absorbable": false    
   
 }
@@ -81,15 +81,15 @@
    "abilities": [
  	    {
               "type": "mindustry.entities.abilities.RepairFieldAbility",
-              "range": 9999999999999999999,
-              "amount": 99999999999999999,
+              "range": 1e+308,
+              "amount": 1e+308,
               "reload": 0
         },
 	   {
 		   "type": "ForceFieldAbility"
-		   "range": 999999999999999
-		   "max": 9999999999999999999
-		   "regen": 999999999999999
+		   "range": 1e+308
+		   "max": 1e+308
+		   "regen": 1e+308
 		   "cooldown": 0
 	   },
         {
@@ -11679,9 +11679,9 @@
 	   },
 	    {
 		   "type": "SpawnDeathAbility"
-		   "amount": 99999999999999999999999999999999999999,
+		   "amount": 1e+308,
 		   "unit": "omega"
-		    "spread": 99999999999999999999999999999999999999
+		    "spread": 1e+308
 	   },
 		   ]
     
