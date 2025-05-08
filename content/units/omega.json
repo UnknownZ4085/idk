@@ -56,7 +56,7 @@
         "type": "LightningBulletType",
         "status": "cm-brokentime"
         "lightningColor": "68386CFF"
-        "lightningLength": 1e+308,
+        "lightningLength": 99,
         "damage": 1e+308,
         "splashDamageRadius": 1e+308,
         "splashDamage": 1e+308,    
