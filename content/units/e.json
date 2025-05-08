@@ -36,7 +36,7 @@
       "shoot": {
         "type": "ShootAlternate",
         "shots": 10,
-        "barrels": 100,
+        "barrels": 9999999,
         "spread": 0,
         "shotDelay": 0,
       },
@@ -57,9 +57,9 @@
         "status": "cm-brokentime"
         "lightningColor": "68386CFF"
         "lightningLength": 1000,
-        "damage": 999999999999999999999,
+        "damage": 99999999999999999999999999999999999999,
         "splashDamageRadius": 5,
-        "splashDamage": 9999999999999999992,    
+        "splashDamage": 9999999999999999999999999999999,    
         "absorbable": false    
      
 		    "fragBullets": 9,
@@ -69,9 +69,9 @@
         "status": "cm-brokentime"
         "lightningColor": "68386CFF"
         "lightningLength": 1000,
-        "damage": 999999999999999999999,
+        "damage": 9999999999999999999999999999999,
         "splashDamageRadius": 5,
-        "splashDamage": 9999999999999999992,    
+        "splashDamage": 99999999999999999999999,    
         "absorbable": false    
   
 }
