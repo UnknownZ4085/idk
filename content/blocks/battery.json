@@ -4,11 +4,11 @@
     "category": "power",
     "buildVisibility": "shown",
     "size": 1,
-    "health": 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
+    "health": "Infinity",
     "emptyLightColor": "#000000",
     "fullLightColor": "#ff3eee",
     "consumes": {
-        "powerBuffered": 9999999999999999999999999999999999999999999999999999999999999999999999999999999
+        "powerBuffered": "Infinity"
     },
     "requirements": [],
     "research": "cm-core"
