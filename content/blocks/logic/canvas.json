@@ -4,11 +4,11 @@
 "name": "Canvas",
 "description": "HD Display for your furry shit!",
 "health": 9999999999,
-"size": 16,
+"size": 8,
 "alwaysUnlocked": true,
 "category": "logic",
 "hidden": false,
-"canvasSize": 512,
+"canvasSize": 256,
 "padding": 0,
 "buildVisibility": "shown",
 }
