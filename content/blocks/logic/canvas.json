@@ -20,6 +20,6 @@ logicDisplayTile = new TileableLogicDisplay("tile-logic-display"){{
 "category": "logic",
 "hidden": false,
 "canvasSize": 512,
-"padding": 5,
+"padding": 0,
 "buildVisibility": "shown",
 }
