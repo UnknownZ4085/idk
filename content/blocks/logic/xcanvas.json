@@ -1,0 +1,13 @@
+{
+"type": "TileableLogicDisplay",
+"name": "SCanvas2",
+"description": "HD Display for your furry shit!",
+"health": 9999999999,
+"size": 16,
+"alwaysUnlocked": true,
+"category": "logic",
+"hidden": false,
+"canvasSize": 512,
+"padding": 0,
+"buildVisibility": "shown",
+}
