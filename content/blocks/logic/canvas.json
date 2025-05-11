@@ -1,7 +1,7 @@
 
 {
 "type": "TileableLogicDisplay",
-"name": "SDD2",
+"name": "Canvas",
 "description": "HD Display for your furry shit!",
 "health": 9999999999,
 "size": 16,
