@@ -3,10 +3,10 @@
 "name": "Super Display",
 "description": "HD Display for your furry shit!",
 "health": 999999,
-"size": 10,
+"size": 6,
 "alwaysUnlocked": true,
 "category": "logic",
 "hidden": false,
-"displaySize": 512,
+"displaySize": 2048,
 "buildVisibility": "shown",
 }
