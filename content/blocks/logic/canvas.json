@@ -10,3 +10,16 @@ logicDisplayTile = new TileableLogicDisplay("tile-logic-display"){{
 
             size = 2;
         }};
+{
+"type": "TileableLogicDisplay",
+"name": "SDD2",
+"description": "HD Display for your furry shit!",
+"health": 9999999999,
+"size": 16,
+"alwaysUnlocked": true,
+"category": "logic",
+"hidden": false,
+"canvasSize": 512,
+"padding": 5,
+"buildVisibility": "shown",
+}
