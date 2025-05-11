@@ -1,6 +1,6 @@
 
 {
-"type": "TileableLogicDisplay",
+"type": "CanvasBlock",
 "name": "Canvas",
 "description": "HD Display for your furry shit!",
 "health": 9999999999,
