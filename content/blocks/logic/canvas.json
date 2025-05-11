@@ -1,0 +1,12 @@
+logicDisplayTile = new TileableLogicDisplay("tile-logic-display"){{
+            requirements(Category.logic, with(Items.lead, 8, Items.silicon, 8, Items.metaglass, 8, Items.phaseFabric, 3));
+        }};
+
+        canvas = new CanvasBlock("canvas"){{
+            requirements(Category.logic, BuildVisibility.shown, with(Items.silicon, 10, Items.beryllium, 10));
+
+            canvasSize = 12;
+            padding = 7f / 4f * 2f;
+
+            size = 2;
+        }};
